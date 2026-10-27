@@ -10,4 +10,4 @@ AutoTaTa 是 maozo 的个人设计与 AI 辅助开发实验，现以 **0.2.36** 
 
 本仓库不招募维护者，也没有官方支持渠道或服务承诺。独立的修改版本应明确标注修改者与来源，不得暗示获得作者或游戏官方背书，并遵守各部分的许可。
 
-如需继续研究，请先阅读 [授权范围](LICENSE_SCOPE.md)、[使用声明](DISCLAIMER.md) 与 [源码分发说明](docs/SOURCE_DISTRIBUTION.md)。作者的非商业许可不改变第三方软件原有的权利。
+如需继续研究，请先阅读 [授权范围](legal/LICENSE_SCOPE.md)、[使用声明](legal/DISCLAIMER.md) 与 [源码分发说明](SOURCE_DISTRIBUTION.md)。作者的非商业许可不改变第三方软件原有的权利。

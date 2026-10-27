@@ -4,7 +4,7 @@ Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 
 ## 作者原创代码：非商业源码可见
 
-作者有权授权的原创 Python、QML、自制 SVG 与随附技术文档，采用 **PolyForm Noncommercial License 1.0.0**。正式条款见根目录 [LICENSE](LICENSE)，[官方原文](https://polyformproject.org/licenses/noncommercial/1.0.0)。
+作者有权授权的原创 Python、QML、自制 SVG 与随附技术文档，采用 **PolyForm Noncommercial License 1.0.0**。正式条款见根目录 [LICENSE](../../LICENSE)，[官方原文](https://polyformproject.org/licenses/noncommercial/1.0.0)。
 
 该许可允许其规定范围内的非商业使用、研究、修改和再分发，并要求保留许可和 Required Notice。**未另获许可的商业性使用不在授权范围内。** 是否属于允许用途，以许可证原文为准；非商业机构与法定合理使用等条款仍然适用。
 
@@ -38,4 +38,4 @@ MaaFramework 和 Qt／PySide6 等 LGPL 组件及其再分发条件也应独立�
 
 ## 展示不等于持续服务
 
-README 的功能与截图记录历史实现，不承诺提供完整可用的资源、安装包、更新或技术支持。[停止维护说明](MAINTENANCE.md)不会撤销许可证已依法授予的权利，亦不会免除已有的第三方许可义务。
+README 的功能与截图记录历史实现，不承诺提供完整可用的资源、安装包、更新或技术支持。[停止维护说明](../MAINTENANCE.md)不会撤销许可证已依法授予的权利，亦不会免除已有的第三方许可义务。

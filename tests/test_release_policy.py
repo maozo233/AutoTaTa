@@ -32,8 +32,10 @@ class ReleasePolicyTests(unittest.TestCase):
         exe.write_bytes(b'new executable')
 
     def documents(self):
-        for name in ('README.md', 'RELEASE_NOTES.md'):
-            (self.root / name).write_text(name, encoding='utf-8')
+        for name in ('README.md', 'docs/RELEASE_NOTES.md'):
+            path = self.root / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(name, encoding='utf-8')
 
     def test_numeric_retention_and_only_all(self):
         for version in ('0.2.9', '0.2.10', '0.2.11', '0.2.12'):

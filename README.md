@@ -4,7 +4,7 @@
 
 <p align="center"><strong>设计师主导 · AI 辅助开发 · Windows 桌面实践</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **项目已停止维护。** 本仓库是作品归档与非商业源码展示，不是标准开源许可项目，不承诺修复、更新、答疑或技术支持。使用范围见 [授权说明](LICENSE_SCOPE.md)，使用风险见 [免责声明](DISCLAIMER.md)。
+> **项目已停止维护。** 本仓库是作品归档与非商业源码展示，不是标准开源许可项目，不承诺修复、更新、答疑或技术支持。使用范围见 [授权说明](docs/legal/LICENSE_SCOPE.md)，使用风险见 [免责声明](docs/legal/DISCLAIMER.md)。
 
 > **当前版本已知问题：[查看 0.2.36 问题清单](docs/KNOWN_ISSUES.md)。** 保存样本中仍有 4 张图共 8 格无法确认；4 张缺行图需要重截；完整真实游戏上阵仍待复测。不能将页面截图或离线测试视为识别准确率和现场成功保证。
 
@@ -58,7 +58,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 的个人 Vibe Co
 
 | 环节 | 设计师的判断 | AI 的参与与可查看证据 |
 | --- | --- | --- |
-| 产品与交互 | 定义任务、信息层级、反馈状态、停止和纠错边界 | 辅助拆解流程、实现状态与交互；见 [功能代码](autotata/) 与 [界面](assets/ui/) |
+| 产品与交互 | 定义任务、信息层级、反馈状态、停止和纠错边界 | 辅助拆解流程、实现状态与交互；见 [功能代码](autotata) 与 [界面](assets/ui) |
 | 视觉与组件 | 确定圆润、轻量的视觉方向，检查字号、间距、主题与组件一致性 | 辅助 QML 落地、重复组件整理与适配；见 [组件与主题](docs/DESIGN_AND_AI.md#从设计到组件) |
 | 图形与素材处理 | 选择素材、判断可读性和视觉结果，确认边缘与透明背景 | 部分入口和奖励图标使用 AI 辅助抠图；这些派生素材不因此变成作者原创版权资产 |
 | 功能实现与验证 | 明确可接受结果，提供真实失败样本，决定保留不确定结果 | 辅助实现视觉识别、求解、回放与回归测试；见 [验证摘要](docs/VALIDATION_SUMMARY.md) |
@@ -85,6 +85,10 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 的个人 Vibe Co
 | `fishing/`、`treasure/`、`rafting/` | 功能逻辑、识别、求解与状态处理 |
 | `tests/` | 回归测试源码；现场图片与游戏素材未分发 |
 | `docs/` | 设计说明、界面截图、许可范围与复现说明 |
+| `docs/legal/`、`licenses/` | 授权范围、免责声明、第三方来源与原许可证 |
+| `scripts/`、`requirements/` | Windows 启动／构建批处理与构建依赖 |
+
+根目录只保留中英文首页、`LICENSE`、`NOTICE.md`、`requirements.txt`、`main.py` 和 `.gitignore`。维护与版本说明归入 `docs/`，参与说明位于 `.github/`。完整本机工程的启动脚本改从 `scripts/` 使用，独立功能通过 `python -m lineup`、`-m treasure`、`-m fishing`、`-m rafting` 启动；具体环境与资源条件见下文及 [使用说明](docs/USAGE.md)。
 
 源码展示快照**不等于完整可运行发行版**。游戏图包、识别模板、诊断数据、AGPL 关联 Android 适配器和第三方二进制未随快照提供。先用以下命令检查资源边界，不会连接设备或自动下载素材：
 
@@ -97,9 +101,9 @@ python tools/check_source_assets.py
 ## 授权、用途与维护状态
 
 - **作者原创部分**：[PolyForm Noncommercial 1.0.0](LICENSE)，非商业源码可见，未获许可的商业性使用不在授权范围内；保留署名和许可。具体允许用途以许可证原文为准。
-- **第三方内容**：依赖、字体、游戏美术及商标保留原权利与许可，不受作者的非商业限制重新覆盖。见 [第三方说明](THIRD_PARTY_NOTICES.md)。
-- **使用风险**：非官方项目；不保证准确、兼容、持续可用或账号安全；免责以法律允许范围为限。见 [免责声明](DISCLAIMER.md)。
-- **停止维护**：不承诺更新、修复、Issue／PR 处理或技术支持。见 [维护状态](MAINTENANCE.md)。
+- **第三方内容**：依赖、字体、游戏美术及商标保留原权利与许可，不受作者的非商业限制重新覆盖。见 [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md)。
+- **使用风险**：非官方项目；不保证准确、兼容、持续可用或账号安全；免责以法律允许范围为限。见 [免责声明](docs/legal/DISCLAIMER.md)。
+- **停止维护**：不承诺更新、修复、Issue／PR 处理或技术支持。见 [维护状态](docs/MAINTENANCE.md)。
 
 当前先在作者个人账号的私有仓库审核，Release 也只在 Private 仓库可见；可见性变更由作者另行决定，本次不公开发布。公开前须同时审核源码与 Release 附件，审核要点见 [私有审核说明](docs/PRIVATE_REVIEW.md)。
 

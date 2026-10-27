@@ -21,6 +21,8 @@
 
 快照清理排除了未引用的 `design/figma/lineup-draft.svg` 和与正式许可逐字节相同的 `licenses/MaaAgentBinary-1.0.1.dist-info-LICENSE`；正式许可 `licenses/MaaAgentBinary-LICENSE` 保留。不会为了缩小仓库删除运行引用、测试源码或必要许可。
 
+根目录保留 7 个入口／约定文件：两份 README、`LICENSE`、`NOTICE.md`、`requirements.txt`、`main.py` 和 `.gitignore`。许可细则位于 `docs/legal/`，维护与版本说明位于 `docs/`，参与说明位于 `.github/`，批处理位于 `scripts/`，构建依赖位于 `requirements/build.txt`。独立功能使用各包的 `__main__.py` 和 `python -m` 启动，不再在根目录分散放置四个 Python 入口。本机配置和快捷方式仍留在原位置，但不会上传。
+
 ## 先看哪些代码
 
 - 界面：`assets/ui/AutoTaTa.qml`、`LineupPage.qml`、`Main.qml`、`TreasurePage.qml`、`RaftingPage.qml`。

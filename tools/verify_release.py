@@ -68,8 +68,8 @@ def verify(report_dir, main_exe=None, dist_root=None):
         digest = hashlib.sha256(exe.read_bytes()).hexdigest()
         with ZipFile(archive) as package:
             assert hashlib.sha256(package.read(name + '.exe')).hexdigest() == digest
-            for document in ('README.md', 'RELEASE_NOTES.md'):
-                assert package.read(document) == (ROOT / document).read_bytes()
+            for source, document in (('README.md', 'README.md'), ('docs/RELEASE_NOTES.md', 'RELEASE_NOTES.md')):
+                assert package.read(document) == (ROOT / source).read_bytes()
         packages.append({'target': target, 'exe': str(exe), 'archive': str(archive),
                          'sha256': digest, 'modulesChecked': checked, 'assetsChecked': len(assets),
                          'nativeFrames': frames, 'passed': True})

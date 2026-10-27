@@ -28,8 +28,8 @@ def build(root=ROOT, dist_root=None, version=__version__):
     try:
         with ZipFile(pending, 'w', ZIP_DEFLATED, compresslevel=6) as package:
             package.write(dist / 'AutoTaTa.exe', 'AutoTaTa.exe')
-            for document in ('README.md', 'RELEASE_NOTES.md'):
-                package.write(root / document, document)
+            for source, name in (('README.md', 'README.md'), ('docs/RELEASE_NOTES.md', 'RELEASE_NOTES.md')):
+                package.write(root / source, name)
         pending.replace(archive)
     finally:
         pending.unlink(missing_ok=True)

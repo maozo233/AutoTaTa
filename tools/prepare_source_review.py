@@ -7,14 +7,14 @@ from pathlib import Path
 import shutil
 
 ROOT=Path(__file__).resolve().parents[1]
-ROOT_FILES=('README.md','README.en.md','LICENSE','LICENSE_SCOPE.md','DISCLAIMER.md','MAINTENANCE.md',
-            'NOTICE.md','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','RELEASE_NOTES.md',
-            '.gitignore','requirements.txt','requirements-build.txt','setup.bat','build.bat',
-            'start.bat','start-autofish.bat','start-lineup.bat','start-rafting.bat',
-            'start-treasure.bat','main.py','autofish.py','lineup_main.py',
-            'rafting_main.py','treasure_main.py')
+ROOT_FILES=('README.md','README.en.md','LICENSE','NOTICE.md','.gitignore','requirements.txt','main.py')
+SUPPORT_FILES=('.github/CONTRIBUTING.md','requirements/build.txt','scripts/setup.bat',
+               'scripts/build.bat','scripts/start.bat','scripts/start-autofish.bat',
+               'scripts/start-lineup.bat','scripts/start-rafting.bat','scripts/start-treasure.bat')
 DOCS=('DESIGN_AND_AI.md','VALIDATION_SUMMARY.md','MEDIA_BRIEF.md','SOURCE_DISTRIBUTION.md',
-      'PRIVATE_REVIEW.md','USAGE.md','RESOURCE_MANIFEST.json','KNOWN_ISSUES.md','KNOWN_ISSUES.en.md')
+      'PRIVATE_REVIEW.md','USAGE.md','RESOURCE_MANIFEST.json','KNOWN_ISSUES.md','KNOWN_ISSUES.en.md',
+      'MAINTENANCE.md','RELEASE_NOTES.md','legal/DISCLAIMER.md','legal/LICENSE_SCOPE.md',
+      'legal/THIRD_PARTY_NOTICES.md')
 TOOLS=('build.py','release_policy.py','verify_release.py','check_ui_fonts.py',
        'subset_chiron.py','make_app_icon.py','prepare_lineup_catalog.py',
        'check_source_assets.py','prepare_source_review.py')
@@ -28,7 +28,7 @@ def selected_files(root):
     canonical=root/'licenses/MaaAgentBinary-LICENSE'
     if duplicate.exists() and digest(duplicate)!=digest(canonical):
         raise ValueError('License copies differ; review both before excluding either copy')
-    paths={root/name for name in ROOT_FILES}
+    paths={root/name for name in (*ROOT_FILES,*SUPPORT_FILES)}
     for package in ('autotata','fishing','lineup','rafting','treasure','tests'):
         paths.update(p for p in (root/package).rglob('*.py') if '__pycache__' not in p.parts)
     paths.update(root/'docs'/name for name in DOCS)

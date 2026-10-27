@@ -4,7 +4,7 @@
 
 <p align="center"><strong>Designer-led · AI-assisted development · Windows desktop</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **Maintenance has ended.** This repository preserves a finished experiment and shares source for noncommercial use. It is not an OSI open-source project. No fixes, updates, answers, or technical support are promised. See the [license scope (Chinese)](LICENSE_SCOPE.md) and [disclaimer (Chinese)](DISCLAIMER.md).
+> **Maintenance has ended.** This repository preserves a finished experiment and shares source for noncommercial use. It is not an OSI open-source project. No fixes, updates, answers, or technical support are promised. See the [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md) and [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
 
 > **Current limitations: [known issues in 0.2.36](docs/KNOWN_ISSUES.en.md).** Four saved images still contain eight unconfirmed cells; four partial-board images require recapture. Complete real-game deployment remains pending retest. UI screenshots and offline checks are not guarantees of recognition accuracy or live success.
 
@@ -58,7 +58,7 @@ Recognition alone is not sufficient evidence to act. Lineup deployment distingui
 
 | Stage | Designer's decisions | AI assistance and evidence |
 | --- | --- | --- |
-| Product and interaction | Tasks, information hierarchy, feedback, stopping, and correction boundaries | Flow breakdown and implementation; see [application code](autotata/) and [UI](assets/ui/) |
+| Product and interaction | Tasks, information hierarchy, feedback, stopping, and correction boundaries | Flow breakdown and implementation; see [application code](autotata) and [UI](assets/ui) |
 | Visual language and components | Rounded, lightweight direction; typography, spacing, themes, and consistency | QML implementation, component reuse, and adaptation; see [design notes (Chinese)](docs/DESIGN_AND_AI.md) |
 | Graphics and asset processing | Asset selection, readability, edges, and transparency | AI-assisted cutouts for some entry and reward icons; derived artwork does not become the author's original copyrighted asset |
 | Implementation and validation | Acceptable outcomes, real failure samples, and when uncertainty must remain | Computer vision, solvers, replay, and regression checks; see [validation summary (Chinese)](docs/VALIDATION_SUMMARY.md) |
@@ -83,6 +83,10 @@ The [known issues page](docs/KNOWN_ISSUES.en.md) lists unresolved cell positions
 | `fishing/`, `treasure/`, `rafting/` | Feature logic, recognition, solvers, and state handling |
 | `tests/` | Regression source; field images and game assets are excluded |
 | `docs/` | Design notes, UI captures, limitations, and distribution boundaries |
+| `docs/legal/`, `licenses/` | License scope, disclaimer, third-party sources, and original licenses |
+| `scripts/`, `requirements/` | Windows launch / build scripts and build dependencies |
+
+The root contains only the two READMEs, `LICENSE`, `NOTICE.md`, `requirements.txt`, `main.py`, and `.gitignore`. Maintenance and release notes live in `docs/`; contribution guidance lives in `.github/`. For the full local project, launch scripts are under `scripts/`, and individual features use `python -m lineup`, `-m treasure`, `-m fishing`, or `-m rafting`. Runtime prerequisites and excluded assets are described below and in the [usage notes (Chinese)](docs/USAGE.md).
 
 This source snapshot **is not a complete runnable distribution**. Game artwork, recognition templates, diagnostic data, the AGPL-associated Android adapter, and third-party binaries are omitted. Check the resource boundary first; this command does not connect devices or download resources:
 
@@ -95,9 +99,9 @@ Local runtime research requires the necessary resources from lawful sources, fol
 ## License, use, and maintenance
 
 - **Author's original work:** [PolyForm Noncommercial 1.0.0](LICENSE). Keep the required notices and license; uses outside its noncommercial permissions require separate authorization. Consult the license text for the actual permissions.
-- **Third-party material:** dependencies, fonts, game artwork, and trademarks retain their own rights and licenses. They are not relicensed under the author's noncommercial terms. See [third-party notices (Chinese)](THIRD_PARTY_NOTICES.md).
-- **Use risks:** an unofficial project with no guarantee of accuracy, compatibility, availability, or account safety; exclusions apply only where legally permitted. See the [disclaimer (Chinese)](DISCLAIMER.md).
-- **Maintenance ended:** no promised updates, fixes, Issue / PR handling, or technical support. See [maintenance status (Chinese)](MAINTENANCE.md).
+- **Third-party material:** dependencies, fonts, game artwork, and trademarks retain their own rights and licenses. They are not relicensed under the author's noncommercial terms. See [third-party notices (Chinese)](docs/legal/THIRD_PARTY_NOTICES.md).
+- **Use risks:** an unofficial project with no guarantee of accuracy, compatibility, availability, or account safety; exclusions apply only where legally permitted. See the [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
+- **Maintenance ended:** no promised updates, fixes, Issue / PR handling, or technical support. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
 
 This English overview is for accessibility. Linked Chinese legal and supporting documents remain in their original language; the English PolyForm license is available in full. README language links do not change the application's interface language or the license scope.
 

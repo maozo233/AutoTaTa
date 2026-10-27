@@ -9,6 +9,11 @@
   "includesGameSourceArtwork": false,
   "files": [
     {
+      "path": ".github/CONTRIBUTING.md",
+      "bytes": 665,
+      "sha256": "0e6f064b209f13175809b32276aa9157b2b7b1f1b69115c47259aea9b8c9a14d"
+    },
+    {
       "path": ".gitignore",
       "bytes": 723,
       "sha256": "5d145851e0ceafbc94e6bbabafca5669b5b929a00ad6d80494bd07afad607fc7"
@@ -254,11 +259,6 @@
       "sha256": "6b1795a3bc28eb13b9e36b64416191b205512e7b97c3df686fc4cd37ec3a6ff2"
     },
     {
-      "path": "autofish.py",
-      "bytes": 1734,
-      "sha256": "f9723ff3d1f78d836b18d0acfcb39c6b158534adb8641b11e6d35f52add3f528"
-    },
-    {
       "path": "autotata/__init__.py",
       "bytes": 24,
       "sha256": "0ce923ffa5a32b9834d3a14212d6ed86d5b29b829c37e25b29b24e79759a0611"
@@ -304,24 +304,9 @@
       "sha256": "9c5c7adecf74053eeb5091aeed50e7f5d34a2f5c786ba0fc44b7fba344665fc6"
     },
     {
-      "path": "build.bat",
-      "bytes": 242,
-      "sha256": "bae857049d3f93c7d520523ba1ab52d4e1cd399d2c55a4aeeedb51485b0b147e"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "bytes": 637,
-      "sha256": "e19fee8469d252a18e0f3818ce8d23130036d59203b08d05fb86334be5a9e02c"
-    },
-    {
       "path": "design/figma/app-wordmark-0.1.38.png",
       "bytes": 28724,
       "sha256": "6f59a836dcb27227092cd7afd4057cb4a6998f2a27a8a3be59c112acb357fbbc"
-    },
-    {
-      "path": "DISCLAIMER.md",
-      "bytes": 3090,
-      "sha256": "589a616558fff142a9fb0c110fb96b933d6a01769ba5ec1bd1acc4543cd9fbbf"
     },
     {
       "path": "docs/DESIGN_AND_AI.md",
@@ -330,13 +315,33 @@
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 10106,
-      "sha256": "550f0e928056af56e7715bd917977b4705d51a4ef8c54f349d7ff8343c8b585a"
+      "bytes": 10112,
+      "sha256": "9204bf9e9640bf6de20a9db798bab109a729472ddba7a6919213ef17ffe0faa1"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 8488,
-      "sha256": "5099151b5900e9e25afc38360b64f326b74d67cf45739888c8a58ecaa2912381"
+      "bytes": 8494,
+      "sha256": "1c7d8ed243141dcd7ec5980db77bb87627d2e15baa8bc9d6c3e36423fc849e73"
+    },
+    {
+      "path": "docs/legal/DISCLAIMER.md",
+      "bytes": 3099,
+      "sha256": "3c0feb8307d088f192176369a2a1451df4a88372eb29734f5f7aa9e230091b20"
+    },
+    {
+      "path": "docs/legal/LICENSE_SCOPE.md",
+      "bytes": 4118,
+      "sha256": "f2fb8e16f6c12c5599822937da47bccc14bcc919d60694f96e102aa09d094790"
+    },
+    {
+      "path": "docs/legal/THIRD_PARTY_NOTICES.md",
+      "bytes": 5289,
+      "sha256": "13d830fe2d4b90602cba28a6c46cad3751c96117327f1923d8292300e2ef756c"
+    },
+    {
+      "path": "docs/MAINTENANCE.md",
+      "bytes": 1260,
+      "sha256": "092ab4c59767466e97b64b5508bd777ec5f66ecb63f6975216511e93f3f3e908"
     },
     {
       "path": "docs/media/cover-en.svg",
@@ -389,19 +394,24 @@
       "sha256": "3eb754e4649d3ba0e209d6ab1080362c45859efcab51ae7a8c0a423e76de6d45"
     },
     {
+      "path": "docs/RELEASE_NOTES.md",
+      "bytes": 51956,
+      "sha256": "b7da0a2915ad3da90ec684b5f610342c4b540fe40167e9732c84fccb16cf16e8"
+    },
+    {
       "path": "docs/RESOURCE_MANIFEST.json",
       "bytes": 66750,
       "sha256": "b7a50a0dbe161196e1004fec3be7d4a6732a20a6e1a6dcb0d1279156d9550aea"
     },
     {
       "path": "docs/SOURCE_DISTRIBUTION.md",
-      "bytes": 3927,
-      "sha256": "3df2e00fe0e47d3d6cc997cececf66107aef3e35d965f692d57f9642d57f0cb5"
+      "bytes": 4432,
+      "sha256": "e6040c02388cf380405fb970102ef2b294b9259fad7c902311610bab9995932e"
     },
     {
       "path": "docs/USAGE.md",
-      "bytes": 17825,
-      "sha256": "3f2e9560321a21c53f716fd56549d848c241021e82c5954b084450e8103930e9"
+      "bytes": 17976,
+      "sha256": "62175eee8dd57ec41f98a3d2d60e26b71ea618c02664ab3cc7fc30934fe9ed54"
     },
     {
       "path": "docs/VALIDATION_SUMMARY.md",
@@ -412,6 +422,11 @@
       "path": "fishing/__init__.py",
       "bytes": 71,
       "sha256": "8ee9b1fd174fc92a27a4f6ad6bef12f743b6fc4e07b4e8c3baea372c77012ea3"
+    },
+    {
+      "path": "fishing/__main__.py",
+      "bytes": 1700,
+      "sha256": "4cae151fefec0cbdeef1401ba732294071b9de0fd7c5de4f0015ed8dd1f95c20"
     },
     {
       "path": "fishing/adb_session.py",
@@ -524,11 +539,6 @@
       "sha256": "6922b9a0cded89a822c1893086100c10288a93f54ad5a6587d516bee7bfa306c"
     },
     {
-      "path": "LICENSE_SCOPE.md",
-      "bytes": 4109,
-      "sha256": "ea9eaef3f50981dbfb0f0d1e5931fc9e58ae9be76ceebd7357c8a45f534beb87"
-    },
-    {
       "path": "licenses/ChironGoRoundTC-OFL.txt",
       "bytes": 4603,
       "sha256": "0094428d514f463d78f37506961b84e98cccd708573c4f12661ff6d989cd2483"
@@ -604,6 +614,11 @@
       "sha256": "d0cb3100ab749ae4f7e85e4304a97a90d1ee872c4e6685f1c603577f5cfd8d4f"
     },
     {
+      "path": "lineup/__main__.py",
+      "bytes": 95,
+      "sha256": "02866a8de77e86682d23c487a29b1f063453fecd196eb603af3d62fd2799ce63"
+    },
+    {
       "path": "lineup/backend.py",
       "bytes": 23726,
       "sha256": "27d042fcc7d6707fd88e677ce9c601b1e356954b6e62dc8c8d2760fa6c6a2ecd"
@@ -649,24 +664,14 @@
       "sha256": "f2f6b6d09013658322db7f3858f646818922da286fb7df88d5ef33bad9b502e7"
     },
     {
-      "path": "lineup_main.py",
-      "bytes": 95,
-      "sha256": "02866a8de77e86682d23c487a29b1f063453fecd196eb603af3d62fd2799ce63"
-    },
-    {
       "path": "main.py",
       "bytes": 227,
       "sha256": "2dd91c026ad84b9a46ed037c423584f541865a03a25a825762ca2e01fbde5f25"
     },
     {
-      "path": "MAINTENANCE.md",
-      "bytes": 1253,
-      "sha256": "53a29f6c4d6437d92c6cb6539ce8418c9c18ed2bb24084186fd09e5534dd6df0"
-    },
-    {
       "path": "NOTICE.md",
-      "bytes": 739,
-      "sha256": "8242787f7dd20f971f82318210e2122f6f916bade1aa35725f534211b845a7a1"
+      "bytes": 761,
+      "sha256": "5e28261ceebf2a6b84a0e54917ba3f54b3e16f05275115563ec04b5aa370b686"
     },
     {
       "path": "packaging/AutoTaTa.spec",
@@ -677,6 +682,11 @@
       "path": "rafting/__init__.py",
       "bytes": 70,
       "sha256": "3226509b39e377b8e569cce260c227ff1f9431694e830ca31a3d8f0f9c1440d3"
+    },
+    {
+      "path": "rafting/__main__.py",
+      "bytes": 237,
+      "sha256": "78d6040687354f969d7b3c3843e6334241c4fbd8c7a501d4bbab0d3f9e1c6381"
     },
     {
       "path": "rafting/backend.py",
@@ -714,27 +724,17 @@
       "sha256": "87ce37e41fa2a62ba6028c8e84d9292cda1abd3c01e3301c3c05b7ddee7f77c7"
     },
     {
-      "path": "rafting_main.py",
-      "bytes": 237,
-      "sha256": "78d6040687354f969d7b3c3843e6334241c4fbd8c7a501d4bbab0d3f9e1c6381"
-    },
-    {
       "path": "README.en.md",
-      "bytes": 10526,
-      "sha256": "b57bf1f83f542df864227bbe1eed1c7d43c2efd6384d3e8a34278a4eecc74eaa"
+      "bytes": 11240,
+      "sha256": "af07bb409c5312fdf3073f7d395718c52c2ef4e616d0b93056e9055f28d75150"
     },
     {
       "path": "README.md",
-      "bytes": 9349,
-      "sha256": "7d31e8cc854cdb0a179c03ab0a7b59b4d598c46c30b7cdee8635a50db4fa5f82"
+      "bytes": 9983,
+      "sha256": "c8c1b93e4e16b5a64353a9ba1813d8939e8f68552e809c0a96987291238ae624"
     },
     {
-      "path": "RELEASE_NOTES.md",
-      "bytes": 51956,
-      "sha256": "b7da0a2915ad3da90ec684b5f610342c4b540fe40167e9732c84fccb16cf16e8"
-    },
-    {
-      "path": "requirements-build.txt",
+      "path": "requirements/build.txt",
       "bytes": 40,
       "sha256": "1a11f914ab9a8f539f245e615d6602aee9ec9babd3f0f89d698ad485aa894b32"
     },
@@ -744,34 +744,39 @@
       "sha256": "3a660fe165a171e4a829756e97893eac93104814397afebc49c9b547f39efabd"
     },
     {
-      "path": "setup.bat",
-      "bytes": 280,
-      "sha256": "2d58741df754fce1bf8e59b49bb2c74567e7f271e09aebc48613f0a4029394ee"
+      "path": "scripts/build.bat",
+      "bytes": 244,
+      "sha256": "6b1d2f4216f9f1236d83a2615f8554c3be7c4052848e62012318b1c6cb623635"
     },
     {
-      "path": "start-autofish.bat",
-      "bytes": 64,
-      "sha256": "a7cc8499850c561c7bff76916b48dee8c9f965d40af6f3094b681d6e907b27b0"
+      "path": "scripts/setup.bat",
+      "bytes": 303,
+      "sha256": "cfa051c5e451eb92690064d45707138f3d78659418aa404818f495ab74196274"
     },
     {
-      "path": "start-lineup.bat",
-      "bytes": 66,
-      "sha256": "6d0cad8b3ab949a8ac830529c1b149dc422bf771cfb6396b9f7f4cfb2b5d77c0"
-    },
-    {
-      "path": "start-rafting.bat",
+      "path": "scripts/start-autofish.bat",
       "bytes": 65,
-      "sha256": "521dd6d5994b241ca6d0d00251724031854e990868117744bdb4166869ac8753"
+      "sha256": "abb52566b53716321d7f55e71d97143ff8ec24a3df1c38d84e3d1719c87be920"
     },
     {
-      "path": "start-treasure.bat",
-      "bytes": 69,
-      "sha256": "dd807b0c56e854860758b18fb281a6e8f109e381119b3c4a1770e947c116fe49"
+      "path": "scripts/start-lineup.bat",
+      "bytes": 66,
+      "sha256": "ca8c15b22f53cb82052af4783e1e006f5f32d13f98e1cb75cde16751a2f5a864"
     },
     {
-      "path": "start.bat",
-      "bytes": 147,
-      "sha256": "14e9a8dfc37737b948f87d2089a386dd912c58b71e8b8816d5a56cf740d98752"
+      "path": "scripts/start-rafting.bat",
+      "bytes": 65,
+      "sha256": "1a5d6bcda427be9a3c23b73e9b15ca1da9f4b8a7f870bd4571c0ffe44e98ef2c"
+    },
+    {
+      "path": "scripts/start-treasure.bat",
+      "bytes": 66,
+      "sha256": "237b2565b1a173575c6ba86f4610f49731f0be002ea4d0018f51d1818d4b3f57"
+    },
+    {
+      "path": "scripts/start.bat",
+      "bytes": 157,
+      "sha256": "4d76e3e5f01a505d499b9da700da7be7ded65c88e918064579a4fb13fbbd5793"
     },
     {
       "path": "tests/qt_ui_case.py",
@@ -965,8 +970,8 @@
     },
     {
       "path": "tests/test_release_policy.py",
-      "bytes": 5983,
-      "sha256": "1f92323528ada57ef63312d8afdfdeee9333ddbdbdcef4a8da2e280e2dddef8e"
+      "bytes": 6069,
+      "sha256": "9c83db090287dcbe70be564668496e28ec577bd02c9e00a821ee74a464352b36"
     },
     {
       "path": "tests/test_remaining_rods.py",
@@ -1064,14 +1069,9 @@
       "sha256": "70271da75ac80e7487eb61fd6e8f6ff78d58b974a4040e84979ed0729a9e4bbf"
     },
     {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 5289,
-      "sha256": "13d830fe2d4b90602cba28a6c46cad3751c96117327f1923d8292300e2ef756c"
-    },
-    {
       "path": "tools/build.py",
-      "bytes": 1985,
-      "sha256": "9c0d4206db3a95b0e8d0b6ccb5e1d476634d88071f88a6ffcfef292259cfe3a4"
+      "bytes": 2025,
+      "sha256": "6b2f0b8342a2cf11f72901820e113b79a4824535b8d21bf79a2c909f25d7e784"
     },
     {
       "path": "tools/check_source_assets.py",
@@ -1095,8 +1095,8 @@
     },
     {
       "path": "tools/prepare_source_review.py",
-      "bytes": 6296,
-      "sha256": "73ee67db4c34122e1d8a7d0cc4b489a25815341737cc0a6800f079ead7ae3724"
+      "bytes": 6325,
+      "sha256": "5fdb59a812d519e2c0207f891b627d4936939e07845f28a8d23c7773562e47bd"
     },
     {
       "path": "tools/release_policy.py",
@@ -1110,13 +1110,18 @@
     },
     {
       "path": "tools/verify_release.py",
-      "bytes": 5401,
-      "sha256": "e385e4cb66141994bae0fce4d43c81f75c128cc2c8aedbf60b8ea28e95af1132"
+      "bytes": 5449,
+      "sha256": "fd35c1bce5469dd851de9c1d804d995dc10e9ca8e1b0ef37cc543cd40617cd9c"
     },
     {
       "path": "treasure/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "treasure/__main__.py",
+      "bytes": 243,
+      "sha256": "c993208c26b45a676b7ff0fe8c51a02166aff402a476eabd32e3e6e2bb6bbab0"
     },
     {
       "path": "treasure/backend.py",
@@ -1152,11 +1157,6 @@
       "path": "treasure/vision.py",
       "bytes": 16067,
       "sha256": "a97e46139f8ff297e9ca94e79a1f86490fd630b930bfde612a9063bb09495d3e"
-    },
-    {
-      "path": "treasure_main.py",
-      "bytes": 243,
-      "sha256": "c993208c26b45a676b7ff0fe8c51a02166aff402a476eabd32e3e6e2bb6bbab0"
     }
   ]
 }
