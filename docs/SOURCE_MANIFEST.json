@@ -319,11 +319,6 @@
       "sha256": "6f59a836dcb27227092cd7afd4057cb4a6998f2a27a8a3be59c112acb357fbbc"
     },
     {
-      "path": "design/figma/lineup-draft.svg",
-      "bytes": 961,
-      "sha256": "4206df509acdaac6dac492b31544e2c9e5e5056da50f14b83b77c6f98240fe99"
-    },
-    {
       "path": "DISCLAIMER.md",
       "bytes": 3090,
       "sha256": "589a616558fff142a9fb0c110fb96b933d6a01769ba5ec1bd1acc4543cd9fbbf"
@@ -335,13 +330,13 @@
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 6500,
-      "sha256": "1c2cf05b1c100e4060969e8f88ae0c8b2fce07a7f2b5382410ace95af1074342"
+      "bytes": 10106,
+      "sha256": "550f0e928056af56e7715bd917977b4705d51a4ef8c54f349d7ff8343c8b585a"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 5472,
-      "sha256": "8b4ff63eb49fcd4213eb1a29067f1ae186f9bf7201102efa3a1dc1ac0c587f22"
+      "bytes": 8488,
+      "sha256": "5099151b5900e9e25afc38360b64f326b74d67cf45739888c8a58ecaa2912381"
     },
     {
       "path": "docs/media/cover-en.svg",
@@ -390,8 +385,8 @@
     },
     {
       "path": "docs/PRIVATE_REVIEW.md",
-      "bytes": 1995,
-      "sha256": "92075ececef1fae2d7ea1903fab8bb3c2ac7424032ba8379e46ba248698021c8"
+      "bytes": 2400,
+      "sha256": "3eb754e4649d3ba0e209d6ab1080362c45859efcab51ae7a8c0a423e76de6d45"
     },
     {
       "path": "docs/RESOURCE_MANIFEST.json",
@@ -400,8 +395,8 @@
     },
     {
       "path": "docs/SOURCE_DISTRIBUTION.md",
-      "bytes": 3349,
-      "sha256": "46cca05f0644000da0891f60a421eaa2fa7094a131dbb956a3e8218d366abce0"
+      "bytes": 3927,
+      "sha256": "3df2e00fe0e47d3d6cc997cececf66107aef3e35d965f692d57f9642d57f0cb5"
     },
     {
       "path": "docs/USAGE.md",
@@ -410,8 +405,8 @@
     },
     {
       "path": "docs/VALIDATION_SUMMARY.md",
-      "bytes": 1880,
-      "sha256": "dd447cc4714a8de525b56408c6be5391f3d49a32aee23e2382299694da7a2ce4"
+      "bytes": 2398,
+      "sha256": "9ee7e847395d7ad768f2ebe93e0ba40e45d579385484c1d8ec96c66405f3f5d4"
     },
     {
       "path": "fishing/__init__.py",
@@ -530,8 +525,8 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "bytes": 3835,
-      "sha256": "99c02c64ee6da90c569fa6504dcd8da1ffbdb22f8ad5dc3b110664051c3571f5"
+      "bytes": 4109,
+      "sha256": "ea9eaef3f50981dbfb0f0d1e5931fc9e58ae9be76ceebd7357c8a45f534beb87"
     },
     {
       "path": "licenses/ChironGoRoundTC-OFL.txt",
@@ -562,11 +557,6 @@
       "path": "licenses/LGPL-3.0-only.txt",
       "bytes": 7651,
       "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
-    },
-    {
-      "path": "licenses/MaaAgentBinary-1.0.1.dist-info-LICENSE",
-      "bytes": 34523,
-      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
     },
     {
       "path": "licenses/MaaAgentBinary-LICENSE",
@@ -670,13 +660,13 @@
     },
     {
       "path": "MAINTENANCE.md",
-      "bytes": 1135,
-      "sha256": "480751d0408a77e31162e2b547432e6ad88e6fcb4721bec494bf7507e3bb0538"
+      "bytes": 1253,
+      "sha256": "53a29f6c4d6437d92c6cb6539ce8418c9c18ed2bb24084186fd09e5534dd6df0"
     },
     {
       "path": "NOTICE.md",
-      "bytes": 625,
-      "sha256": "40de39c007b72dd376864535df5702d46596964b8533a6400ed6a6db30bb7544"
+      "bytes": 739,
+      "sha256": "8242787f7dd20f971f82318210e2122f6f916bade1aa35725f534211b845a7a1"
     },
     {
       "path": "packaging/AutoTaTa.spec",
@@ -730,13 +720,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 9858,
-      "sha256": "ad46d3240d6f908e139f0f28d164598708115f7b831f3aaddbdde631f80102dd"
+      "bytes": 10526,
+      "sha256": "b57bf1f83f542df864227bbe1eed1c7d43c2efd6384d3e8a34278a4eecc74eaa"
     },
     {
       "path": "README.md",
-      "bytes": 8791,
-      "sha256": "50281f03bc2ff0b67c7b93cb1de9a936c83ff7a70e4857b9699b5637f784e924"
+      "bytes": 9349,
+      "sha256": "7d31e8cc854cdb0a179c03ab0a7b59b4d598c46c30b7cdee8635a50db4fa5f82"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -1075,8 +1065,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 4902,
-      "sha256": "f412dd84e9f5e5ea8fd8662fa16442bb660f3ccb247230a638c336c19d8f6986"
+      "bytes": 5289,
+      "sha256": "13d830fe2d4b90602cba28a6c46cad3751c96117327f1923d8292300e2ef756c"
     },
     {
       "path": "tools/build.py",
@@ -1105,8 +1095,8 @@
     },
     {
       "path": "tools/prepare_source_review.py",
-      "bytes": 5898,
-      "sha256": "5eb37e0fc1d6c9811826bbb5c2a666ac98ff031ba6310ce391e701b61677a9e5"
+      "bytes": 6296,
+      "sha256": "73ee67db4c34122e1d8a7d0cc4b489a25815341737cc0a6800f079ead7ae3724"
     },
     {
       "path": "tools/release_policy.py",

@@ -1,10 +1,34 @@
 <p><a href="KNOWN_ISSUES.md">简体中文</a> · <strong>English</strong> · <a href="../README.en.md">Back to overview</a></p>
 
-# Known issues and recognition limits in 0.2.36
+# Known issues and validation limits in 0.2.36
 
 **Functional version: 0.2.36 · Diagnostic replay: 2026-10-24 · Documentation: 2026-10-28. Maintenance has ended; no fixes or compatibility updates are promised.**
 
-This page separates unresolved cases, repaired historical defects, and pending live validation. The evidence consists of 40 saved records from two machines, deduplicated into 25 source images. This is not a general accuracy benchmark. Raw diagnostic images, personal paths, and device information are excluded from this showcase.
+This page separates unresolved cases, repaired historical defects, and pending live validation. The lineup image statistics cover 40 saved records from two machines, deduplicated into 25 source images. They are not a general accuracy benchmark and do not describe treasure coverage. Raw diagnostic images, personal paths, and device information are excluded from this showcase.
+
+## Unresolved interaction and treasure issues
+
+These reports were added on 2026-10-28. User feedback establishes a reported real-use problem, but does not replace a reproducible sequence. Existing code or historical tests do not prove that the interface works correctly.
+
+| ID | Issue | Current status and impact |
+| --- | --- | --- |
+| LINEUP-UI-01 | Typing a keyword while manually adding or correcting a character does not effectively narrow the candidate list | **User-reported; unresolved.** Name filtering must not be described as reliably usable. A backend name-matching function exists, but native-window reproduction of input, candidate updates, and actual UI behavior remains incomplete; the root cause is unconfirmed |
+| TREASURE-REC-01 | Treasure recognition still produces errors | **User-reported; unresolved.** No additional failure frames were provided in this update to isolate the errors. No repair or specific algorithmic cause is claimed. Manually check board bounds, cell states, treasure dimensions / quantities, and completion status |
+| TREASURE-VAL-01 | No complete real high-level-stage validation to establish reliability | **Coverage gap; live acceptance incomplete.** Configuration presets for stages 1–24 are not stage-by-stage acceptance. Lower-stage checks or individual higher-stage images do not establish reliable continuous play in high-level stages |
+
+### Lineup: text filtering when adding or correcting a character
+
+The reported symptom is that typing does not narrow the choices. This is an **interaction issue**, separate from lineup-image recognition errors. Search cannot currently be promised as a quick, reliable way to find a character. Browsing the list is only a possible workaround; if the target cannot be found there either, the manual correction flow cannot be considered usable.
+
+Also note the existing **recognize-and-deploy-on-import behavior**: there is no mandatory cell-by-cell review before attempting deployment. Cell editing is disabled during recognition / execution. Stop and wait for the operation to finish stopping before correcting cells; this does not resolve the filtering issue. Backend matching logic does not replace validation of real text input, Chinese input composition, and candidate-list refresh. None of these steps is identified as the confirmed root cause.
+
+### Treasure: recognition and high-level-stage coverage
+
+Treasure recognition still needs manual verification. An automatic-recognition button, a treasure-confirmation button, or displayed probabilities do not establish correct recognition or completed live validation. The report does not contain enough failure frames and steps to identify the specific recognition component at fault.
+
+Test source includes saved images from stages 1, 2, and 10, along with scaling, sparse-board, and partly opened-board checks. These provide **partial offline coverage**. Complete continuous real-game acceptance covering recognition, updates after digging, manual correction, and stage transitions in high-level stages has not been established. Do not describe high-level stages as verified stable or all 24 stages as tested. Solver mathematics, limited interface checks, and application startup checks do not fill this gap. See [treasure image tests](../tests/test_treasure_vision.py) and [interaction-state tests](../tests/test_treasure_controls.py); the original images are excluded from this showcase.
+
+These entries remain unresolved or unverified. Maintenance has ended; no repair schedule or future validation is promised.
 
 ## Unresolved: eight uncertain cells across four images
 

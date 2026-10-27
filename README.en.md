@@ -8,6 +8,8 @@
 
 > **Current limitations: [known issues in 0.2.36](docs/KNOWN_ISSUES.en.md).** Four saved images still contain eight unconfirmed cells; four partial-board images require recapture. Complete real-game deployment remains pending retest. UI screenshots and offline checks are not guarantees of recognition accuracy or live success.
 
+> **Interaction and treasure limitations:** typing in the manual character editor does not effectively narrow the candidate list. Treasure recognition still has errors, and complete continuous real-game testing of high-level stages is missing. These issues remain unresolved; presets for stages 1–24 do not mean all stages passed acceptance.
+
 # AutoTaTa
 
 **Turning interface decisions into working software.**
@@ -44,7 +46,7 @@ These are actual 0.2.36 UI captures using isolated configuration examples and lo
 | Treasure assistant | Board calibration, item sizes and counts, probabilities, suggested cells, and cost estimates | Manual correction and understandable estimates; assists decisions without automatically digging |
 | Rafting | Page recognition, multiplier, boat budget, six reward priorities, and stopping | Draggable visual priorities; stops or waits at purchase prompts or unknown pages |
 
-The features share one desktop project and retain separate source entry points. The historical packaging policy builds the unified `all` package only. This showcase includes no installers and does not relabel historical binaries under a new noncommercial license.
+The features share one desktop project and retain separate source entry points. The historical packaging policy builds the unified `all` package only. The [0.2.36 private Release](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36) preserves the latest original archive for the author's review. It does not include new fixes for the issues reported here or relabel the entire historical binary under a new noncommercial license.
 
 ### Uncertainty is part of the interface
 
@@ -69,7 +71,7 @@ Version 0.2.36 historically passed **197 lineup regression checks** and local na
 
 These are records from a particular historical environment, not a current or future accuracy guarantee. Diagnostic images and complete recognition assets are excluded from this showcase, so the full suite cannot be reproduced unchanged without them. **Complete real-game deployment in 0.2.36 remains pending retest.**
 
-The [known issues page](docs/KNOWN_ISSUES.en.md) lists unresolved cell positions, screenshot requirements, the retained real drag failure, and the repaired false stops. Maintenance has ended; the list is not a promise of future repairs.
+The [known issues page](docs/KNOWN_ISSUES.en.md) lists unresolved cell positions, manual-input filtering issues, treasure recognition and high-level-stage validation gaps, screenshot requirements, the retained real drag failure, and the repaired false stops. Maintenance has ended; the list is not a promise of future repairs.
 
 ## Source and reproduction
 
@@ -99,6 +101,6 @@ Local runtime research requires the necessary resources from lawful sources, fol
 
 This English overview is for accessibility. Linked Chinese legal and supporting documents remain in their original language; the English PolyForm license is available in full. README language links do not change the application's interface language or the license scope.
 
-The repository is currently private for the author's review. Any public visibility change requires a separate decision; this update does not publish a public release. See the [private review checklist (Chinese)](docs/PRIVATE_REVIEW.md).
+The repository and its Release remain private for the author's review. Any public visibility change requires a separate decision and review of both the source tree and Release attachments; this update does not make them public. See the [private review checklist (Chinese)](docs/PRIVATE_REVIEW.md).
 
 <p align="center">Designed and directed by <a href="https://github.com/maozo233">maozo</a> · Built with AI assistance · Preserved as a finished experiment</p>

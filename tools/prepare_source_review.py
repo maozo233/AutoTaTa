@@ -24,6 +24,10 @@ def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def selected_files(root):
+    duplicate=root/'licenses/MaaAgentBinary-1.0.1.dist-info-LICENSE'
+    canonical=root/'licenses/MaaAgentBinary-LICENSE'
+    if duplicate.exists() and digest(duplicate)!=digest(canonical):
+        raise ValueError('License copies differ; review both before excluding either copy')
     paths={root/name for name in ROOT_FILES}
     for package in ('autotata','fishing','lineup','rafting','treasure','tests'):
         paths.update(p for p in (root/package).rglob('*.py') if '__pycache__' not in p.parts)
@@ -31,10 +35,12 @@ def selected_files(root):
     paths.update(root/'tools'/name for name in TOOLS)
     paths.update(p for p in (root/'assets/ui').rglob('*') if p.suffix in ('.qml','.svg'))
     paths.update((root/'assets/fonts').glob('*.ttf'))
-    paths.update(p for p in (root/'licenses').iterdir() if p.is_file())
+    # The dist-info copy is byte-identical to the retained canonical license.
+    paths.update(p for p in (root/'licenses').iterdir() if p.is_file()
+                 and p.name!='MaaAgentBinary-1.0.1.dist-info-LICENSE')
     paths.update(p for p in (root/'packaging').glob('*.spec'))
     paths.update(root/name for name in ('assets/app-icon.png','assets/app.ico','assets/README.md',
-                                      'design/figma/app-wordmark-0.1.38.png','design/figma/lineup-draft.svg'))
+                                      'design/figma/app-wordmark-0.1.38.png'))
     paths.update(p for p in (root/'docs/media').iterdir() if p.suffix in ('.svg','.png'))
     return sorted(paths)
 
