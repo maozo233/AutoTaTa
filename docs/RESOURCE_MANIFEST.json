@@ -1,0 +1,1829 @@
+{
+  "schema": "autotata-source-review-resources-v1",
+  "version": "0.2.36",
+  "purpose": "Inventory only; no permission to download or redistribute the resources is implied.",
+  "omittedRuntimeResources": [
+    {
+      "path": "assets/bait-clock.png",
+      "bytes": 743,
+      "sha256": "f906d4c590904528000c7b6ab68d4cbc7d93e591909d4805d5e2bf8c79250df3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/bait-confirm.png",
+      "bytes": 5640,
+      "sha256": "b125a172560c4d535dcbef065e41bf4896d6968d979459744bc7333aa9936a98",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/bait-flight.png",
+      "bytes": 10896,
+      "sha256": "a876ed1b51320e7eac974326a021088d8fcff85b458903a02a9b2209bfd32890",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/bait.png",
+      "bytes": 5532,
+      "sha256": "dd5abc42278538fc897e816c5ae14bb7c492218af532239c35566f1f9d2d21f4",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/hook_prompt.png",
+      "bytes": 13474,
+      "sha256": "a75dbed57ce3c5cb77fa82eb3ff09b08e1264467eb45c8b87d62cf7ad7dfd5ec",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/catalog.json",
+      "bytes": 198440,
+      "sha256": "fb998a80368cbf3012cb426dea757ea6d8fd3a79e2fd5c3b3dad8a9f70e4bdfc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/clear-fifteen.png",
+      "bytes": 4257,
+      "sha256": "1d403c60d946aa59ca180aadd8743c0fb01c92bfc1c7cf3faffd1e30b0f3c4c0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/clear-five.png",
+      "bytes": 3974,
+      "sha256": "8709a03e0aad55523a6aff7846eed54a9b1f7773b31a4dc998f306e05abf4aa8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/all.png",
+      "bytes": 3644,
+      "sha256": "3147ff4d4a05122d8d48e30f8e59ece51ecb670155723168616646d139e42fbb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/fire.png",
+      "bytes": 1372,
+      "sha256": "d682f7c3aa2e046bb07ea33901e122c7bf6fd50299ddf126ae8f34b7c37e15a5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/grass.png",
+      "bytes": 1554,
+      "sha256": "67001b6b43396d7ddae3d7d72d5cb1557d6368101912e440127c973a79c8c684",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/lightning.png",
+      "bytes": 1519,
+      "sha256": "491fc8e1a9c9e134f1682d8e34e188bbfd283dd3a1927ff8f64e218d795f5dfe",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/rock.png",
+      "bytes": 1616,
+      "sha256": "2fe25ac9783f70126a0c2533c6dec7bd0c68097e6447b369280e57cff361054e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/filters/water.png",
+      "bytes": 1694,
+      "sha256": "24caf4e4f28eb6f019fa60f360b5a24d2b18d677d674282ae564c909a84ef0cd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/anglerbear.png",
+      "bytes": 350269,
+      "sha256": "4a4b5db9b1c8d347b68e180b4c7e61812457642466e137eab953497e6477b550",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/aquariel.png",
+      "bytes": 204828,
+      "sha256": "d088d9da691184afa4a62adf3a9d227271f34397321bc40f373224078cce973b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/armorjaw.png",
+      "bytes": 91636,
+      "sha256": "3d99badf0b967ed445169a4394bc2aba890a0d77b728a746448f64391b33b88c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ashlarva.png",
+      "bytes": 66618,
+      "sha256": "e4aeb464f19bad69363db7250ede25dc1b9c9e076892100ecc97f96d1dbc1ea3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/azurion.png",
+      "bytes": 103110,
+      "sha256": "fdb8e16e02a9700921fe780eee11528e0fbc6db6952aca752faf44c205ac7c8d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/bastogard.png",
+      "bytes": 93299,
+      "sha256": "d0f482fb980fe2980bbd0ebdcda54b085f56400a8f65bfea0f3412b548b8fa82",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/beetleknight.png",
+      "bytes": 107940,
+      "sha256": "cb15f3c0fd25a090d3f53b636ce5e13e5d924ceb10be12ba7b585c7dce4963b0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blastniff.png",
+      "bytes": 209789,
+      "sha256": "d717a220fe470564fb5d8a8b3b2e636839e8f081ee8bab44cc29467a1da3a630",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blechlama.png",
+      "bytes": 935501,
+      "sha256": "f21845e8816e4d670604b768cb1e0ce898cd9e6f8ae33c5c724f2ad1ce735dd1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blitzmane.png",
+      "bytes": 113526,
+      "sha256": "61ae90512c2b269cc23159387f00193c8ebbdf3c602082fbe63f486bd3e507cd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blizzgrizz.png",
+      "bytes": 193121,
+      "sha256": "99039da8ee63890593f6dff3840f308e753e9403bd1c5881bdbfdb8b45a43975",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blowfin.png",
+      "bytes": 86889,
+      "sha256": "ca29530bf430061b10c2cbe31b048f4973ae42be916968d51cb98933c0154791",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blubbles.png",
+      "bytes": 166085,
+      "sha256": "027e2ef1090558f0281105a22b62d1127b9ce89f7f2d236d21ce777c59d89fbc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/blueflick.png",
+      "bytes": 66399,
+      "sha256": "0738d4394c230e4418ead8d9d42cceb057e76dcabb1ce31d769af523973a6317",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/boldclaw.png",
+      "bytes": 37621,
+      "sha256": "2671d24bd4a6b01059b8742cd909de5e7cb2419b4500bed20a8fad40bf2fa6a4",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/boltallion.png",
+      "bytes": 106624,
+      "sha256": "3b636a3ce9f46a2eb13cdd42025e4dead6144118ec509b368534e49e6123cf9c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/boltskipper.png",
+      "bytes": 26721,
+      "sha256": "6733cbbb8731f23eb338d7e048bd6b18e87199998ac76cee44c181cb29e42a84",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/borelord.png",
+      "bytes": 93918,
+      "sha256": "591b020a2827e8384f055c72c3ed376fee60848cb18854bb8cd5f7de410dc98b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/bubbit.png",
+      "bytes": 22330,
+      "sha256": "bb238f8e1b7d4e59ff766aec3624f47ada22981a4d82bd3903defe0604faac9a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/budboo.png",
+      "bytes": 13650,
+      "sha256": "b00e16e887b483d98e3a20880558617c6a0af24684ef362e2b97c4576c3d6279",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/buddi.png",
+      "bytes": 18076,
+      "sha256": "55bd11474c5d035948ea27faf06d2ebdfc5246f5f4d057cb7b9578dd96f97337",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/buzzbeak.png",
+      "bytes": 69049,
+      "sha256": "ce087122b25004f1942845e2fbe8ae4a07859902bdc3fb1f7431d1032bedf8e6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cactobloom.png",
+      "bytes": 78620,
+      "sha256": "4a4884fc774a641cfb9c6283d512673ec019922b84045fd843ee7efc199cde71",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cactobud.png",
+      "bytes": 69551,
+      "sha256": "5c8d7fc363a3d60e78c743228209bddd8efc401547eeb6aed85ed3d09cd08979",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cactoczar.png",
+      "bytes": 83561,
+      "sha256": "70af12aa505f7286b393c1a01b1e469ac9657620f7a34df6daf0d11c8ede357e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/capobeetle.png",
+      "bytes": 24972,
+      "sha256": "9191c56749068c7fb71b97372c36d02c3b4a9a49448c6d4929e5b9b27a73e690",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/capypapa.png",
+      "bytes": 77096,
+      "sha256": "a6af8ffd78321bc12f2473541f8a1b0b3f4e8d660a3b48986b3bbc7d21de02a5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/capywata.png",
+      "bytes": 68872,
+      "sha256": "7ad4c219b2ecc886bdf4eb3a561c397c76a1fe784f9118a8608b9a6d7f380055",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cavyzap.png",
+      "bytes": 117991,
+      "sha256": "1e6ff2a9682fd75fdef7623936ec560d1f1619452fd55efe15d29390cad2af26",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/charflutter.png",
+      "bytes": 96990,
+      "sha256": "09de8df50f897acff349fb71e0fa4059be9695d468f1c55e7db9b8dd0f89d950",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cheerlet.png",
+      "bytes": 83448,
+      "sha256": "3fce71da443cc83b5c1d9c297b4a6f7eb1b2616b5743b1863cca833e5042ab3d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cheerling.png",
+      "bytes": 69160,
+      "sha256": "5db658e0415c4e5ac8b97faca2b9640681835040bc20e6ab1fa87a3fbfc04727",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cheerspring.png",
+      "bytes": 100593,
+      "sha256": "ee6385e76b645996ceaaa2b104c5f74d0324a9fe3bc20f2c62dc3627c802a6f8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cheerstella.png",
+      "bytes": 122793,
+      "sha256": "ba30ccb7356850a7805ad6743b7fb6423a0ec1a1203e9378a0e5a6fa93b36b4d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/chefugu.png",
+      "bytes": 55986,
+      "sha256": "92d665a75a01d90839e50e40481120d04717e24f29dd2b1ad8083b00430435b9",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/chomperwraith.png",
+      "bytes": 112118,
+      "sha256": "2ed419b712635aeaefba570a9850b0bcc58a2a337b299ff8782f14c48003e0a7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/chronerva.png",
+      "bytes": 98436,
+      "sha256": "d1b6738d71196de4ffbe6c7ea7f83940bd4ab0a91b99746f01ba8bd213cfd357",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/chrysolaria.png",
+      "bytes": 106638,
+      "sha256": "e013fe7de0d08e1bd6793bcbd0b4fe4e7ffc2a15ca1f8f108723a84b48ea36e9",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cindermunk.png",
+      "bytes": 68461,
+      "sha256": "a762abc0bc9b04b2a59cbf884c258941a782a2e2d0926e38388858fe17d6ad32",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/clangnaga.png",
+      "bytes": 89840,
+      "sha256": "cb38779fd3e2df34545f4df157cf45621ca8d968ab8e126d151a33fe915df762",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/clawzor.png",
+      "bytes": 74891,
+      "sha256": "a2c85bd4d6023d2fe448d3fa87339da0bc7226dba40391852eec41e43dee04ec",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cluckeroo.png",
+      "bytes": 24768,
+      "sha256": "277976cff577d29dd64ccc9c7e5072e0d703ebe5e6bf5979aeb344837e24e80b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/clucky.png",
+      "bytes": 76216,
+      "sha256": "84bafee91950d3b1b43eddf55d601b93a5eb2296ebc9d898f277b0a3fb178057",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cobbledon.png",
+      "bytes": 31408,
+      "sha256": "de65bb026d06a7d85b2cd61400c64baaa2a8010a9eb36ef54d3b967dd37b9f7d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cosmoram.png",
+      "bytes": 167186,
+      "sha256": "7dcdb93646353365455e816d9eab7c08dde2e44f9ab93a6f56a16c69470f0fcd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cragolin.png",
+      "bytes": 59955,
+      "sha256": "70e1f8821a8e39969346198283a2f159fd3026439c4f88c9fc2cb08053db151e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cratzar.png",
+      "bytes": 134659,
+      "sha256": "c8937b63f010ff6a0f62067e2f2907318cd1c377fc3ed28da587d7f1f4520a26",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cribbler.png",
+      "bytes": 19696,
+      "sha256": "93a5159056bbd38e0055b892bc2b6238b1824f987b2779e77db1b4acd4a59995",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/cribking.png",
+      "bytes": 90566,
+      "sha256": "973ffa66e79a73959cfe66c14cce5aecd88d57522415575e92c1daf6965d15a5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/crystalsnail.png",
+      "bytes": 119200,
+      "sha256": "1eae458560d26fe1dccec6068a0ebd8410c771c20ce8c9ab6de54f4002663dd2",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dagondeep.png",
+      "bytes": 126536,
+      "sha256": "e41981228feac440b1ea22b01a53dbff5bccf0bb16f7ec055ae9e570ea8e2234",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dazopus.png",
+      "bytes": 86217,
+      "sha256": "c0587fe782c8e442b16bb3dd352069ec95aee01afdb8058aad4a14b385aacaf6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dewgrub.png",
+      "bytes": 59691,
+      "sha256": "7a7f0bb62ace6c82d053432097040e3cd2f3f928f6d5f7409c716e01010ca13f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dharmadder.png",
+      "bytes": 293464,
+      "sha256": "2ea99591858aef29c98fe12a34f4efc2601c901d744e54fc5618b740734cde29",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dolphie.png",
+      "bytes": 116902,
+      "sha256": "6e428192c90f10d45c9f8adf9ecc9b8c47f8b647d17a11dee1418f27b36ca621",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/donscarab.png",
+      "bytes": 106218,
+      "sha256": "80a9d7e1cf8f3acfee970cee3886333bac0b7b7bec3496153770a2f6433b445a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dozy.png",
+      "bytes": 59122,
+      "sha256": "4a35ae1238e345c8df1b9980fba34c4d920c6f2a7bfc6a474a26025b0cb4dc2f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dreadclaw.png",
+      "bytes": 92800,
+      "sha256": "3953d071838879b9c0a46d946ab1168c128b6782cd952f475d6ad212be50f423",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/drilleroo.png",
+      "bytes": 52425,
+      "sha256": "28dcf91ece367dfd31b3f39505f02a4707747a6b07c1839d1f86caf06f1b96b5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/droppit.png",
+      "bytes": 67750,
+      "sha256": "05ebcf9a622f0ef4d5d46248e7c31effdcaa4c69d6f2766984c4895224eb1171",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/dumbopus.png",
+      "bytes": 69214,
+      "sha256": "162f6a52d899af77e0747b7d9d8009eb4c90e6d3185cb016055d91e93873a4a6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ecstamira.png",
+      "bytes": 212597,
+      "sha256": "3b0242eb3a29f7aa6e7a5e0447d1eda0db27ae3009662baf78b04e814cfd1150",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/electroar.png",
+      "bytes": 29197,
+      "sha256": "edc958f01225dc8b1bc1e6983361d0a46e45423fba93271bc6271515c5b8eebb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/embertail.png",
+      "bytes": 99783,
+      "sha256": "eec04e7679e19b8166ca71cf4f52f84cc5262fbed6b9b91fa4f813ed8bb2c680",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/firecoil.png",
+      "bytes": 24128,
+      "sha256": "a1cb66d574b748fdb6d2d7903020971b2d0c40b26475c9acdfae8f4a1161c002",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/firefox.png",
+      "bytes": 21829,
+      "sha256": "02d3d0763582b1ee8bcb89a1711a924c045f6098283f8f8e2af226de583ca490",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/fishopus.png",
+      "bytes": 125886,
+      "sha256": "37019adf68658c85cf397cf0d4cf32a35e6bab80d4579919c9c5e569abd903ad",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/flameow.png",
+      "bytes": 70734,
+      "sha256": "23ae951d1aee0ed31abe5cb2e9ea51c8cfd7a28db584ec80378c1870355f5dae",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/flarevix.png",
+      "bytes": 111544,
+      "sha256": "d3f3b7336253a0a3d172a9d41f096e866d571545a30ea97ed55ae97171b025e8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/fluffle.png",
+      "bytes": 65026,
+      "sha256": "5638f611ee62416f26fe55a499b32aac807e421def800e93aa112d330cd216c0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frostique.png",
+      "bytes": 99144,
+      "sha256": "2730cc7a4eda19d8239f6931a9ea06ccccc6c44102b3de393fdf986662260c55",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frostluna.png",
+      "bytes": 119843,
+      "sha256": "499cd8cfa97481e8aa8aa725bee9ad6f081a231d60e372a5ec0ce6f1a969fff6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frostnip.png",
+      "bytes": 80315,
+      "sha256": "c2e8b27ef119a464537f3c5753532d2b08ad06777586fe0e5f31116c28ca3bbe",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frostpaw.png",
+      "bytes": 31559,
+      "sha256": "a11dd9b480d20099869cbf4cb611618ca0e70d413e2d3af1b8f38d02e901ff87",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frugagon.png",
+      "bytes": 109567,
+      "sha256": "d343ee7b4f56caebe44358ad4e7b655a7efac5203bdc7dc3fd15cfb96f2fcc3e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frugantuan.png",
+      "bytes": 112507,
+      "sha256": "abc8879dc14474e425900abf070ee5d6394221371d54bef1218d0f25f90b9817",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frugatoad.png",
+      "bytes": 29143,
+      "sha256": "975924f6bf944c3e2b9c0fa662f1a0e067f91f13421694bdbce25e446e899519",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/frugling.png",
+      "bytes": 70584,
+      "sha256": "880bae61b050cd4adc84dfeb7e94e4001bdd8d6cc81796ba9d3dd90fa6e07fe9",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/fumekit.png",
+      "bytes": 56079,
+      "sha256": "815ae0109e100438500370129aff8fd53ac2a7b4ebfd2ce37ba97897719b76fa",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/funglet.png",
+      "bytes": 65179,
+      "sha256": "e49da7e50b09bf47a1bd6baabd4ce2484ab81b06f5667823caec1d58de9407e9",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/galewether.png",
+      "bytes": 89850,
+      "sha256": "73b90adf1c39c1c85c97d9375ccf673e1379ec4c7ede30c04f855ff07c59c37d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/gemmapo.png",
+      "bytes": 130638,
+      "sha256": "fda5f1d9a430db1e8460e7a350ce8b07b6c4e55d184b4f8a07b576f94328554a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/gemsnail.png",
+      "bytes": 76333,
+      "sha256": "57e9f2d270dc05fc1a5b128b9564c4c07e4d196cbcdf0d4ee4c04b2e79c37334",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/gibber.png",
+      "bytes": 57485,
+      "sha256": "4a08231f5eae58472b7f793c7d72fefc1b82b135b8985cc883cdf7230887a285",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/gigagnash.png",
+      "bytes": 103791,
+      "sha256": "8eeb0739510f36dc635bde3a84df20f8ef39645cf5f817753e47e88bc88dbe89",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/glideflip.png",
+      "bytes": 124194,
+      "sha256": "283c3596ece68f4ecf718819c772cfaade2aa9e3eb37ae2161333ce1150d0c18",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/glimmerwing.png",
+      "bytes": 118830,
+      "sha256": "9932abea3b9009941d5886d6b620ccfea11cfe8c122887d5a6fd650bef336b6b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/glowfly.png",
+      "bytes": 106244,
+      "sha256": "d54a7a01aeb059b4df14071b9fdf5e8763c3d90ccd8f5d11e5dc5499d457ebfd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/goonbug.png",
+      "bytes": 59218,
+      "sha256": "99b09e0164ca68102eb3d41f6e2b32fa82f2c1f9c2f7d3eea16190b38fde111a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/gopher.png",
+      "bytes": 78532,
+      "sha256": "bdac6de0e1876a7754aa1e5452f2448401b01cbc11038f16dc0b00db9ba82795",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/grillhog.png",
+      "bytes": 82809,
+      "sha256": "3df6554647d3c5395a05d36143ddf93c9e7dd3f492bdb29331fd6e0a65cd1a23",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/haplysia.png",
+      "bytes": 116242,
+      "sha256": "1a18dbf8c3dbad61e66890fec5b95d62c9287e2b17d943ea38a5280a511e61ff",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/heliabloom.png",
+      "bytes": 142870,
+      "sha256": "34c8c929dd04dc73cf613a12529a3cc65aa33c07d91a2d1d1af8bd2426397f1e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hellhound.png",
+      "bytes": 109182,
+      "sha256": "1c656afcea10fc3e4094cd7fe8933c2354690359b4a512288a5c9ec6d141ec53",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hierotyrus.png",
+      "bytes": 118124,
+      "sha256": "372425424c277a3489728c59476f1f3ef92620dea9ad4730b791cb86ec589d4c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hippiehog.png",
+      "bytes": 257174,
+      "sha256": "caa6930d7334c500743da22ad4375188d644bdb408f91280d31f31947f3e55da",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hootlet.png",
+      "bytes": 38784,
+      "sha256": "62513d22118a478ca599be9b2416da3adf5dc2b2cb94d83e97134a5eca6f3892",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hothog.png",
+      "bytes": 90678,
+      "sha256": "5caf8bfe9e28bc103dec385e4391d21652967d3e1a7d3f88792bf5166abfd49f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/humbleetle.png",
+      "bytes": 69963,
+      "sha256": "f826ac37a1b493f3ae093196575d3a2fa8b1cd78d00ebba48a9f4822476c0061",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/humbug.png",
+      "bytes": 59825,
+      "sha256": "65af84916c61c0fac485b195c2dcff2c5db58efe771eef7ec8319760c71aeeb1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hychroma.png",
+      "bytes": 184412,
+      "sha256": "c76af434541e35c0db52776cec6e9091c5d6c6bed18fadc39c2ce16d8cf2b2c5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hyphoria.png",
+      "bytes": 99665,
+      "sha256": "19d5e72c42e9c2067d14d5bf4c435063c5f35bd1868b22a6729db0c623be0661",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/hypnostrix.png",
+      "bytes": 86553,
+      "sha256": "dbd53cfb848551a895ca974435e9eb29665a0d72bce3ee7c2d265de1ef1957b2",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ignisnap.png",
+      "bytes": 30138,
+      "sha256": "7913f98b78e0a62c9862f5c97c2a9dfe28d9b394f1706b1f85ad8ae9cc365fd7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ignitoad.png",
+      "bytes": 61839,
+      "sha256": "4d2159d9dbae6ba126a6b9d7b83a04bc2f00ba793b3eeeb5efbb7c626a3823f3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/irisia.png",
+      "bytes": 231937,
+      "sha256": "324920bf39361e1acf5e94cd09b57bcb78b8847a5eb7205cd0e94851ed993a15",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/jarachnid.png",
+      "bytes": 93336,
+      "sha256": "926ba417890969c4dbbd15e865d1ef246f54fc0f66e19f3e87eb209f6f5d4b71",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/jewelsnail.png",
+      "bytes": 102987,
+      "sha256": "9876b0dcc5906a9aa7fb48bb0510b088ca58485d6ed3d016cfe9f9d2e763c41e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/joeyo.png",
+      "bytes": 23502,
+      "sha256": "0a605682e8c3ac87106a1733c6ebccc2cf60f35e00cc99a501cf829a2d6712e1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/kaiseroo.png",
+      "bytes": 98074,
+      "sha256": "a679077f367e0b5811119954be470677da58d1488b1204551aadd3ff5d8769bc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/kangachamp.png",
+      "bytes": 96414,
+      "sha256": "78eca4fb5320cd9e06f727f4b8eec4b46c93dfc3a3f44f782d046edf2b42ea13",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/kitjitsu.png",
+      "bytes": 79612,
+      "sha256": "a039e8a13efa97bed1dc1b4eecee3a0eba6981260f4ec5f0e03fec3183ecd650",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/kittazap.png",
+      "bytes": 67564,
+      "sha256": "d14877fff53b455f4d0129c0e46308e321d322744cf11ebadf020326a7bfe934",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lickflicker.png",
+      "bytes": 88717,
+      "sha256": "de47d90dc7ffff1c01d53b3e733c5e2701c8e10767724bf0f7679fee2964fe22",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lilypo.png",
+      "bytes": 131991,
+      "sha256": "cc14573847fdf38552d4bf9ef3eb91cd8b709cb9238c42d71fabc014ba1128c1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lollama.png",
+      "bytes": 66964,
+      "sha256": "82cbf54e3830ee4aae107cd455910e1377cbf6615b666f46afbb9aebbd45ba01",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lordopus.png",
+      "bytes": 274708,
+      "sha256": "f155331f0868af428657c03b03d3aa890526737199c39dd349c63bddeeb911c4",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lullelly.png",
+      "bytes": 64643,
+      "sha256": "8b50c600bf181ee23fc42d0935e2c68a450bff6990d91a74df7931f055173dc3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/lulupo.png",
+      "bytes": 117869,
+      "sha256": "57e1130da50ba7afa75b41c9c93a817cbadc559d86e43fc3e752354f19d37f65",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/luminastra.png",
+      "bytes": 88038,
+      "sha256": "5a5d38ad87871da41f9a4808d0d4861f6120fc7d95309c59b272f799d6cdf3c6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/magmusk.png",
+      "bytes": 110114,
+      "sha256": "c58bab140058252285c0307c32da75770890b435cb11490f2e9d5712fcc72691",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/magnedart.png",
+      "bytes": 117880,
+      "sha256": "bb2e9b9f30a55ca0d07a9872fa900d192c52b95db7b7d9ecb0ff78876797d88a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/manteeny.png",
+      "bytes": 90524,
+      "sha256": "d6df520ccc8c4cdd70371b0bd3847ba274a71b8a3549a82694314aef6b63a0c3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/maskfry.png",
+      "bytes": 67068,
+      "sha256": "de305ad1a13e35442c7e7440b5bd7c343652d53205ac466498c5bb1c0d8d0bce",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/meteorax.png",
+      "bytes": 108522,
+      "sha256": "b85501494792067e377453a3a3430803441b4f8051adb40be4533522e18f5e65",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/momopo.png",
+      "bytes": 123843,
+      "sha256": "eca4efdf3e7df5b8da97922339e24e6f823f71309ef15816b6010090be0976fb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/morphanessa.png",
+      "bytes": 736806,
+      "sha256": "1228892c223a7be926756ecf84bda706d0a377b4c33fe47e1da274011705f662",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/mudrump.png",
+      "bytes": 60542,
+      "sha256": "7cd2644ebebe07b5978c6eb2537c342cfa5d0ab235686de4188b6d26bee1fb1d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/nekoflare.png",
+      "bytes": 91023,
+      "sha256": "c2241a3e0d66be7f26f5d393558c91c2a2f640a5e01011c0d3d5640e6cc31b12",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/nekowatt.png",
+      "bytes": 84622,
+      "sha256": "ee5ee0f831219da82275281b5d84388834537671dba0400b37887cdf40f2eb32",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/newflamander.png",
+      "bytes": 89190,
+      "sha256": "70ba940a23bb459b3e6f9e881a6699ad1b6c0a0c14f312ef362669f60217b868",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/nimbuzzy.png",
+      "bytes": 83746,
+      "sha256": "a6dbd55a159d251ea17be7bf31f725998fb9736b352103952e9e84ce8a27e106",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ninjaguana.png",
+      "bytes": 108089,
+      "sha256": "4dd5a7c93f0c7da480e9b16c50d77c5e597a798d74fa363544ed188984693ec3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/orchitoria.png",
+      "bytes": 127292,
+      "sha256": "d630a025867c18096697b17b0615106e5684c6b5ba230231778323c72ce35e36",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ospisces.png",
+      "bytes": 71672,
+      "sha256": "7d3d6d5eae9cd5248233404b51f354838c181e148c87765ab0e61e023cf23b07",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pandagrand.png",
+      "bytes": 104401,
+      "sha256": "b5bafc8a008138316297551a0ae641f0ee0284cd25b1e357dc57b20a2ea5232f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pandaroo.png",
+      "bytes": 65277,
+      "sha256": "2fbbf03a5edc59e0d4bb8ab1c98297768838bbb341c670720629ae96360c822e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pandaroot.png",
+      "bytes": 28577,
+      "sha256": "22dcd9372f3232519c022f0dd9a1c203658ba46cb2f560d610e90bdc7f30e266",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pandarrior.png",
+      "bytes": 92128,
+      "sha256": "72744aa7043363b1efb8617462d35cb916badbad5b3969ae9ce37ed5fdf4ce69",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pearpair.png",
+      "bytes": 68430,
+      "sha256": "b12f6b52a5cb60b4f691a8b960094c768c88ef5276dbb23e34f2713f4f3ed12a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-43-4.png",
+      "bytes": 410530,
+      "sha256": "90714f50c4e89dcf5e8e0852264aad18314bf19ced803d4101522497884ceb13",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-50-4.png",
+      "bytes": 598086,
+      "sha256": "2179f018dc61b94cd7e9e60ef0f1f6fe613c4b1a83c18a459871712acceeff63",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-52-4.png",
+      "bytes": 487382,
+      "sha256": "b3a2e7b8d789f4641185e175f26a406f6dd7dddbe36a92686caf2760930252d2",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-54-4.png",
+      "bytes": 453679,
+      "sha256": "9e66692f6ba08a10026d95ef7ae304e0898e978b99f4b4e9d9069647e8e9d681",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-69-1.png",
+      "bytes": 299348,
+      "sha256": "f5a06de74dffaf2da5eb70833f1545550dae71f1ec7efa985b7bcb3c4c915b35",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-69-2.png",
+      "bytes": 378960,
+      "sha256": "9d6fae8a6de953de702ac3410328c46b0368eb7eb48a0b8086b797140daff4e2",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-69-3.png",
+      "bytes": 400988,
+      "sha256": "685c013bcd79a540cc64fb4b2c92b52f779cd6c934aa83088e97b195c3dcc94b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pet-69-4.png",
+      "bytes": 434311,
+      "sha256": "d16ba0811b2d08ab761a5569011ac28fbbff8bd22c45a02bb899aa620629a8d0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/phantifox.png",
+      "bytes": 108803,
+      "sha256": "b708b4a6f48af44a4f8a2ed74123bd836af4c60c01ee040f89f1ae44903581b3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/phantothief.png",
+      "bytes": 280640,
+      "sha256": "985abcbc530e920c27e636782fe78c3c6cc4f37f1d3658b954ef0b4f84e97c85",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/phosflare.png",
+      "bytes": 125023,
+      "sha256": "afdd197f5cb3b41c05081c68f6670c0eea407f41fd62e57af58a2196cdf8db80",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/poakie.png",
+      "bytes": 17311,
+      "sha256": "8287aa61c0331d7be736b108323959fe6afa5963eb75dd8b12b49af691534dad",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/polarpaw.png",
+      "bytes": 145516,
+      "sha256": "3218276717f9d2b49d2b6deb5f02908e2ca34c9aab44eb2ff3600ad2d558d161",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ptooielama.png",
+      "bytes": 111047,
+      "sha256": "c505b4f02958e7eaa2084b8644a784ed227c04d878ce3e2ac92f7e6c8cb74451",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/puffbelly.png",
+      "bytes": 100031,
+      "sha256": "de473f457cd573b7dfecddab6f4a7758c409980e30b4fdf5b6ef542869abf975",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/puncharoo.png",
+      "bytes": 77971,
+      "sha256": "39dfd97dcf82e3e934ff8b0e34aa7bbde4d824c9ae9a0650e2826534e97e3ed7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/punchimp.png",
+      "bytes": 44952,
+      "sha256": "052fe3185d826e6032727f1fcb9811657ae605d15fdccb1b4d0641e574fba61e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyroclobster.png",
+      "bytes": 81475,
+      "sha256": "9a9c0d486b235645ceef88e613f7968e8898fbbf7de98ebcc2164badca03934d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyrodaemon.png",
+      "bytes": 114160,
+      "sha256": "f279e2adff09b0d3919c6a8b99bb51256df4cf54770d9693dcae1105b9b0c17a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyrohound.png",
+      "bytes": 42779,
+      "sha256": "3aa992e2a04dabb75212b2be1ad9088975a995b3955f6abda7459be07e0d9455",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyromaki.png",
+      "bytes": 151919,
+      "sha256": "810e70d1e9c91b3e0817464f8d55e3914cde3ca1843d9036aa77c50f36138890",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyroprawn.png",
+      "bytes": 71709,
+      "sha256": "a28c18f5bcafff2a02b7cf72ee44080d7f6810b6f53ace08ed01c1f958c04a94",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyropup.png",
+      "bytes": 76776,
+      "sha256": "2bc65478f3ddffed7e26789b9dad56916a6e11e199de7c348e54ec74304e1a98",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/pyroviathan.png",
+      "bytes": 339953,
+      "sha256": "e6ea0675b71adf21357fbf9796528f3a590f9b874d9af13dfe5ec9548f0ef3a2",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rattlecoil.png",
+      "bytes": 89024,
+      "sha256": "4bfddcdeda31862b7fc452f84b765805b278758fbbc8937d632997bc4edb3530",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ringtail.png",
+      "bytes": 165738,
+      "sha256": "333d827323bd7c5da1b4bfc787dc8b452b4b714ec0724da7d430ff2662e493cd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/ripplewing.png",
+      "bytes": 87547,
+      "sha256": "dd0cc2feb72af1da808fd78744325fce6beece99d7c3511a6fa623d340f9746a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rizzler.png",
+      "bytes": 283688,
+      "sha256": "bdfacf613807f2527eb8c536a4ecc5c1516eded28ccb65aceb6322e9609cbd1e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockfu.png",
+      "bytes": 24344,
+      "sha256": "46d43ade9f35bfec156c1dbc9660b06c95e861a2b89f3d32d73e76e6577bd908",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockhog.png",
+      "bytes": 20004,
+      "sha256": "e2f39c179f8f3e62fb9e6404e05b8585fa389163f5ece66457eb32aa11498d9f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockong.png",
+      "bytes": 93326,
+      "sha256": "a4ed5f7bf1600f87fecd0d1eb2b499bb19d1869c3cd58d9cbc02625961286b53",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockshell.png",
+      "bytes": 79629,
+      "sha256": "16bdb9b2b17f5fef5aa990bdc7a4b0ba72aa71b34c60b5446197ea8dbda7b94f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockwu.png",
+      "bytes": 121749,
+      "sha256": "7f3749a81244212892d57a9a0535f6c3ae7e9a38af706abf9ee5b2d2de614db5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rockzilla.png",
+      "bytes": 100663,
+      "sha256": "ebedc1a089c368bad6ed9dee0410c836d490271e1d33bb218011dbb0096f0f86",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/rubblet.png",
+      "bytes": 60564,
+      "sha256": "06370630869c25555b0612f0a7f5c8fb29be2402e791923738ef0aaa90efa7ab",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/saberheart.png",
+      "bytes": 237419,
+      "sha256": "a79b9635cd430466becb6d0142f246c24e0ac27b5211aa756255e9d7ab58e6dd",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sackling.png",
+      "bytes": 91932,
+      "sha256": "c00ffd00ca52c6b02d125281aa03676866f7295e1e468606b237815a7b94d83f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/scorchwing.png",
+      "bytes": 27717,
+      "sha256": "ddf260d22e027476b72f6f82063f1d45b9031740a1112a919b8551551af8589c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sealing.png",
+      "bytes": 96824,
+      "sha256": "80446214a8e1e7776480e3d0fad38780d90d669129564e56b3c52295e0de41f6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sealoon.png",
+      "bytes": 105481,
+      "sha256": "42ff9f61fafcd8516e673249ca88b7747f35ed290009e047b15e4d1be08166cc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sealord.png",
+      "bytes": 91936,
+      "sha256": "85fb85288554f14e57db5e3483d6010b26d557865b33aeeb10e759160fd5d4f8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/searhog.png",
+      "bytes": 77097,
+      "sha256": "72ecb88a32c5d8f1d4efb2935a15c889a910f17855eb115c83c308cc95918368",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/seaswirl.png",
+      "bytes": 103722,
+      "sha256": "a0876a354248e1d16e6d32c3e98ad3ddd0a2840a0c0f649f14bafbec58271672",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/serrabloom.png",
+      "bytes": 114732,
+      "sha256": "eb71b20776c1bf333abaa9118e7d8de7bd821299c8adca2889f2326e0b60703a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/shardsnail.png",
+      "bytes": 67327,
+      "sha256": "49d55fa0dcad827dbd48d72f51c5beb066faf9368d72f6ffe0382dfb270153d7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/shellshy.png",
+      "bytes": 81655,
+      "sha256": "6a09bda30fa9a1df066b60248ec372a27b784b55d0c8e7494e99b3c67a42d822",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/shrimpyro.png",
+      "bytes": 15676,
+      "sha256": "1acc1e6086b78c710975c9d8aaa2107cac71872d413f1a787092bc0786f70bbf",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/silversear.png",
+      "bytes": 92603,
+      "sha256": "fc7d21e63886d80294d1fc896c2e5cf096956cbcacbc85038ead39f06b50304e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sizribb.png",
+      "bytes": 50355,
+      "sha256": "495dcc1c513a04e788cab1f5394e046201a2a2cd6b528768a8f26167c4feab5d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/skinklet.png",
+      "bytes": 59035,
+      "sha256": "837c4873fc150f99a7aba8ef409c1b02b2c8e849fa92100f7d851925bcc6785f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/skinkoon.png",
+      "bytes": 88896,
+      "sha256": "d74374a3eb4abaf15de6d9d628224faac1515ed9bea8a6e57745930e8bfb62c6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/slobberlama.png",
+      "bytes": 97280,
+      "sha256": "ecc7d06dc3e271e9b181f7eeb3674ef52581110cba6680825847d6a859dbd618",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/snapshade.png",
+      "bytes": 29402,
+      "sha256": "44f1e2238169151bea6267ed7a1ff05303393bcee4c818b2e822a0075a35695f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/snoozebo.png",
+      "bytes": 27885,
+      "sha256": "b30a3b1060b2862e108b87675412db21fc7360e45b62a36fe9d4a4261ad476ee",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/snowcub.png",
+      "bytes": 104069,
+      "sha256": "f89a6d9cc644c264c14a099056847a87282e4d61e1375d1a7eea2640a5e9a60c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/solaflora.png",
+      "bytes": 106770,
+      "sha256": "c465547dcbaf5011604fcc37210143b261ef10cb5dd5c4a381e92c60de62fff5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/solpear.png",
+      "bytes": 68960,
+      "sha256": "1ec0ab824a734aaf43da1a4109a1d0dc1e1fb3f6e25a586a48d9244306276827",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/somnrayna.png",
+      "bytes": 147696,
+      "sha256": "855ea75e0a94c6074889669b6575a9522dea04ca031b66389a35945fca986a8a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sonarbat.png",
+      "bytes": 87751,
+      "sha256": "fb04bf39d83a3a548aba222ab9cdaed327c89d45e591234335a45ef4f1593fb4",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/souphog.png",
+      "bytes": 88729,
+      "sha256": "72c6ef2599804ed25c48c72a164e9a7088aadaea59280ff954d9200e1e79192f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/souverelle.png",
+      "bytes": 107590,
+      "sha256": "8d052ec504b744daf21746c1dcbae894289e54fb1160527a3b3375a8d9c675ff",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sparkdoe.png",
+      "bytes": 26098,
+      "sha256": "fce3c193bcc4e31e3339b5f9db3bbf87a951ad347b25165fc98e6914430e2e76",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sparkeet.png",
+      "bytes": 18070,
+      "sha256": "eb4e0b6ee34178ac21389d751ca43fcb355a0239ee18a46713aee6e469499df3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sparkit.png",
+      "bytes": 48681,
+      "sha256": "13f03111dc96f1996bd6c720517dda228f1c8de435471e6c0d9384a21a6400fa",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sparkrow.png",
+      "bytes": 65771,
+      "sha256": "9900bd87b5f47234a0cef23f0d3a3fc09847804c4cad3423cacbff230dacbb9f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/stalkerix.png",
+      "bytes": 26963,
+      "sha256": "05c78f3b762a152a0f53106b9f4ee81e70f2f7f49645190e0af8fbc8b58094ad",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/stoodbeak.png",
+      "bytes": 121184,
+      "sha256": "bd568ca417b39dc761a0e85a12776986766380db7aa7e211da4e859f07ee18f6",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/stormlion.png",
+      "bytes": 110827,
+      "sha256": "6edae991b71f529b1b351e36e7494eaaca8de783f08d82f38d7f35122175d08a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sulfunk.png",
+      "bytes": 67857,
+      "sha256": "3ef446eb14b2286b6dd7fbe78a1ce84aacd673553370671acf910e8c09fe3c7d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/sunfleur.png",
+      "bytes": 93887,
+      "sha256": "d952b40639c922a88914897550df631dcb0e4cbd11628e7070e7b5dc3dcf1cf1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/surgehoof.png",
+      "bytes": 28318,
+      "sha256": "33db2e5699350c82041c150aca9a6ee10d8b6318af0590e44a052a270926ad56",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/swaystroll.png",
+      "bytes": 30692,
+      "sha256": "d2a937ce7bb6fb4614bbb21ce3cbd363e903dd106e17f86457126c173f6f319a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/synthhog.png",
+      "bytes": 73894,
+      "sha256": "e05ab876d9fd2ae8ba2a2ed208bde8102bfc7dfb243e684a7339e9e5c1b0ac66",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/taiglow.png",
+      "bytes": 105362,
+      "sha256": "be75961111a30cb9696c69eb383945e3bb45d49f4464674082171f3e9bf6b02d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/taptail.png",
+      "bytes": 60597,
+      "sha256": "ef1f7574128fd7c9510e1294c5bb40903fe38bb48f18d48428813829951bc3a5",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/technocan.png",
+      "bytes": 303907,
+      "sha256": "9424ad18bda365a0c0e1002270db3b878a92f85a96e61dd9f347cbaddd399716",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/terracrawler.png",
+      "bytes": 125742,
+      "sha256": "7917628d5a897aabef4f08220487f1d508ecfe96f7cf971a1e7dd37dc628e62c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/terraton.png",
+      "bytes": 106632,
+      "sha256": "2b6bea7315742a1dc48d8cf0ee550306dbcb7008182e79f4bff7d5cbb757f178",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/thornwisp.png",
+      "bytes": 66588,
+      "sha256": "105c0ea46ba705e10422387721e22c41ea842131f98620cbd15440b343fd6cda",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/tideon.png",
+      "bytes": 112679,
+      "sha256": "ad474b05d8e2b05e4c02f9b7ce5e78f4fe966063ffe8d11fc4701e41739df46a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/tikowl.png",
+      "bytes": 84925,
+      "sha256": "f120ff8ec12284a9551ce0d8f4289fdb885935f40aadfe38c76a846ca07a44dc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/tindercub.png",
+      "bytes": 64756,
+      "sha256": "416c00947b4db45c536463f8bbf16e7c9a16a25502acc25c9c102671f9121885",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/toucanzam.png",
+      "bytes": 85829,
+      "sha256": "47426a28d80b1df7824b2456d785671e4b711ad09544f11a7f967a70b5ee5e03",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/trippet.png",
+      "bytes": 82210,
+      "sha256": "b6632aae296b5094a202b658b27307497f3b6680ab4a2f4eab21a889373a0a3c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/turtuff.png",
+      "bytes": 27647,
+      "sha256": "c8a998ceceb0f63cac6c9e3b943a3a5e7f5e219a830692acdac82ef81a803372",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/umbraveil.png",
+      "bytes": 155354,
+      "sha256": "45820e413381e57c507093b0995a343dd0ccb647234adf4ed6ef9a9380b973eb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltazar.png",
+      "bytes": 109261,
+      "sha256": "bc162e19e2f9503a4b321521e21ac67aec570ea94481995099aab427e4058c48",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltfawn.png",
+      "bytes": 66059,
+      "sha256": "16d3d4a780cc6a7ad41c4cc08d7e0dd2dd6a9144db00ec265b49301a13165a13",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltkit.png",
+      "bytes": 78475,
+      "sha256": "a89ee0b736956d663bc15da2c5841e80f9608eb6de039d55db3b3968e74d09b0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltling.png",
+      "bytes": 24221,
+      "sha256": "02ace316de1d68271e37287db2399126db5dae240a40d90c2555437f6dad6c6d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltmare.png",
+      "bytes": 92687,
+      "sha256": "511169151193116827258ad26fb025445bc1b330d2f69beef041e8b18a679ee1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltreaver.png",
+      "bytes": 114569,
+      "sha256": "664e51556e24e5549814ea52dc4303187291c10b97d036e2e089217e34879704",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/voltverine.png",
+      "bytes": 105244,
+      "sha256": "da75db500f35200aefbda8a46b4c385578ca3e173b256aa2e439fcf9fdad107a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/waddledo.png",
+      "bytes": 70590,
+      "sha256": "59fd23d79d65305713beb45ac88878d7bdbdf3550f2b6b2e55b9187e4a892142",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/watchroo.png",
+      "bytes": 32109,
+      "sha256": "0ccef84313d30491f8b41cb19ce9126eb9825eccc5e4f922bec51b7350440cc1",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/waveflutter.png",
+      "bytes": 97491,
+      "sha256": "124a87302b499c48ea38119b30be1c93a48a6707483a71fca9353ce0fb5c051f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/weaverfang.png",
+      "bytes": 97377,
+      "sha256": "2cf7d59e0830924b9a46e4a78f0f1e856f6f0384d36d8ffb77e74db2fbfa3e0a",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/wheekroller.png",
+      "bytes": 326583,
+      "sha256": "591aae3745202320ded4aed88f202562d12fb2626fcf587e50e61dbf0f645c55",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/wobbler.png",
+      "bytes": 47331,
+      "sha256": "c653937d83a9eb7b03cc9cb1862e43e4ac77fec7bf160ca50881fe8876398004",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/yawnelly.png",
+      "bytes": 98716,
+      "sha256": "17109e48c6d894c7d6c9f41a53059c75c896869748da7ab551cd298dc8843ac4",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zapantler.png",
+      "bytes": 111531,
+      "sha256": "e838d172ea65af99f47d479a0a07b8803de01c41671510c9d581203923e9c371",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zaplet.png",
+      "bytes": 62129,
+      "sha256": "9230485dac87ccfaaeddc8079d8d460fa853e8442a87e1ac838225fe14d5ddbc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zapooch.png",
+      "bytes": 24167,
+      "sha256": "936cfa029ea77778fc2b257f8ddc1c9102cdc99d0843d2073fa7179b11b0f65e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zappur.png",
+      "bytes": 66234,
+      "sha256": "133f92fc3a67a95bddb58f17826a31fc77958642732f0794397cc46e73506f97",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zapuni.png",
+      "bytes": 77918,
+      "sha256": "b8f4a4cfed95686da64d8014fdf53042c785fbd0b26b0eecfaeacf3af9255f54",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zapup.png",
+      "bytes": 46906,
+      "sha256": "5858717ff81249ffcb2d837e90296a45d54112f7ab729cd42e22ab27fe37a66c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zenscarab.png",
+      "bytes": 92478,
+      "sha256": "c59c2c22af0195e002a1105b42f92e764a71ca179df6ed443fd18f7bc76991be",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/lineup/tatari/zorrock.png",
+      "bytes": 280966,
+      "sha256": "aaae3d1647e6384a141df279994b0169cab6c1607dc338bbef36f0f991e3f5fa",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/maatouch-display.dex",
+      "bytes": 7212,
+      "sha256": "8c077314b76b8bd301c67ab407fcfa65ed6eeda8b19015d41a3779442b007cb9",
+      "category": "integration-binary"
+    },
+    {
+      "path": "assets/multiplier-max.png",
+      "bytes": 16943,
+      "sha256": "b06358e58bf8692d923f62620f02e45cc307b958e5cf517432a05043e592755b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/accept.png",
+      "bytes": 11324,
+      "sha256": "9aed222c9146e1dbdb6eb1f6cfa638c18871de10d84f72e1e7f17469176d1d4d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/capsule-all.png",
+      "bytes": 5486,
+      "sha256": "d07347509ef2561c43bef97761bfea23b845191674235da7c2d43f271bdd9a16",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/capsule-next.png",
+      "bytes": 6772,
+      "sha256": "e817f255ead45c8f710217dc7e733c4d059138acb06bc5e638286ab4e528eca8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/close.png",
+      "bytes": 3517,
+      "sha256": "bd4a313f011eb78589306d7e288eb180e53f04784e9c617193a7129182de959d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/confirm.png",
+      "bytes": 6894,
+      "sha256": "64fe0094ece21d930feea685d97c9c2db0f337b0789f42b39918dbd08caa9ced",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/free.png",
+      "bytes": 4093,
+      "sha256": "d35fb3d04635497ccf5cd5121cfe9a41df85dad929b62a3bd6e91c7bb298ad43",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/maximum.png",
+      "bytes": 11156,
+      "sha256": "ec77696197181bbf8a10319a3ea2baa624a570ed4938170527e0748c0d7a2acc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/reward-title.png",
+      "bytes": 38483,
+      "sha256": "d9f2713e75c62756819a0ddf473420ab9ef7cddeb4e9607617db223cdaffba83",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/capsule.png",
+      "bytes": 13197,
+      "sha256": "589708cbc365b34619fea96a7021abe9916da0200bfe84e97094b7fbd4d34f64",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/coins.png",
+      "bytes": 13108,
+      "sha256": "dd1583f4703124da5e1223d58b5c8daaa4afe634a42223aa0e6067d377dbcba0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/lunchbox-card.png",
+      "bytes": 16208,
+      "sha256": "42121c71c9ce88d8cb82d00d4ff2c06219796e92434cdb7fb82db4e0ec489d67",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/lunchbox.png",
+      "bytes": 10062,
+      "sha256": "1da9df29845e7294ab5691b77bedfc76320c27ff4f1f0e9569d1e9be2baf6479",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/raft.png",
+      "bytes": 10224,
+      "sha256": "8ba8b1955c042dfca3a1af026052442f31d575895e16a7c7ae0edd418b1554ab",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/stars.png",
+      "bytes": 13514,
+      "sha256": "595554fc42fe37af42d00441dbbb7bea8b6ab86fb6789ab2687df8d0ea851536",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/wishbox-card-sdk.png",
+      "bytes": 18236,
+      "sha256": "ba83aeb1cdf28298fb62805656cabbf684c09826b7d6aededec0ddb254baf7f8",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/wishbox-card.png",
+      "bytes": 18820,
+      "sha256": "553eeb77512b4e84d1a9626f1dc20182dbd946f144c9161ab66d97d40033f247",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/rewards/wishbox.png",
+      "bytes": 8630,
+      "sha256": "10faf36ee3e3be2ae01c05dd85164d9822ea68ce85df6ac17eb5765b613501ea",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/select.png",
+      "bytes": 2039,
+      "sha256": "7d7b5e95313fbb3a94e881e3e11789ce788cadbbb8531d6147ecad1ffd7ba661",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/rafting/spin.png",
+      "bytes": 11133,
+      "sha256": "5ea183aeb8ce1b1f4105949b307c79263cd45df013d4c38346a651b26d9cd65c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/record.png",
+      "bytes": 9636,
+      "sha256": "7fbc72a041e4e4759aa203016bc7ae322f4e98367f0a179aa3c3f685a1f8081e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/reward.png",
+      "bytes": 27834,
+      "sha256": "5d3b871f059468c95b1c8b3aad45d0cca3813d19398b155b2b203090f0d197a7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/title.png",
+      "bytes": 12355,
+      "sha256": "e2f2ba296e1d23bb3344bc3f693b0a7e59daae53de5e7f0d692fa13c7592171b",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/treasure/presets.json",
+      "bytes": 7224,
+      "sha256": "f2191768b6a54fe452f968c438a49d927ebc69b9a08f8ed46d0019b0d3aa51fc",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/bait-icon.png",
+      "bytes": 1153585,
+      "sha256": "0e421fbc2f925be05a101ad729880ce551724f6b3cefc355c21967be183e9f26",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/lineup.png",
+      "bytes": 8708,
+      "sha256": "350c6d32e448b2be76912aeab185bf5c7aa4bc55f9294c919dcef5e62a971810",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rafting.png",
+      "bytes": 743183,
+      "sha256": "d6e3ee605fa84b5fd9e333ff68b0aa3300f921bfc8b62a0e1054fabb479e7ea0",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/capsule.png",
+      "bytes": 683152,
+      "sha256": "5d3dd0a636932bcc5e3bc3e1a2c07171456cb5072aaf061d5d293dedc845cfeb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/coins.png",
+      "bytes": 711652,
+      "sha256": "0b4b19bee0e00024540f12fc1c190d8e69252f9479f1721ea1dd20440dd7cc3d",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/lunchbox.png",
+      "bytes": 715929,
+      "sha256": "a62a9873135f8300c76e2014ef7b556f8198a421d73a97817cc8490edb8b9da3",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/raft.png",
+      "bytes": 568416,
+      "sha256": "ac11cedc2e3748e6f1c675f460525807bc15c56ae1899e35c41fdebf18bcb56e",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/stars.png",
+      "bytes": 798182,
+      "sha256": "50375b569c301000caafcd56a4cfe1b57147ac1942a2f552490583461abab298",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rewards/wishbox.png",
+      "bytes": 798392,
+      "sha256": "b2aae1bd929be50967577d97cf6dce473fdeeb155248dce05e339a780628e02c",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rod-gold.png",
+      "bytes": 560318,
+      "sha256": "a66050134293044bee407d41f54f0f3b8fac880420952726978009c0dfa3e055",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rod-purple.png",
+      "bytes": 666153,
+      "sha256": "b6024cdca3c7a460f4d84926ebce286aa5d9445c4bd9cdbaad4843f97ece46b7",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rod-red.png",
+      "bytes": 673883,
+      "sha256": "8e6d3156911c25a16cb922c9066c16b24aa468fb64f48ea3b278ed2bf4e2d15f",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/rod-wood.png",
+      "bytes": 622523,
+      "sha256": "46a63ec0a47a77a17ad6bfd3bdde7fa671a1d9273192f29a0473046ea0c4f6fb",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/treasure-pickaxe-cutout.png",
+      "bytes": 662069,
+      "sha256": "b2b8fd3847ef6c27e08a6a7cbedf220abd14bec76af3cbf01d8022f8466e51c9",
+      "category": "unbundled-game-resource"
+    },
+    {
+      "path": "assets/ui/treasure.png",
+      "bytes": 1116496,
+      "sha256": "916b968b78843adfb771ab29c6963c8b55e38bb6bcb5bc3f7a58733591ab8b58",
+      "category": "unbundled-game-resource"
+    }
+  ],
+  "omittedIntegrationSources": [
+    "tools/maatouch-display/"
+  ],
+  "omittedPrivateEvidence": [
+    "assets/fixtures/",
+    "tests/fixtures/",
+    "validation/",
+    "logs/"
+  ],
+  "notACompleteRuntimeDistribution": true
+}

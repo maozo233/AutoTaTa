@@ -1,0 +1,21 @@
+import QtQuick
+QtObject {
+    readonly property color canvas: "#f4e8d1"
+    readonly property color surface: "#fffaf0"
+    readonly property color ink: "#101d42"
+    readonly property color secondary: "#806447"
+    readonly property color border: "#927151"
+    readonly property color blue: "#ffd65a"
+    readonly property color yellow: "#ffd442"
+    readonly property color purple: "#d8b8e8"
+    readonly property color shadow: "#d1b991"
+    readonly property color buttonShadow: "#a66b3e"
+    readonly property color white: "#fffdf6"
+    readonly property color highlight: "#fff1bb"
+    readonly property color refresh: "#ffe4a0"
+    readonly property color focus: "#d79528"
+    readonly property color entryGreen: "#ffe4a0"
+    readonly property color estimateHighlight: "#fff1bb"
+    readonly property color warningSurface: "#dd4131"
+    readonly property color emptyCell: "#8b7764"
+}

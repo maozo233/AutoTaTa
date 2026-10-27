@@ -1,0 +1,8 @@
+Character images and public catalog metadata retrieved from TataDex
+https://tatadex.org/zh/tatari/ on 2026-10-14.
+TataDex is an unofficial player-maintained reference site.
+Character artwork belongs to the game's original copyright holders.
+No new license or redistribution right is asserted by this project.
+Original PNG artwork is kept unchanged; WebP artwork is losslessly converted
+to transparent PNG for consistent rendering. Source URLs and hashes are
+recorded in assets/lineup/catalog.json.

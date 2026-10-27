@@ -1,0 +1,10 @@
+numpy==2.5.3
+opencv-python==4.11.0.86
+maafw==5.14.2
+windows-capture==2.0.1
+StrEnum==0.4.15
+MaaAgentBinary==1.0.1
+rapidocr_onnxruntime==1.4.4
+onnxruntime==1.30.0
+Pillow==12.3.0
+PySide6-Essentials==6.10.2

@@ -1,0 +1,9 @@
+Qt / Qt for Python (PySide6 Essentials), version 6.10.2
+Copyright The Qt Company Ltd. and respective contributors.
+Distributed using the LGPL v3 option; dynamically loaded Qt libraries are not modified.
+Qt source and license: https://download.qt.io/archive/qt/6.10/6.10.2/
+Qt for Python source: https://code.qt.io/pyside/pyside-setup.git/tag/?h=v6.10.2
+This application does not restrict reverse engineering for debugging modifications
+to the LGPL libraries. A PyInstaller one-file build extracts dynamic libraries
+to its runtime directory; application source and the build specification are
+available in the TaTaAutoFish project for rebuilding with replacement libraries.
