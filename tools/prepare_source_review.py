@@ -7,14 +7,14 @@ from pathlib import Path
 import shutil
 
 ROOT=Path(__file__).resolve().parents[1]
-ROOT_FILES=('README.md','LICENSE','LICENSE_SCOPE.md','DISCLAIMER.md','MAINTENANCE.md',
+ROOT_FILES=('README.md','README.en.md','LICENSE','LICENSE_SCOPE.md','DISCLAIMER.md','MAINTENANCE.md',
             'NOTICE.md','THIRD_PARTY_NOTICES.md','CONTRIBUTING.md','RELEASE_NOTES.md',
             '.gitignore','requirements.txt','requirements-build.txt','setup.bat','build.bat',
             'start.bat','start-autofish.bat','start-lineup.bat','start-rafting.bat',
             'start-treasure.bat','main.py','autofish.py','lineup_main.py',
             'rafting_main.py','treasure_main.py')
 DOCS=('DESIGN_AND_AI.md','VALIDATION_SUMMARY.md','MEDIA_BRIEF.md','SOURCE_DISTRIBUTION.md',
-      'PRIVATE_REVIEW.md','USAGE.md','RESOURCE_MANIFEST.json')
+      'PRIVATE_REVIEW.md','USAGE.md','RESOURCE_MANIFEST.json','KNOWN_ISSUES.md','KNOWN_ISSUES.en.md')
 TOOLS=('build.py','release_policy.py','verify_release.py','check_ui_fonts.py',
        'subset_chiron.py','make_app_icon.py','prepare_lineup_catalog.py',
        'check_source_assets.py','prepare_source_review.py')

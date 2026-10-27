@@ -1,8 +1,12 @@
-<p align="center"><img src="docs/media/cover.svg" width="100%" alt="AutoTaTa：maozo 的设计师 × AI × 桌面软件实践" /></p>
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
+<p align="center"><img src="docs/media/cover-zh.svg" width="100%" alt="AutoTaTa：maozo 的设计师 × AI × 桌面软件实践，0.2.36 已停止维护" /></p>
 
 <p align="center"><strong>设计师主导 · AI 辅助开发 · Windows 桌面实践</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
 > **项目已停止维护。** 本仓库是作品归档与非商业源码展示，不是标准开源许可项目，不承诺修复、更新、答疑或技术支持。使用范围见 [授权说明](LICENSE_SCOPE.md)，使用风险见 [免责声明](DISCLAIMER.md)。
+
+> **当前版本已知问题：[查看 0.2.36 问题清单](docs/KNOWN_ISSUES.md)。** 保存样本中仍有 4 张图共 8 格无法确认；4 张缺行图需要重截；完整真实游戏上阵仍待复测。不能将页面截图或离线测试视为识别准确率和现场成功保证。
 
 # AutoTaTa
 
@@ -12,7 +16,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 的个人 Vibe Co
 
 它记录的不只是四个功能页面，也包括设计如何进入代码、AI 如何参与实现，以及软件在“不确定”和“操作失败”时应该怎样反馈。
 
-[查看界面](#界面预览) · [功能与交互](#四个功能一套交互语言) · [设计与 AI 协作](docs/DESIGN_AND_AI.md) · [使用与复现边界](docs/SOURCE_DISTRIBUTION.md)
+[查看界面](#界面预览) · [功能与交互](#四个功能一套交互语言) · [设计与 AI 协作](docs/DESIGN_AND_AI.md) · [已知问题](docs/KNOWN_ISSUES.md) · [使用与复现边界](docs/SOURCE_DISTRIBUTION.md)
 
 ## 界面预览
 
@@ -29,7 +33,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 的个人 Vibe Co
   </tr>
 </table>
 
-截图为 0.2.36 的实际程序界面，采用无设备连接的配置示例与本地计算状态。示例阵容、预算和概率不代表现场运行结果；图中第三方素材的权利不因截图展示而转移。
+截图为 0.2.36 的实际程序界面，采用无设备连接的配置示例与本地计算状态。示例阵容、预算和概率不代表现场运行结果；图中第三方素材的权利不因截图展示而转移。README 与 banner 提供中英文切换，图中的程序界面仍为中文。
 
 ## 四个功能，一套交互语言
 
@@ -66,6 +70,8 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 的个人 Vibe Co
 0.2.36 曾完成 **197 项一键上阵回归**和本机原生窗口启动核验。两台机器的 40 条诊断记录去重为 25 张原图后，问号从 12 格降为 8 格，原先已确认的身份没有变化；缺行截图明确拒绝，而非强行补齐。
 
 这些是对应历史环境的记录，不是现在或未来的正确率保证。诊断图和完整识别素材没有随本次源码展示分发；完整测试不能在缺少它们时原样复跑。0.2.36 的真实游戏完整上阵仍保留“待复测”边界。详见 [验证摘要](docs/VALIDATION_SUMMARY.md)。
+
+仍未确认的格子位置、截图范围要求，以及“真实拖拽失败”和“旧观察值误停”的区别，见 [0.2.36 已知问题与识别边界](docs/KNOWN_ISSUES.md)。项目已结束维护，这份清单不构成后续修复承诺。
 
 ## 看代码与复现
 

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620" role="img" aria-labelledby="title desc">
+  <title id="title">AutoTaTa — maozo 的设计师 × AI × 桌面软件实践</title>
+  <desc id="desc">浅蓝与深蓝的项目封面，展示一键上阵、自动钓鱼、寻宝辅助与漂流大赛。非商业源码展示，0.2.36 已停止维护。</desc>
+  <rect width="1440" height="620" rx="36" fill="#e9edf8"/>
+  <g font-family="Microsoft YaHei,Noto Sans CJK SC,Segoe UI,Arial,sans-serif" fill="#102246">
+    <rect x="55" y="45" width="247" height="38" rx="19" fill="#d5f4b1" stroke="#102246" stroke-width="2"/>
+    <text x="178" y="70" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.2">设计 × AI × 软件</text>
+    <text x="55" y="199" font-size="105" font-weight="850" letter-spacing="-5">AutoTaTa</text>
+    <text x="60" y="251" font-size="26">从界面设计，到真正运行的软件。</text>
+    <text x="60" y="289" font-size="23" fill="#516987">maozo 的设计师个人 Vibe Coding 实验</text>
+    <path d="M60 335H628" stroke="#102246" stroke-width="2" opacity=".25"/>
+    <text x="60" y="383" font-size="16" font-weight="700" letter-spacing="3">设计 → 实现 → 验证</text>
+    <text x="60" y="426" font-size="21" fill="#516987">Windows · Qt Quick · 本地图像识别</text>
+    <rect x="60" y="479" width="242" height="49" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="2"/>
+    <text x="181" y="510" text-anchor="middle" font-size="17" font-weight="700">非商业 · 源码展示</text>
+    <text x="60" y="574" font-size="16" fill="#516987">定格于 v0.2.36 · 项目已停止维护</text>
+    <g transform="translate(765 69)">
+      <rect x="8" y="9" width="610" height="101" rx="24" fill="#81ab5e"/><rect width="610" height="101" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="4"/>
+      <rect x="20" y="18" width="68" height="64" rx="18" fill="#d5f4b1"/><text x="54" y="60" text-anchor="middle" font-size="27" font-weight="750">01</text>
+      <text x="110" y="44" font-size="25" font-weight="700">一键上阵</text><text x="110" y="75" font-size="18" fill="#516987">导入 · 识别 · 纠错 · 上阵</text>
+      <rect x="8" y="142" width="610" height="101" rx="24" fill="#349eb7"/><rect y="133" width="610" height="101" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="4"/>
+      <rect x="20" y="151" width="68" height="64" rx="18" fill="#ccefff"/><text x="54" y="193" text-anchor="middle" font-size="27" font-weight="750">02</text>
+      <text x="110" y="177" font-size="25" font-weight="700">自动钓鱼</text><text x="110" y="208" font-size="18" fill="#516987">操作模式 · 预算 · 停止</text>
+      <rect x="8" y="275" width="610" height="101" rx="24" fill="#a66d35"/><rect y="266" width="610" height="101" rx="24" fill="#fff5dd" stroke="#102246" stroke-width="4"/>
+      <rect x="20" y="284" width="68" height="64" rx="18" fill="#e4d3ff"/><text x="54" y="326" text-anchor="middle" font-size="27" font-weight="750">03</text>
+      <text x="110" y="310" font-size="25" font-weight="700">寻宝辅助</text><text x="110" y="341" font-size="18" fill="#516987">校准 · 估算 · 辅助判断</text>
+      <rect x="8" y="408" width="610" height="101" rx="24" fill="#349eb7"/><rect y="399" width="610" height="101" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="4"/>
+      <rect x="20" y="417" width="68" height="64" rx="18" fill="#b8f0f1"/><text x="54" y="459" text-anchor="middle" font-size="27" font-weight="750">04</text>
+      <text x="110" y="443" font-size="25" font-weight="700">漂流大赛</text><text x="110" y="474" font-size="18" fill="#516987">奖励排序 · 观察 · 核对</text>
+    </g>
+  </g>
+</svg>

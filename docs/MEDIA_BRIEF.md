@@ -27,7 +27,7 @@
 
 | 文件 | 来源 | 用途 |
 | --- | --- | --- |
-| `media/cover.svg` | 为本次仓库编写的自制矢量封面 | 项目定位与四个功能的概览 |
+| `media/cover-zh.svg`、`media/cover-en.svg` | 中英文自制矢量封面 | 项目定位、四个功能与停止维护状态；由对应语言 README 引用 |
 | `media/home.png` | 实际桌面主页 | 统一入口与视觉方向 |
 | `media/lineup.png` | 实际界面，手动配置的示例阵容 | 状态反馈与预览 |
 | `media/lineup-editor.png` | 实际独立修正窗口 | 纠错流程 |

@@ -334,9 +334,24 @@
       "sha256": "92677b5c6fb10d3d2a94541b4e23cf7650c4af48c8be16379795f72dde6b474b"
     },
     {
-      "path": "docs/media/cover.svg",
-      "bytes": 3685,
-      "sha256": "9e6a647f31111614a300ab8e9faa452e87bb682020a7a41bb516921745d31141"
+      "path": "docs/KNOWN_ISSUES.en.md",
+      "bytes": 6500,
+      "sha256": "1c2cf05b1c100e4060969e8f88ae0c8b2fce07a7f2b5382410ace95af1074342"
+    },
+    {
+      "path": "docs/KNOWN_ISSUES.md",
+      "bytes": 5472,
+      "sha256": "8b4ff63eb49fcd4213eb1a29067f1ae186f9bf7201102efa3a1dc1ac0c587f22"
+    },
+    {
+      "path": "docs/media/cover-en.svg",
+      "bytes": 3717,
+      "sha256": "14bcac7c4f9710c98f22b194339d5ade83f7927007f2896ce55b19beda880a6a"
+    },
+    {
+      "path": "docs/media/cover-zh.svg",
+      "bytes": 3794,
+      "sha256": "c62d6c316a3e512b976e30d91aa98357cb8da9cd9da2ef89929c6b93011d3410"
     },
     {
       "path": "docs/media/fishing.png",
@@ -370,8 +385,8 @@
     },
     {
       "path": "docs/MEDIA_BRIEF.md",
-      "bytes": 2374,
-      "sha256": "019b6d6588594e2a5ca8abdb6e8a9905caa1bf97e78ee078b1072a7c53f923a6"
+      "bytes": 2429,
+      "sha256": "6a9a4d7aad02bf2ba17bd5825f75797217a5850ee0df27ca625d2955f1c7c2cd"
     },
     {
       "path": "docs/PRIVATE_REVIEW.md",
@@ -395,8 +410,8 @@
     },
     {
       "path": "docs/VALIDATION_SUMMARY.md",
-      "bytes": 1773,
-      "sha256": "b252636d1bcff1b4e03ee542b7ec94430a7660b004e778b9e6a4b92a7f541069"
+      "bytes": 1880,
+      "sha256": "dd447cc4714a8de525b56408c6be5391f3d49a32aee23e2382299694da7a2ce4"
     },
     {
       "path": "fishing/__init__.py",
@@ -714,9 +729,14 @@
       "sha256": "78d6040687354f969d7b3c3843e6334241c4fbd8c7a501d4bbab0d3f9e1c6381"
     },
     {
+      "path": "README.en.md",
+      "bytes": 9858,
+      "sha256": "ad46d3240d6f908e139f0f28d164598708115f7b831f3aaddbdde631f80102dd"
+    },
+    {
       "path": "README.md",
-      "bytes": 8009,
-      "sha256": "e6861805377e868d9774c203b665169f20d1817d2cf39f6323bd1959225c1e0b"
+      "bytes": 8791,
+      "sha256": "50281f03bc2ff0b67c7b93cb1de9a936c83ff7a70e4857b9699b5637f784e924"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -1085,8 +1105,8 @@
     },
     {
       "path": "tools/prepare_source_review.py",
-      "bytes": 5844,
-      "sha256": "92ae52ea7da9534238cf4f90807430ce80c8e8020ff224ac73d1712c28047f07"
+      "bytes": 5898,
+      "sha256": "5eb37e0fc1d6c9811826bbb5c2a666ac98ff031ba6310ce391e701b61677a9e5"
     },
     {
       "path": "tools/release_policy.py",
