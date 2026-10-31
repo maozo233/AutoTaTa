@@ -2,9 +2,13 @@
 
 Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 
-## 作者原创代码：非商业源码可见
+## 作者创作及有权授权的 AI 辅助产出：非商业源码可见
 
-作者有权授权的原创 Python、QML、自制 SVG 与随附技术文档，采用 **PolyForm Noncommercial License 1.0.0**。正式条款见根目录 [LICENSE](../../LICENSE)，[官方原文](https://polyformproject.org/licenses/noncommercial/1.0.0)。
+作者创作、以及作者有权授权并纳入本项目的 AI 辅助产出，采用 **PolyForm Noncommercial License 1.0.0**。包括 Python、QML、界面设计、自制 SVG 与随附文档；AI 生成、修改、重构或整理后纳入本仓库的相关内容，也在作者可授权的范围内适用。正式条款见根目录 [LICENSE](../../LICENSE)，[官方原文](https://polyformproject.org/licenses/noncommercial/1.0.0)。
+
+**本项目的 AI 创作部分与人工创作部分一样，须遵守上述非商业许可，不因生成方式不同而例外。** 这包括纳入项目的 AI 生成内容及 AI 辅助修改内容；保留署名、许可和 Required Notice，具体允许用途以许可证原文为准，授权以作者有权许可的内容为限。
+
+**AI 参与不构成默认豁免，也不自动产生作者的所有权。** 本说明不将所有 AI 输出一概宣称为作者原创或当然具有著作权。授权限于作者依法享有或取得的可许可权利；不创设本不存在的权利，不覆盖作者无权授权的内容。第三方代码、模型、字体、商标和游戏素材，及对它们进行 AI 抠图、去背景或改绘形成的内容，不因 AI 处理或纳入项目就被改授本许可；仍须遵守原权利与适用条款。
 
 该许可允许其规定范围内的非商业使用、研究、修改和再分发，并要求保留许可和 Required Notice。**未另获许可的商业性使用不在授权范围内。** 是否属于允许用途，以许可证原文为准；非商业机构与法定合理使用等条款仍然适用。
 
@@ -16,7 +20,7 @@ Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 
 | 内容 | 授权与处理方式 |
 | --- | --- |
-| 原创业务逻辑、Qt Quick 界面、自制矢量图及说明 | 默认采用上述非商业许可；已有第三方声明的文件除外 |
+| 作者创作及有权授权的 AI 辅助生成／修改的业务逻辑、Qt Quick 界面、自制矢量图及说明 | 在作者可授权的范围内默认采用上述非商业许可；已有第三方声明或原素材权利的内容除外 |
 | `docs/media/cover-zh.svg`、`docs/media/cover-en.svg`、作者自制应用字标 | 作者的非商业授权范围；不授予以作者名义背书的权利 |
 | `docs/media/*.png` 界面截图 | 用于本项目的设计展示；图中游戏素材、字体及他人标识各自保留权利，不提供可提取素材包的授权 |
 | `assets/fonts/` | Chiron GoRound TC，按其 SIL OFL 1.1；不追加禁止商用条件 |

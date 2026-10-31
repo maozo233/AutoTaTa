@@ -93,7 +93,8 @@ def export(output):
         shutil.copyfile(source,destination)
         entries.append({'path':relative.as_posix(),'bytes':source.stat().st_size,'sha256':digest(source)})
     summary={'schema':'autotata-source-showcase-v1','version':'0.2.36','author':'maozo',
-             'snapshotDate':'2026-10-28','license':'PolyForm-Noncommercial-1.0.0',
+             'snapshotDate':'2026-11-01','license':'PolyForm-Noncommercial-1.0.0',
+             'lastFunctionalMaintenanceDate':'2026-10-24','maintenanceDeclarationDate':'2026-10-28',
              'maintenance':'ended','includesThirdPartyRuntimeBinaries':False,
              'includesGameSourceArtwork':False,'files':entries}
     (output/'docs/SOURCE_MANIFEST.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n','utf8')

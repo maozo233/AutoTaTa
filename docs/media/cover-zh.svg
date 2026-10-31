@@ -6,14 +6,14 @@
     <rect x="55" y="45" width="247" height="38" rx="19" fill="#d5f4b1" stroke="#102246" stroke-width="2"/>
     <text x="178" y="70" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="1.2">设计 × AI × 软件</text>
     <text x="55" y="199" font-size="105" font-weight="850" letter-spacing="-5">AutoTaTa</text>
-    <text x="60" y="251" font-size="26">从界面设计，到真正运行的软件。</text>
-    <text x="60" y="289" font-size="23" fill="#516987">maozo 的设计师个人 Vibe Coding 实验</text>
+    <text x="60" y="251" font-size="26">探究 AI 在设计与开发中的可行性。</text>
+    <text x="60" y="289" font-size="23" fill="#516987">maozo 的设计师个人实验 · Vibe Coding</text>
     <path d="M60 335H628" stroke="#102246" stroke-width="2" opacity=".25"/>
     <text x="60" y="383" font-size="16" font-weight="700" letter-spacing="3">设计 → 实现 → 验证</text>
     <text x="60" y="426" font-size="21" fill="#516987">Windows · Qt Quick · 本地图像识别</text>
     <rect x="60" y="479" width="242" height="49" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="2"/>
     <text x="181" y="510" text-anchor="middle" font-size="17" font-weight="700">非商业 · 源码展示</text>
-    <text x="60" y="574" font-size="16" fill="#516987">定格于 v0.2.36 · 项目已停止维护</text>
+    <text x="60" y="574" font-size="16" fill="#516987">最后功能维护 2026-10-24 · v0.2.36 · 已停止维护</text>
     <g transform="translate(765 69)">
       <rect x="8" y="9" width="610" height="101" rx="24" fill="#81ab5e"/><rect width="610" height="101" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="4"/>
       <rect x="20" y="18" width="68" height="64" rx="18" fill="#d5f4b1"/><text x="54" y="60" text-anchor="middle" font-size="27" font-weight="750">01</text>

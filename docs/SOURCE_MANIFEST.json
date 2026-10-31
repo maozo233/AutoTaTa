@@ -2,16 +2,18 @@
   "schema": "autotata-source-showcase-v1",
   "version": "0.2.36",
   "author": "maozo",
-  "snapshotDate": "2026-10-28",
+  "snapshotDate": "2026-11-01",
   "license": "PolyForm-Noncommercial-1.0.0",
+  "lastFunctionalMaintenanceDate": "2026-10-24",
+  "maintenanceDeclarationDate": "2026-10-28",
   "maintenance": "ended",
   "includesThirdPartyRuntimeBinaries": false,
   "includesGameSourceArtwork": false,
   "files": [
     {
       "path": ".github/CONTRIBUTING.md",
-      "bytes": 665,
-      "sha256": "0e6f064b209f13175809b32276aa9157b2b7b1f1b69115c47259aea9b8c9a14d"
+      "bytes": 904,
+      "sha256": "038432e094540f379ce888bbd688a09eaa2ff7f63e32a78e0ba718219f773d95"
     },
     {
       "path": ".gitignore",
@@ -310,48 +312,48 @@
     },
     {
       "path": "docs/DESIGN_AND_AI.md",
-      "bytes": 4275,
-      "sha256": "92677b5c6fb10d3d2a94541b4e23cf7650c4af48c8be16379795f72dde6b474b"
+      "bytes": 5383,
+      "sha256": "89aa668ea303d1bf259ecc4defd87db41fb431b027ee9e724096bca05656c790"
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 10112,
-      "sha256": "9204bf9e9640bf6de20a9db798bab109a729472ddba7a6919213ef17ffe0faa1"
+      "bytes": 10491,
+      "sha256": "70d033b1ae0735fa837f18bc57d494a70007c55001468fb691111868a8ed5382"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 8494,
-      "sha256": "1c7d8ed243141dcd7ec5980db77bb87627d2e15baa8bc9d6c3e36423fc849e73"
+      "bytes": 8771,
+      "sha256": "4b89c5833e9a962794986241acb70f24c034a5c0aba7230dc8effd2f206c83e0"
     },
     {
       "path": "docs/legal/DISCLAIMER.md",
-      "bytes": 3099,
-      "sha256": "3c0feb8307d088f192176369a2a1451df4a88372eb29734f5f7aa9e230091b20"
+      "bytes": 3200,
+      "sha256": "f50f363b25c9999ab63e726bb3b695f71d3810b8956b35f49fb65b1579c60b09"
     },
     {
       "path": "docs/legal/LICENSE_SCOPE.md",
-      "bytes": 4118,
-      "sha256": "f2fb8e16f6c12c5599822937da47bccc14bcc919d60694f96e102aa09d094790"
+      "bytes": 5279,
+      "sha256": "4b940188632eba827ceabcb9436b46745e0005c078cd054f5de7b74de508cebe"
     },
     {
       "path": "docs/legal/THIRD_PARTY_NOTICES.md",
-      "bytes": 5289,
-      "sha256": "13d830fe2d4b90602cba28a6c46cad3751c96117327f1923d8292300e2ef756c"
+      "bytes": 5386,
+      "sha256": "e41dc623098929b493d111d28237f692ba20e5477022fe8f78a45ab922673ccf"
     },
     {
       "path": "docs/MAINTENANCE.md",
-      "bytes": 1260,
-      "sha256": "092ab4c59767466e97b64b5508bd777ec5f66ecb63f6975216511e93f3f3e908"
+      "bytes": 2251,
+      "sha256": "70fff6f7020cf2b071904500c3169eb6419bd47560d913747f002a99e41e6626"
     },
     {
       "path": "docs/media/cover-en.svg",
-      "bytes": 3717,
-      "sha256": "14bcac7c4f9710c98f22b194339d5ade83f7927007f2896ce55b19beda880a6a"
+      "bytes": 3683,
+      "sha256": "83db94951d44066e9c1ec83696b8bce59e6f8278f54ea84ed523aec9da461509"
     },
     {
       "path": "docs/media/cover-zh.svg",
-      "bytes": 3794,
-      "sha256": "c62d6c316a3e512b976e30d91aa98357cb8da9cd9da2ef89929c6b93011d3410"
+      "bytes": 3782,
+      "sha256": "f6cd14c5b947ec82c704caa5426d588ac5d3f5f178e707b74a173ac6bc0f97a0"
     },
     {
       "path": "docs/media/fishing.png",
@@ -390,8 +392,8 @@
     },
     {
       "path": "docs/PRIVATE_REVIEW.md",
-      "bytes": 2400,
-      "sha256": "3eb754e4649d3ba0e209d6ab1080362c45859efcab51ae7a8c0a423e76de6d45"
+      "bytes": 2455,
+      "sha256": "18901e91288559923ed99b2be9223b5dad935f5e31f8b8825a9e2bad17ed7313"
     },
     {
       "path": "docs/RELEASE_NOTES.md",
@@ -670,8 +672,8 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 761,
-      "sha256": "5e28261ceebf2a6b84a0e54917ba3f54b3e16f05275115563ec04b5aa370b686"
+      "bytes": 1206,
+      "sha256": "482af9db8657bef8fa034b9634a8f3653f9621d5fc6cbaf7051ad7d1445361c1"
     },
     {
       "path": "packaging/AutoTaTa.spec",
@@ -725,13 +727,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 11240,
-      "sha256": "af07bb409c5312fdf3073f7d395718c52c2ef4e616d0b93056e9055f28d75150"
+      "bytes": 12808,
+      "sha256": "7132b17b83555d3dbaaf234b60d3b2c4b30f11547c1ff34441ca81e1ceab926c"
     },
     {
       "path": "README.md",
-      "bytes": 9983,
-      "sha256": "c8c1b93e4e16b5a64353a9ba1813d8939e8f68552e809c0a96987291238ae624"
+      "bytes": 11275,
+      "sha256": "084aff561c6af255f687b18d64cafbbb2257af89073096f752cbe624499454e2"
     },
     {
       "path": "requirements/build.txt",
@@ -1095,8 +1097,8 @@
     },
     {
       "path": "tools/prepare_source_review.py",
-      "bytes": 6325,
-      "sha256": "5fdb59a812d519e2c0207f891b627d4936939e07845f28a8d23c7773562e47bd"
+      "bytes": 6426,
+      "sha256": "f3f39833b35650a323579bfca7f924cca3d515fb6d629f5a240e42bd6ed2bd34"
     },
     {
       "path": "tools/release_policy.py",

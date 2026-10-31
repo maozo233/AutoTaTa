@@ -2,7 +2,9 @@
 
 # Known issues and validation limits in 0.2.36
 
-**Functional version: 0.2.36 · Diagnostic replay: 2026-10-24 · Documentation: 2026-10-28. Maintenance has ended; no fixes or compatibility updates are promised.**
+**Functional version: 0.2.36 · Last functional maintenance / diagnostic replay: 2026-10-24 · End-of-maintenance declaration: 2026-10-28 · Documentation update: 2026-11-01. Maintenance has ended; no fixes or compatibility updates are promised.**
+
+The implementation targets the game, MuMu emulator, and dependency environment used at that time. **Compatibility with current or future versions is not guaranteed.** “Latest” identifies the final historical package. Issues are disabled; this does not mean the listed problems are resolved.
 
 This page separates unresolved cases, repaired historical defects, and pending live validation. The lineup image statistics cover 40 saved records from two machines, deduplicated into 25 source images. They are not a general accuracy benchmark and do not describe treasure coverage. Raw diagnostic images, personal paths, and device information are excluded from this showcase.
 

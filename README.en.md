@@ -4,7 +4,9 @@
 
 <p align="center"><strong>Designer-led · AI-assisted development · Windows desktop</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **Maintenance has ended.** This repository preserves a finished experiment and shares source for noncommercial use. It is not an OSI open-source project. No fixes, updates, answers, or technical support are promised. See the [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md) and [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
+> **Maintenance has ended. Last functional maintenance / historical validation: 2026-10-24 (0.2.36); end-of-maintenance declaration: 2026-10-28.** This repository preserves the experiment and shares source for noncommercial use. No fixes, updates, answers, or support are promised, and Issues are disabled. This documentation update is dated 2026-11-01 and does not resume maintenance. See the [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md) and [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
+
+> **Compatibility:** the implementation targets the game, MuMu emulator, and dependency environment used during development / validation on 2026-10-24. It is not guaranteed to work with current or future releases of the game, emulator, operating system, or dependencies. “Latest” identifies this project's final historical package, not compatibility with the newest environment.
 
 > **Current limitations: [known issues in 0.2.36](docs/KNOWN_ISSUES.en.md).** Four saved images still contain eight unconfirmed cells; four partial-board images require recapture. Complete real-game deployment remains pending retest. UI screenshots and offline checks are not guarantees of recognition accuracy or live success.
 
@@ -14,7 +16,7 @@
 
 **Turning interface decisions into working software.**
 
-AutoTaTa is a personal Vibe Coding experiment by designer **[maozo](https://github.com/maozo233)**. It starts with information architecture, visual language, and interaction states, uses AI assistance to implement a Windows interface, image recognition, and automation flows, then revisits decisions through saved-image replay and local checks.
+AutoTaTa is a personal experiment by designer **[maozo](https://github.com/maozo233)** to **explore the feasibility of AI in design and development**. Starting from an AI draft, the author designs, adjusts, and revises the work in Figma, then uses AI assistance to implement a Windows interface, image recognition, and automation flows. Saved-image replay and local checks help assess the results.
 
 The project documents how design reaches code, where AI contributes, and how software should respond when recognition is uncertain or an operation fails.
 
@@ -56,10 +58,12 @@ Recognition alone is not sufficient evidence to act. Lineup deployment distingui
 
 ## My role and AI's contribution
 
+The process includes **AI draft → author-led design and revisions in Figma → AI-assisted code implementation → the author's review and adjustment of the implementation**. Work in the Figma file is part of the author's design contribution, including decisions about the initial draft and subsequent changes to layout, hierarchy, components, and interaction details.
+
 | Stage | Designer's decisions | AI assistance and evidence |
 | --- | --- | --- |
 | Product and interaction | Tasks, information hierarchy, feedback, stopping, and correction boundaries | Flow breakdown and implementation; see [application code](autotata) and [UI](assets/ui) |
-| Visual language and components | Rounded, lightweight direction; typography, spacing, themes, and consistency | QML implementation, component reuse, and adaptation; see [design notes (Chinese)](docs/DESIGN_AND_AI.md) |
+| Figma design and components | Develop and revise the AI draft in Figma: page layout, visual hierarchy, typography, spacing, components, interaction states, and implementation review | Initial drafts and alternatives, followed by QML implementation and adaptation based on the approved Figma design; see [design iteration notes (Chinese)](docs/DESIGN_AND_AI.md#ai-初稿之后的-figma-设计迭代) |
 | Graphics and asset processing | Asset selection, readability, edges, and transparency | AI-assisted cutouts for some entry and reward icons; derived artwork does not become the author's original copyrighted asset |
 | Implementation and validation | Acceptable outcomes, real failure samples, and when uncertainty must remain | Computer vision, solvers, replay, and regression checks; see [validation summary (Chinese)](docs/VALIDATION_SUMMARY.md) |
 
@@ -98,7 +102,7 @@ Local runtime research requires the necessary resources from lawful sources, fol
 
 ## License, use, and maintenance
 
-- **Author's original work:** [PolyForm Noncommercial 1.0.0](LICENSE). Keep the required notices and license; uses outside its noncommercial permissions require separate authorization. Consult the license text for the actual permissions.
+- **Human-created and AI-created contributions:** AI-generated, revised, or organized code, UI, documentation, and self-created graphics incorporated into this project **must follow the same [PolyForm Noncommercial 1.0.0](LICENSE) terms as human-created work. AI generation is not an exemption.** Uses outside the license's noncommercial permissions require separate authorization; retain the required notices and license and consult the actual terms. This applies only to rights the author can license; third-party content and AI processing of game artwork retain their original rights. See [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md).
 - **Third-party material:** dependencies, fonts, game artwork, and trademarks retain their own rights and licenses. They are not relicensed under the author's noncommercial terms. See [third-party notices (Chinese)](docs/legal/THIRD_PARTY_NOTICES.md).
 - **Use risks:** an unofficial project with no guarantee of accuracy, compatibility, availability, or account safety; exclusions apply only where legally permitted. See the [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
 - **Maintenance ended:** no promised updates, fixes, Issue / PR handling, or technical support. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
