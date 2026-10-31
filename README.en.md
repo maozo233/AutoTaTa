@@ -42,7 +42,7 @@ These are actual 0.2.36 UI captures using isolated configuration examples and lo
 | Treasure assistant | Board calibration, item sizes and counts, probabilities, suggested cells, and cost estimates | Manual correction and understandable estimates; assists decisions without automatically digging |
 | Rafting | Page recognition, multiplier, boat budget, six reward priorities, and stopping | Draggable visual priorities; stops or waits at purchase prompts or unknown pages |
 
-The four features share one desktop application, distributed as a unified [Windows x64 all package](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36), with separate source entry points also available.
+The four features share one desktop application, with separate source entry points also available. Only the source showcase is currently public; **no bundled executable is offered for public download**.
 
 ### Uncertainty is part of the interface
 

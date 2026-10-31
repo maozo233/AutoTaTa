@@ -397,8 +397,8 @@
     },
     {
       "path": "docs/SOURCE_DISTRIBUTION.md",
-      "bytes": 3305,
-      "sha256": "8e1fae1a6282a5f06e9603c1ad47dd110496544aa3bb0d1db4189159a2dd7055"
+      "bytes": 3256,
+      "sha256": "a20dc27e9d4af0484002e0d8f5852368678fca72c9dd6b442c0196b758e96303"
     },
     {
       "path": "docs/USAGE.md",
@@ -717,13 +717,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 10836,
-      "sha256": "492975f5cbaa685cf9dbf8cb7f5a28c23bc4013c35547e2b4004e5aa7a73461a"
+      "bytes": 10829,
+      "sha256": "7dcb1973ac9f8722defe6cbb7803ac7a6df7707ec9ef9939e4669a360e145f12"
     },
     {
       "path": "README.md",
-      "bytes": 9573,
-      "sha256": "91517b0b4ecb8ba47748bc827d27d28c72f904d6b55dde51e83ba6ba0ba85e5b"
+      "bytes": 9553,
+      "sha256": "83fecb8c7c814be09e8616ab3dacb59608a5872e4cab9bfb511df6110662d18f"
     },
     {
       "path": "requirements/build.txt",
