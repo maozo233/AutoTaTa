@@ -4,9 +4,9 @@
 
 <p align="center"><strong>Designer-led · AI-assisted development · Windows desktop</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **Unmaintained | Last functional maintenance: 2026-10-24 (0.2.36).** The implementation targets the game, MuMu emulator, and dependencies used at that time. Current or future versions are not guaranteed to work. Issues are disabled; no updates, fixes, or support are provided. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
+> **Unmaintained | Last functional maintenance: 2026-10-24 (0.2.36).** Maintenance ended due to personal time constraints and because the author no longer plays the game. The implementation targets the game, MuMu emulator, and dependencies used at that time. Current or future versions are not guaranteed to work. Issues are disabled; no updates, fixes, or support are provided. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
 
-> **Known issues:** manual character filtering does not narrow the list; treasure recognition still has errors and lacks complete continuous live testing of high-level stages; complete real-game lineup deployment remains pending retest. See [known issues](docs/KNOWN_ISSUES.en.md).
+> **Known issues:** some dropdown menus allow click-through; manual character filtering does not narrow the list; treasure recognition still has errors and lacks complete continuous live testing of high-level stages; complete real-game lineup deployment remains pending retest. See [known issues](docs/KNOWN_ISSUES.en.md).
 
 # AutoTaTa
 

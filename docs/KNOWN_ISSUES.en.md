@@ -14,6 +14,7 @@ These unresolved issues were recorded on 2026-10-28. Entries without a confirmed
 
 | ID | Issue | Current status and impact |
 | --- | --- | --- |
+| UI-01 | Click-through in some dropdown menus | **User-reported; unresolved.** Clicks on an open menu may reach underlying controls and trigger unintended actions; affected controls and triggering conditions remain unconfirmed |
 | LINEUP-UI-01 | Typing a keyword while manually adding or correcting a character does not effectively narrow the candidate list | **User-reported; unresolved.** Backend name matching exists, but native reproduction of input and list updates is incomplete; the root cause is unconfirmed |
 | TREASURE-REC-01 | Treasure recognition still produces errors | **User-reported; unresolved.** The failing component and root cause are unconfirmed. Manually verify board bounds, cell states, treasure dimensions / quantities, and completion status |
 | TREASURE-VAL-01 | No complete real high-level-stage validation to establish reliability | **Coverage gap; live acceptance incomplete.** Configuration presets for stages 1–24 are not stage-by-stage acceptance. Lower-stage checks or individual higher-stage images do not establish reliable continuous play in high-level stages |

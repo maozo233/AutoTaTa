@@ -317,13 +317,13 @@
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 9816,
-      "sha256": "650abef812d6748c83ef7e1d169ff4a39073a420ef48903daa790eb35b8e9246"
+      "bytes": 10046,
+      "sha256": "5131d8c7bec0af662fccbcbe2a6dbcf4e23b2fb786547b625d2374a8bdc86aa0"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 8192,
-      "sha256": "aa1de5db34f49e11c23dd75e05cc228a9c2755fdf4b075f36a8b0c43a86f0454"
+      "bytes": 8381,
+      "sha256": "ce723751cf6f676450e9d6be3c87fe200e1bdcad3d04e94eb6b85ede48862023"
     },
     {
       "path": "docs/legal/DISCLAIMER.md",
@@ -342,8 +342,8 @@
     },
     {
       "path": "docs/MAINTENANCE.md",
-      "bytes": 1869,
-      "sha256": "215ffc31ae8dfb5e9c2b352d82a6a0cfbac3f6df537cf0e488810c53682b855b"
+      "bytes": 1968,
+      "sha256": "62dd40e5cdbeb92124b73331e369650c1035b4d7610673f597a68803cfd00fec"
     },
     {
       "path": "docs/media/cover-en.svg",
@@ -717,13 +717,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 10615,
-      "sha256": "a969a8118001d3261c17ee8fea4a598721538e0f63d88243a1efb4dcd878574f"
+      "bytes": 10756,
+      "sha256": "f1fdc79b2375a3bfdd26105e092642b6007dcee45c98326a7699f2e680cf946f"
     },
     {
       "path": "README.md",
-      "bytes": 9375,
-      "sha256": "14a8cfa92f55a6898bf3b962dcdb644794610c4484adf2385fb7827e99a30f5f"
+      "bytes": 9486,
+      "sha256": "c5097f49266dbb9962140e6f2c64e4e2447ddc3542a0fa7dc0c840fd4c72b10b"
     },
     {
       "path": "requirements/build.txt",
