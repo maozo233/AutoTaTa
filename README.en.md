@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/media/cover-en.svg" width="100%" alt="AutoTaTa: a designer-led AI-assisted desktop experiment by maozo, frozen at 0.2.36" /></p>
 
-<p align="center"><strong>Designer-led · AI-assisted development · Windows desktop</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
+<p align="center"><strong>Windows automation for 塔塔冒险队 · A designer-led AI experiment</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
 > **Unmaintained | Last functional maintenance: 2026-10-24 (0.2.36).** Maintenance ended due to personal time constraints and because the author no longer plays the game. The implementation targets the game, MuMu emulator, and dependencies used at that time. Current or future versions are not guaranteed to work. Issues are disabled; no updates, fixes, or support are provided. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
 
@@ -12,7 +12,7 @@
 
 **Turning interface decisions into working software.**
 
-AutoTaTa is a personal experiment by designer **[maozo](https://github.com/maozo233)** to **explore the feasibility of AI in design and development**. Starting from an AI draft, the author designs, adjusts, and revises the work in Figma, then uses AI assistance to implement a Windows interface, image recognition, and automation flows. Saved-image replay and local checks help assess the results.
+AutoTaTa is unofficial Windows automation software for **塔塔冒险队**, and a personal experiment by designer **[maozo](https://github.com/maozo233)** to **explore the feasibility of AI in design and development**. Starting from an AI draft, the author designs, adjusts, and revises the work in Figma, then uses AI assistance to implement a Windows interface, image recognition, and automation flows. Saved-image replay and local checks help assess the results.
 
 [Interface gallery](#interface-gallery) · [Features](#four-features-one-interaction-language) · [Design and AI (Chinese)](docs/DESIGN_AND_AI.md) · [Known issues](docs/KNOWN_ISSUES.en.md) · [Reproduction boundaries (Chinese)](docs/SOURCE_DISTRIBUTION.md)
 

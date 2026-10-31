@@ -10,7 +10,7 @@
     <text x="60" y="289" font-size="23" fill="#516987">maozo 的设计师个人实验 · Vibe Coding</text>
     <path d="M60 335H628" stroke="#102246" stroke-width="2" opacity=".25"/>
     <text x="60" y="383" font-size="16" font-weight="700" letter-spacing="3">设计 → 实现 → 验证</text>
-    <text x="60" y="426" font-size="21" fill="#516987">Windows · Qt Quick · 本地图像识别</text>
+    <text x="60" y="426" font-size="21" fill="#516987">塔塔冒险队 · Windows 自动化软件</text>
     <rect x="60" y="479" width="242" height="49" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="2"/>
     <text x="181" y="510" text-anchor="middle" font-size="17" font-weight="700">非商业 · 源码展示</text>
     <text x="60" y="574" font-size="16" fill="#516987">最后功能维护 2026-10-24 · v0.2.36 · 已停止维护</text>

@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/media/cover-zh.svg" width="100%" alt="AutoTaTa：maozo 的设计师 × AI × 桌面软件实践，0.2.36 已停止维护" /></p>
 
-<p align="center"><strong>设计师主导 · AI 辅助开发 · Windows 桌面实践</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
+<p align="center"><strong>《塔塔冒险队》Windows 自动化软件 · 设计师主导的 AI 实验</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
 > **已停止维护｜最后功能维护：2026-10-24（0.2.36）。** 因个人时间安排，且已不再游玩该游戏，故停止维护。功能基于当时的游戏、MuMu 模拟器与依赖环境，不保证当前或未来最新版可用。Issues 已关闭，不提供更新、修复或技术支持。见 [维护状态](docs/MAINTENANCE.md)。
 
@@ -12,7 +12,7 @@
 
 **把“我希望它这样工作”的设计判断，推进到真正运行的软件。**
 
-AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI 在设计和开发过程中可行性**的个人实验项目。以 AI 初稿为起点，在 Figma 中进行设计、调整与修改，再借助 AI 实现 Windows 桌面界面、图像识别与自动化流程，用截图回放和本机检查验证实际效果。
+AutoTaTa 是面向 **《塔塔冒险队》** 的非官方 Windows 自动化软件，也是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI 在设计和开发过程中可行性**的个人实验项目。以 AI 初稿为起点，在 Figma 中进行设计、调整与修改，再借助 AI 实现桌面界面、图像识别与自动化流程，用截图回放和本机检查验证实际效果。
 
 [查看界面](#界面预览) · [功能与交互](#四个功能一套交互语言) · [设计与 AI 协作](docs/DESIGN_AND_AI.md) · [已知问题](docs/KNOWN_ISSUES.md) · [使用与复现边界](docs/SOURCE_DISTRIBUTION.md)
 

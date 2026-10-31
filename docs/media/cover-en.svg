@@ -10,7 +10,7 @@
     <text x="60" y="289" font-size="23" fill="#516987">A designer-led feasibility experiment by maozo.</text>
     <path d="M60 335H628" stroke="#102246" stroke-width="2" opacity=".25"/>
     <text x="60" y="383" font-size="16" font-weight="700" letter-spacing="3">DESIGN → BUILD → VERIFY</text>
-    <text x="60" y="426" font-size="21" fill="#516987">Windows · Qt Quick · Computer Vision</text>
+    <text x="60" y="426" font-size="21" fill="#516987">塔塔冒险队 · Windows automation</text>
     <rect x="60" y="479" width="242" height="49" rx="24" fill="#fffdf2" stroke="#102246" stroke-width="2"/>
     <text x="181" y="510" text-anchor="middle" font-size="17" font-weight="700">SOURCE AVAILABLE / NC</text>
     <text x="60" y="574" font-size="16" fill="#516987">LAST MAINTAINED 2026-10-24 · v0.2.36 · ENDED</text>

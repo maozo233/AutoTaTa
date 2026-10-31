@@ -312,8 +312,8 @@
     },
     {
       "path": "docs/DESIGN_AND_AI.md",
-      "bytes": 4958,
-      "sha256": "9b4d940ee72d76ef1654c80974867cb5389a7c22be21b03d357f64987d291068"
+      "bytes": 5030,
+      "sha256": "0258b3db65f307a174d597ef88e42f28887c8b1a1f58daec213ff8871a7270b5"
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
@@ -347,13 +347,13 @@
     },
     {
       "path": "docs/media/cover-en.svg",
-      "bytes": 3683,
-      "sha256": "83db94951d44066e9c1ec83696b8bce59e6f8278f54ea84ed523aec9da461509"
+      "bytes": 3682,
+      "sha256": "a35f1b532888ae531dd4060bf560189c6f93593c02f45f17235b5578ccb8e7b5"
     },
     {
       "path": "docs/media/cover-zh.svg",
-      "bytes": 3782,
-      "sha256": "f6cd14c5b947ec82c704caa5426d588ac5d3f5f178e707b74a173ac6bc0f97a0"
+      "bytes": 3783,
+      "sha256": "03184aaaeb22bbdc5bedaa39141778a5e2bc9655c75b50428f853af1d9568673"
     },
     {
       "path": "docs/media/fishing.png",
@@ -662,8 +662,8 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 1091,
-      "sha256": "952c9761e269a1c2eddcf7e0d1ac01fa4860390b2e0b620cf470ad417980909c"
+      "bytes": 1163,
+      "sha256": "d3b1191d5a00bcafdc2c5db1b169320328069c64853051b04b66b528544c8791"
     },
     {
       "path": "packaging/AutoTaTa.spec",
@@ -717,13 +717,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 10756,
-      "sha256": "f1fdc79b2375a3bfdd26105e092642b6007dcee45c98326a7699f2e680cf946f"
+      "bytes": 10836,
+      "sha256": "492975f5cbaa685cf9dbf8cb7f5a28c23bc4013c35547e2b4004e5aa7a73461a"
     },
     {
       "path": "README.md",
-      "bytes": 9486,
-      "sha256": "c5097f49266dbb9962140e6f2c64e4e2447ddc3542a0fa7dc0c840fd4c72b10b"
+      "bytes": 9573,
+      "sha256": "91517b0b4ecb8ba47748bc827d27d28c72f904d6b55dde51e83ba6ba0ba85e5b"
     },
     {
       "path": "requirements/build.txt",
