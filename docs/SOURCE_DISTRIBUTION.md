@@ -1,10 +1,10 @@
 # 源码展示与复现边界
 
-本次 Git 源码树是 maozo 的**非商业源码展示快照**，功能记录版本为 0.2.36。源码树不包含完整游戏资源，不能直接当作运行包；作者另行授权的历史 all 包放在 Private 仓库 Release，范围与源码快照分开。
+仓库提供 **0.2.36 的非商业源码展示**，不包含完整运行资源。Windows x64 all 包见 [Release](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36)；源码树与整合包所含内容不同。
 
 ## 包含什么
 
-- 作者原创的 Python 功能代码、Qt Quick 页面、自制 SVG、应用字标与说明文档。
+- Python 功能代码、Qt Quick 页面、自制 SVG、应用字标与说明文档，包括作者有权授权的 AI 辅助产出。
 - 原测试代码和发布保留策略；包含运行所需素材不代表授予素材版权，因此测试图片没有一并上传。
 - 许可明确的 Chiron GoRound TC 字体子集及原 OFL 许可。
 - 实际程序的界面截图与中英文两张仓库封面。
@@ -17,11 +17,7 @@
 - AGPL 关联 Android 适配源码、已编译 DEX、MaaAgentBinary／ADB 等第三方二进制、OCR 模型和开发工具安装文件。
 - 尚未单独授权公开的可编辑 Figma 原件。
 
-这些文件保留在作者本机，导出快照不会删除或修改本机的原始资源、设置或当前程序。`docs/RESOURCE_MANIFEST.json` 只记录必要的相对路径、摘要和类别，用于说明资源缺口，不包含原图或账号数据。
-
-快照清理排除了未引用的 `design/figma/lineup-draft.svg` 和与正式许可逐字节相同的 `licenses/MaaAgentBinary-1.0.1.dist-info-LICENSE`；正式许可 `licenses/MaaAgentBinary-LICENSE` 保留。不会为了缩小仓库删除运行引用、测试源码或必要许可。
-
-根目录保留 7 个入口／约定文件：两份 README、`LICENSE`、`NOTICE.md`、`requirements.txt`、`main.py` 和 `.gitignore`。许可细则位于 `docs/legal/`，维护与版本说明位于 `docs/`，参与说明位于 `.github/`，批处理位于 `scripts/`，构建依赖位于 `requirements/build.txt`。独立功能使用各包的 `__main__.py` 和 `python -m` 启动，不再在根目录分散放置四个 Python 入口。本机配置和快捷方式仍留在原位置，但不会上传。
+未分发运行资源的相对路径、摘要和类别记录在 [资源清单](RESOURCE_MANIFEST.json) 中。
 
 ## 先看哪些代码
 
@@ -56,4 +52,4 @@ python -m venv .venv
 
 需要合法准备游戏资源、适配组件与第三方依赖后，再参考 [历史使用说明](USAGE.md)。MaaAgentBinary 和关联 Android 适配层的许可证与作者非商业许可不能混为一谈，本快照不提供对整合程序重新分发的许可结论。
 
-项目不提供素材授权、远程部署、账号托管、技术支持或持续维护服务。Private Release 中的 0.2.36 all 是保留原内容与哈希的历史审核包，不是新修复版本。公开或向他人再分发前，仍需单独审查附件中的第三方组件、对应源码和游戏素材权利。历史构建脚本的存在，不代表任意编译结果可直接公开或收费分发。
+再分发整合包前，应核对第三方组件的许可、对应源码义务与素材权利。详见 [授权范围](legal/LICENSE_SCOPE.md) 和 [第三方来源](legal/THIRD_PARTY_NOTICES.md)。项目不提供技术支持或持续维护。

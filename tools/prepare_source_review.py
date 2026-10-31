@@ -11,8 +11,8 @@ ROOT_FILES=('README.md','README.en.md','LICENSE','NOTICE.md','.gitignore','requi
 SUPPORT_FILES=('.github/CONTRIBUTING.md','requirements/build.txt','scripts/setup.bat',
                'scripts/build.bat','scripts/start.bat','scripts/start-autofish.bat',
                'scripts/start-lineup.bat','scripts/start-rafting.bat','scripts/start-treasure.bat')
-DOCS=('DESIGN_AND_AI.md','VALIDATION_SUMMARY.md','MEDIA_BRIEF.md','SOURCE_DISTRIBUTION.md',
-      'PRIVATE_REVIEW.md','USAGE.md','RESOURCE_MANIFEST.json','KNOWN_ISSUES.md','KNOWN_ISSUES.en.md',
+DOCS=('DESIGN_AND_AI.md','VALIDATION_SUMMARY.md','SOURCE_DISTRIBUTION.md',
+      'USAGE.md','RESOURCE_MANIFEST.json','KNOWN_ISSUES.md','KNOWN_ISSUES.en.md',
       'MAINTENANCE.md','RELEASE_NOTES.md','legal/DISCLAIMER.md','legal/LICENSE_SCOPE.md',
       'legal/THIRD_PARTY_NOTICES.md')
 TOOLS=('build.py','release_policy.py','verify_release.py','check_ui_fonts.py',

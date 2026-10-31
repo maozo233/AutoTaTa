@@ -28,7 +28,7 @@ Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 | 游戏角色图、模板、奖励美术、资料站图示与现场截图 | 不纳入作者许可；本次源码展示快照不分发原始文件 |
 | MaaAgentBinary、MaaFramework、Qt 等运行依赖 | 各自许可证适用；不纳入作者的非商业限制，也不随本次源码快照捆绑二进制 |
 | MaaTouch 关联 Android 适配源码与已编译 DEX | 从本次非商业展示快照排除；不把它们标注为 PolyForm，也不藉本仓库重新许可 |
-| `build/`、`dist/`、`releases/` 中的历史整合包 | 不进入 Git 源码树；0.2.36 all 原包由作者另行授权上传至 Private 仓库的 Release 供审核，不通过本次许可证给整个整合包重新授权 |
+| Release 中的整合程序 | 与源码树范围不同；所含第三方依赖和游戏资源保留原权利，不通过本许可证对整个整合包重新授权 |
 
 来源和依赖清单见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
@@ -36,7 +36,7 @@ Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 
 本机历史构建使用 MaaAgentBinary（AGPL-3.0），并包含与 MaaTouch 配合使用的 Android 适配代码。源码或二进制的组合是否构成同一覆盖作品，需根据具体组成和交互方式判断；不能仅靠“非商业”“仅学习”或把文件放进不同目录来规避原许可。
 
-Git 源码树仅提供经过筛选的原创源码展示、许可明确的字体与设计展示资料，不包含 AGPL 关联适配源码、第三方运行二进制、已编译 DEX 或整合 EXE／ZIP。2026-10-28 作者另行要求将已冻结的 0.2.36 all 原包发布至其 Private 仓库的 Release 供本人审核；这是单独的历史二进制附件，不改变各部分原有许可，也不表示整合包已经完成许可兼容性认证。若要公开或向他人继续分发完整程序，仍须核对组合许可、对应源码、依赖通知与素材权利，不能把本次源码许可套到整个安装包上。
+Git 源码树不包含 AGPL 关联适配源码、第三方运行二进制、已编译 DEX 或整合 EXE／ZIP。Release 整合包包含的组件应分别遵守原许可；本说明不对整合程序作统一再许可，也不构成许可兼容性认证。再分发完整程序时，须核对组合许可、对应源码、依赖通知与素材权利。
 
 MaaFramework 和 Qt／PySide6 等 LGPL 组件及其再分发条件也应独立遵守；这里不对其原有权利追加商业用途限制。
 

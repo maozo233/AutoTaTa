@@ -4,21 +4,15 @@
 
 <p align="center"><strong>设计师主导 · AI 辅助开发 · Windows 桌面实践</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **项目已停止维护。最后功能维护／历史验证：2026-10-24（0.2.36）；停止维护声明：2026-10-28。** 本仓库用于作品归档与非商业源码展示，不承诺修复、更新、答疑或技术支持，Issues 已关闭。本次文档更新日期为 2026-11-01，不表示恢复维护。使用范围见 [授权说明](docs/legal/LICENSE_SCOPE.md)，使用风险见 [免责声明](docs/legal/DISCLAIMER.md)。
+> **已停止维护｜最后功能维护：2026-10-24（0.2.36）。** 功能基于当时的游戏、MuMu 模拟器与依赖环境，不保证当前或未来最新版可用。Issues 已关闭，不提供更新、修复或技术支持。见 [维护状态](docs/MAINTENANCE.md)。
 
-> **兼容性范围：** 功能依据 2026-10-24 开发／验证时的游戏、MuMu 模拟器及依赖环境实现，不保证当前或未来最新版游戏、模拟器、系统或依赖可用。Release 标记的“Latest”仅表示本项目最后保留的历史包，不表示已适配最新环境。
-
-> **当前版本已知问题：[查看 0.2.36 问题清单](docs/KNOWN_ISSUES.md)。** 保存样本中仍有 4 张图共 8 格无法确认；4 张缺行图需要重截；完整真实游戏上阵仍待复测。不能将页面截图或离线测试视为识别准确率和现场成功保证。
-
-> **交互与寻宝限制：** 一键上阵手动添加／更正时，输入筛选无法有效缩小候选范围；寻宝仍有识别错误，且缺少真实高等级关卡的完整连续测试兜底。上述问题尚未解决，1–24 关预设不代表全部关卡已验收。
+> **已知问题：** 手动添加塔塔的输入筛选失效；寻宝仍有识别错误，缺少真实高等级关卡的完整连续测试；完整游戏上阵仍待复测。详见 [问题清单](docs/KNOWN_ISSUES.md)。
 
 # AutoTaTa
 
 **把“我希望它这样工作”的设计判断，推进到真正运行的软件。**
 
 AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI 在设计和开发过程中可行性**的个人实验项目。以 AI 初稿为起点，在 Figma 中进行设计、调整与修改，再借助 AI 实现 Windows 桌面界面、图像识别与自动化流程，用截图回放和本机检查验证实际效果。
-
-它记录的不只是四个功能页面，也包括设计如何进入代码、AI 如何参与实现，以及软件在“不确定”和“操作失败”时应该怎样反馈。
 
 [查看界面](#界面预览) · [功能与交互](#四个功能一套交互语言) · [设计与 AI 协作](docs/DESIGN_AND_AI.md) · [已知问题](docs/KNOWN_ISSUES.md) · [使用与复现边界](docs/SOURCE_DISTRIBUTION.md)
 
@@ -48,7 +42,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI
 | 寻宝辅助 | 棋盘校准、宝物尺寸与数量配置、概率、推荐格和消耗估算 | 可手动纠错；解释估算性质；辅助判断，不自动挖掘 |
 | 漂流大赛 | 页面识别、倍率、用船预算、六类奖励优先级与停止 | 用可拖拽的图形排序表达偏好；遇到购买或未知页面时停止／等待 |
 
-各功能来自同一桌面项目，并保留源码独立入口。历史构建仅生成统一 all 包；[0.2.36 Private Release](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36) 保留当前最新版原包供作者审核，不包含本次反馈的新修复，也不把整个历史包重新标记成非商业许可。
+四个功能共用一个桌面程序，提供统一 [Windows x64 all 包](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36)，也保留源码独立入口。
 
 ### 不确定性也是界面的一部分
 
@@ -58,7 +52,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI
 
 ## 我负责什么，AI 参与什么
 
-设计过程包含 **AI 初稿 → 作者在 Figma 中进行设计与改动 → AI 辅助实现代码 → 作者检查和调整实现效果**。Figma 文件中的设计迭代是作者工作的组成部分，既包括对初稿的取舍，也包括后续布局、视觉层级、组件和交互细节的修改。
+协作流程：**AI 初稿 → 作者在 Figma 中设计与改动 → AI 辅助实现代码 → 作者检查和调整实现效果**。
 
 | 环节 | 设计师的判断 | AI 的参与与可查看证据 |
 | --- | --- | --- |
@@ -67,7 +61,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI
 | 图形与素材处理 | 选择素材、判断可读性和视觉结果，确认边缘与透明背景 | 部分入口和奖励图标使用 AI 辅助抠图；这些派生素材不因此变成作者原创版权资产 |
 | 功能实现与验证 | 明确可接受结果，提供真实失败样本，决定保留不确定结果 | 辅助实现视觉识别、求解、回放与回归测试；见 [验证摘要](docs/VALIDATION_SUMMARY.md) |
 
-这里的 AI 主要参与**开发过程**。运行时识别主要使用本地计算机视觉、模板／特征匹配和 OCR；不能把它描述为在线大模型理解游戏画面。
+AI 主要参与设计与开发过程。运行时识别使用本地计算机视觉、模板／特征匹配和 OCR。
 
 更完整的过程与设计取舍：[设计与 AI 协作记录](docs/DESIGN_AND_AI.md)。
 
@@ -92,7 +86,7 @@ AutoTaTa 是设计师 **[maozo](https://github.com/maozo233)** 用于**探究 AI
 | `docs/legal/`、`licenses/` | 授权范围、免责声明、第三方来源与原许可证 |
 | `scripts/`、`requirements/` | Windows 启动／构建批处理与构建依赖 |
 
-根目录只保留中英文首页、`LICENSE`、`NOTICE.md`、`requirements.txt`、`main.py` 和 `.gitignore`。维护与版本说明归入 `docs/`，参与说明位于 `.github/`。完整本机工程的启动脚本改从 `scripts/` 使用，独立功能通过 `python -m lineup`、`-m treasure`、`-m fishing`、`-m rafting` 启动；具体环境与资源条件见下文及 [使用说明](docs/USAGE.md)。
+启动脚本位于 `scripts/`；独立功能使用 `python -m lineup`、`-m treasure`、`-m fishing`、`-m rafting`。环境与资源条件见 [使用说明](docs/USAGE.md)。
 
 源码展示快照**不等于完整可运行发行版**。游戏图包、识别模板、诊断数据、AGPL 关联 Android 适配器和第三方二进制未随快照提供。先用以下命令检查资源边界，不会连接设备或自动下载素材：
 
@@ -108,7 +102,5 @@ python tools/check_source_assets.py
 - **第三方内容**：依赖、字体、游戏美术及商标保留原权利与许可，不受作者的非商业限制重新覆盖。见 [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md)。
 - **使用风险**：非官方项目；不保证准确、兼容、持续可用或账号安全；免责以法律允许范围为限。见 [免责声明](docs/legal/DISCLAIMER.md)。
 - **停止维护**：不承诺更新、修复、Issue／PR 处理或技术支持。见 [维护状态](docs/MAINTENANCE.md)。
-
-当前先在作者个人账号的私有仓库审核，Release 也只在 Private 仓库可见；可见性变更由作者另行决定，本次不公开发布。公开前须同时审核源码与 Release 附件，审核要点见 [私有审核说明](docs/PRIVATE_REVIEW.md)。
 
 <p align="center">Designed and directed by <a href="https://github.com/maozo233">maozo</a> · Built with AI assistance · Preserved as a finished experiment</p>

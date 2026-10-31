@@ -4,21 +4,15 @@
 
 <p align="center"><strong>Designer-led · AI-assisted development · Windows desktop</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
 
-> **Maintenance has ended. Last functional maintenance / historical validation: 2026-10-24 (0.2.36); end-of-maintenance declaration: 2026-10-28.** This repository preserves the experiment and shares source for noncommercial use. No fixes, updates, answers, or support are promised, and Issues are disabled. This documentation update is dated 2026-11-01 and does not resume maintenance. See the [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md) and [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
+> **Unmaintained | Last functional maintenance: 2026-10-24 (0.2.36).** The implementation targets the game, MuMu emulator, and dependencies used at that time. Current or future versions are not guaranteed to work. Issues are disabled; no updates, fixes, or support are provided. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
 
-> **Compatibility:** the implementation targets the game, MuMu emulator, and dependency environment used during development / validation on 2026-10-24. It is not guaranteed to work with current or future releases of the game, emulator, operating system, or dependencies. “Latest” identifies this project's final historical package, not compatibility with the newest environment.
-
-> **Current limitations: [known issues in 0.2.36](docs/KNOWN_ISSUES.en.md).** Four saved images still contain eight unconfirmed cells; four partial-board images require recapture. Complete real-game deployment remains pending retest. UI screenshots and offline checks are not guarantees of recognition accuracy or live success.
-
-> **Interaction and treasure limitations:** typing in the manual character editor does not effectively narrow the candidate list. Treasure recognition still has errors, and complete continuous real-game testing of high-level stages is missing. These issues remain unresolved; presets for stages 1–24 do not mean all stages passed acceptance.
+> **Known issues:** manual character filtering does not narrow the list; treasure recognition still has errors and lacks complete continuous live testing of high-level stages; complete real-game lineup deployment remains pending retest. See [known issues](docs/KNOWN_ISSUES.en.md).
 
 # AutoTaTa
 
 **Turning interface decisions into working software.**
 
 AutoTaTa is a personal experiment by designer **[maozo](https://github.com/maozo233)** to **explore the feasibility of AI in design and development**. Starting from an AI draft, the author designs, adjusts, and revises the work in Figma, then uses AI assistance to implement a Windows interface, image recognition, and automation flows. Saved-image replay and local checks help assess the results.
-
-The project documents how design reaches code, where AI contributes, and how software should respond when recognition is uncertain or an operation fails.
 
 [Interface gallery](#interface-gallery) · [Features](#four-features-one-interaction-language) · [Design and AI (Chinese)](docs/DESIGN_AND_AI.md) · [Known issues](docs/KNOWN_ISSUES.en.md) · [Reproduction boundaries (Chinese)](docs/SOURCE_DISTRIBUTION.md)
 
@@ -48,7 +42,7 @@ These are actual 0.2.36 UI captures using isolated configuration examples and lo
 | Treasure assistant | Board calibration, item sizes and counts, probabilities, suggested cells, and cost estimates | Manual correction and understandable estimates; assists decisions without automatically digging |
 | Rafting | Page recognition, multiplier, boat budget, six reward priorities, and stopping | Draggable visual priorities; stops or waits at purchase prompts or unknown pages |
 
-The features share one desktop project and retain separate source entry points. The historical packaging policy builds the unified `all` package only. The [0.2.36 private Release](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36) preserves the latest original archive for the author's review. It does not include new fixes for the issues reported here or relabel the entire historical binary under a new noncommercial license.
+The four features share one desktop application, distributed as a unified [Windows x64 all package](https://github.com/maozo233/AutoTaTa/releases/tag/v0.2.36), with separate source entry points also available.
 
 ### Uncertainty is part of the interface
 
@@ -58,7 +52,7 @@ Recognition alone is not sufficient evidence to act. Lineup deployment distingui
 
 ## My role and AI's contribution
 
-The process includes **AI draft → author-led design and revisions in Figma → AI-assisted code implementation → the author's review and adjustment of the implementation**. Work in the Figma file is part of the author's design contribution, including decisions about the initial draft and subsequent changes to layout, hierarchy, components, and interaction details.
+Workflow: **AI draft → author-led design and revisions in Figma → AI-assisted code implementation → the author's review and adjustment of the implementation**.
 
 | Stage | Designer's decisions | AI assistance and evidence |
 | --- | --- | --- |
@@ -67,7 +61,7 @@ The process includes **AI draft → author-led design and revisions in Figma →
 | Graphics and asset processing | Asset selection, readability, edges, and transparency | AI-assisted cutouts for some entry and reward icons; derived artwork does not become the author's original copyrighted asset |
 | Implementation and validation | Acceptable outcomes, real failure samples, and when uncertainty must remain | Computer vision, solvers, replay, and regression checks; see [validation summary (Chinese)](docs/VALIDATION_SUMMARY.md) |
 
-AI primarily participates in the **development process**. Runtime recognition mainly uses local computer vision, template / feature matching, and OCR. It should not be described as an online language model understanding the game screen.
+AI primarily participates in design and development. Runtime recognition uses local computer vision, template / feature matching, and OCR.
 
 ## What was verified, and what remains
 
@@ -90,7 +84,7 @@ The [known issues page](docs/KNOWN_ISSUES.en.md) lists unresolved cell positions
 | `docs/legal/`, `licenses/` | License scope, disclaimer, third-party sources, and original licenses |
 | `scripts/`, `requirements/` | Windows launch / build scripts and build dependencies |
 
-The root contains only the two READMEs, `LICENSE`, `NOTICE.md`, `requirements.txt`, `main.py`, and `.gitignore`. Maintenance and release notes live in `docs/`; contribution guidance lives in `.github/`. For the full local project, launch scripts are under `scripts/`, and individual features use `python -m lineup`, `-m treasure`, `-m fishing`, or `-m rafting`. Runtime prerequisites and excluded assets are described below and in the [usage notes (Chinese)](docs/USAGE.md).
+Launch scripts are under `scripts/`; individual features use `python -m lineup`, `-m treasure`, `-m fishing`, or `-m rafting`. See the [usage notes (Chinese)](docs/USAGE.md) for prerequisites and resources.
 
 This source snapshot **is not a complete runnable distribution**. Game artwork, recognition templates, diagnostic data, the AGPL-associated Android adapter, and third-party binaries are omitted. Check the resource boundary first; this command does not connect devices or download resources:
 
@@ -108,7 +102,5 @@ Local runtime research requires the necessary resources from lawful sources, fol
 - **Maintenance ended:** no promised updates, fixes, Issue / PR handling, or technical support. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
 
 This English overview is for accessibility. Linked Chinese legal and supporting documents remain in their original language; the English PolyForm license is available in full. README language links do not change the application's interface language or the license scope.
-
-The repository and its Release remain private for the author's review. Any public visibility change requires a separate decision and review of both the source tree and Release attachments; this update does not make them public. See the [private review checklist (Chinese)](docs/PRIVATE_REVIEW.md).
 
 <p align="center">Designed and directed by <a href="https://github.com/maozo233">maozo</a> · Built with AI assistance · Preserved as a finished experiment</p>

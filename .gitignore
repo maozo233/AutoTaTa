@@ -24,6 +24,7 @@ releases/
 # Source showcase: local evidence and unlicensed runtime resources stay local.
 validation/
 docs/history/
+docs/internal/
 docs/README-review.md
 tools/font-source/
 tools/maatouch-display/
