@@ -317,13 +317,13 @@
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 10491,
-      "sha256": "70d033b1ae0735fa837f18bc57d494a70007c55001468fb691111868a8ed5382"
+      "bytes": 9816,
+      "sha256": "650abef812d6748c83ef7e1d169ff4a39073a420ef48903daa790eb35b8e9246"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 8771,
-      "sha256": "4b89c5833e9a962794986241acb70f24c034a5c0aba7230dc8effd2f206c83e0"
+      "bytes": 8192,
+      "sha256": "aa1de5db34f49e11c23dd75e05cc228a9c2755fdf4b075f36a8b0c43a86f0454"
     },
     {
       "path": "docs/legal/DISCLAIMER.md",
@@ -407,8 +407,8 @@
     },
     {
       "path": "docs/VALIDATION_SUMMARY.md",
-      "bytes": 2398,
-      "sha256": "9ee7e847395d7ad768f2ebe93e0ba40e45d579385484c1d8ec96c66405f3f5d4"
+      "bytes": 2020,
+      "sha256": "884aa7462d95f216e16b6add40efa1c1e2ec3dcc263b237118023c502351aa15"
     },
     {
       "path": "fishing/__init__.py",
