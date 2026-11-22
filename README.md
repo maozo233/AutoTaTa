@@ -13,12 +13,12 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="一键上阵" /></a><br /><strong>一键上阵</strong><br />导入阵容图，核对未确认的格子。</td>
-    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="自动钓鱼" /></a><br /><strong>自动钓鱼</strong><br />设置倍率、补饵方式和用竿预算。</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="一键上阵" /></a></div><strong>一键上阵</strong><br />导入阵容图，核对未确认的格子。</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="自动钓鱼" /></a></div><strong>自动钓鱼</strong><br />设置倍率、补饵方式和用竿预算。</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="寻宝辅助" /></a><br /><strong>寻宝辅助</strong><br />标记棋盘，比较各格的宝物概率。</td>
-    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="漂流大赛" /></a><br /><strong>漂流大赛</strong><br />选择漂流倍率，限定本次用船数。</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="寻宝辅助" /></a></div><strong>寻宝辅助</strong><br />标记棋盘，比较各格的宝物概率。</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="漂流大赛" /></a></div><strong>漂流大赛</strong><br />选择漂流倍率，限定本次用船数。</td>
   </tr>
 </table>
 

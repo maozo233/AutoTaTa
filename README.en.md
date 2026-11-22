@@ -13,12 +13,12 @@ A guide gives players a picture of a formation. Recreating it means finding the 
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="Lineup" /></a><br /><strong>Lineup</strong><br />Import a formation and check uncertain cells.</td>
-    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="Fishing" /></a><br /><strong>Fishing</strong><br />Set the multiplier, bait and rod budget.</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="Lineup" /></a></div><strong>Lineup</strong><br />Import a formation and check uncertain cells.</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="Fishing" /></a></div><strong>Fishing</strong><br />Set the multiplier, bait and rod budget.</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="Treasure" /></a><br /><strong>Treasure</strong><br />Mark the board and compare the odds.</td>
-    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="Rafting" /></a><br /><strong>Rafting</strong><br />Choose a multiplier and a boat budget.</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="Treasure" /></a></div><strong>Treasure</strong><br />Mark the board and compare the odds.</td>
+    <td width="50%" valign="top"><div align="center"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="Rafting" /></a></div><strong>Rafting</strong><br />Choose a multiplier and a boat budget.</td>
   </tr>
 </table>
 
