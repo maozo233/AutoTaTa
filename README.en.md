@@ -74,7 +74,7 @@ Forty records from two machines contained 25 distinct source images. Replaying t
 
 The last functional update was **October 24, 2026**. Maintenance ended on **October 28, 2026** due to time constraints and the designer no longer playing the game. Version 0.2.36 reflects the game and emulator of that period. Compatibility with current versions is unverified. Issues are closed and no further fixes are planned. [Maintenance record (Chinese)](docs/MAINTENANCE.md)
 
-## Source, license & contact
+## Source & license
 
 The repository provides source and design materials. The bundled executable, game asset packs, recognition templates, field captures and some runtime dependencies are unavailable here. With the documented environment, you can inspect the resource inventory and run the standalone treasure solver tests from the repository root. [Environment and reproduction guide (Chinese)](docs/SOURCE_DISTRIBUTION.md)
 
@@ -85,4 +85,4 @@ python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 
 Human and AI contributions that the author can license are covered by PolyForm Noncommercial 1.0.0. Commercial use requires separate permission. Retain the license and required notices. Third-party software, fonts, trademarks and game artwork visible in screenshots retain their respective rights. [License](LICENSE) · [Scope](docs/legal/LICENSE_SCOPE.md) · [Third-party notices](docs/legal/THIRD_PARTY_NOTICES.md) · [Disclaimer](docs/legal/DISCLAIMER.md)
 
-[Portfolio](https://portfolio-site-ck8.pages.dev/) · [Contact](https://portfolio-site-ck8.pages.dev/#contact)
+<!-- If the portfolio and contact links return, give them their own level-two heading here. -->

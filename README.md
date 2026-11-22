@@ -74,7 +74,7 @@ AutoTaTa 也是一次关于 AI 在设计与开发中能做到什么的实验。�
 
 最后功能维护于 **2026-10-24**，**2026-10-28** 宣布停维。因个人时间安排及不再游玩，功能冻结于 0.2.36。兼容性以当时的游戏和模拟器版本为限，不保证最新版可用。Issues 已关闭，无后续修复排期。[维护记录](docs/MAINTENANCE.md)
 
-## 源码、许可与联系
+## 源码与许可
 
 仓库公开源码与设计资料，不提供整合安装包。游戏图包、识别模板、现场诊断图及部分运行依赖未随库分发。准备好文档列出的环境后，可在仓库根目录检查资源清单，或独立运行寻宝求解测试。[环境与复现说明](docs/SOURCE_DISTRIBUTION.md)
 
@@ -85,4 +85,4 @@ python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 
 作者有权授权的人工与 AI 创作部分均适用 PolyForm Noncommercial 1.0.0。商业性使用须另获许可，使用时须依许可原文保留相应声明。第三方软件、字体、商标和截图中的游戏美术保留各自权利。[许可证](LICENSE) · [授权范围](docs/legal/LICENSE_SCOPE.md) · [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md) · [免责声明](docs/legal/DISCLAIMER.md)
 
-[作品集](https://portfolio-site-ck8.pages.dev/) · [公开联系入口](https://portfolio-site-ck8.pages.dev/#contact)
+<!-- 如恢复作品集与联系入口，请在此另起二级标题。 -->
