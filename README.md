@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/app-icon.png" width="132" height="132" alt="AutoTaTa" /></p>
 <h1 align="center">AutoTaTa</h1>
-<p align="center">《塔塔冒险队》的非官方 Windows 自动化工具。照着攻略排阵，按预算钓鱼和漂流，在寻宝棋盘上比较下一铲挖哪里。</p>
+<p align="center">《塔塔冒险队》的非官方 Windows 自动化工具。<br />照着攻略排阵，按预算钓鱼和漂流，在寻宝棋盘上比较下一铲挖哪里。</p>
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> &nbsp;·&nbsp; <a href="#交互演示">交互演示</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.md">已知问题</a></p>
 
 <p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-zh.svg" width="75%" alt="AutoTaTa 主页，完整展示一键上阵、自动钓鱼、寻宝辅助和漂流大赛四个入口" /></picture></a></p>

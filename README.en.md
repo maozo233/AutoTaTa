@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/app-icon.png" width="132" height="132" alt="AutoTaTa" /></p>
 <h1 align="center">AutoTaTa</h1>
-<p align="center">An unofficial Windows automation tool for 塔塔冒险队. Deploy a lineup from a guide, set budgets for fishing and rafting, or compare treasure tiles before you dig.</p>
+<p align="center">An unofficial Windows automation tool for 塔塔冒险队.<br />Deploy a lineup from a guide, set budgets for fishing and rafting, or compare treasure tiles before you dig.</p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> &nbsp;·&nbsp; <a href="#interactions">Interactions</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.en.md">Known issues</a></p>
 
 <p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-en.svg" width="75%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
