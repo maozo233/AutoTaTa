@@ -347,13 +347,13 @@
     },
     {
       "path": "docs/media/cover-en.svg",
-      "bytes": 209762,
-      "sha256": "67a03e53b3b91ffb618a5a412d4dd4ecc9f06d30327c17302a10d73c5bf36513"
+      "bytes": 137342,
+      "sha256": "27546338a690b805ffd62740914260ecaa2f484cdc61f75e21f1aaede2f87509"
     },
     {
       "path": "docs/media/cover-zh.svg",
-      "bytes": 209759,
-      "sha256": "14b679025187baafd59e33e9ec6c56bb847937dc36e52f2476249a7dcacb651f"
+      "bytes": 139653,
+      "sha256": "8404605dc307a7f130c9e703a1428337db4d23987bd6f5b371adfa186ffa4ab3"
     },
     {
       "path": "docs/media/demo-reward-order.svg",
@@ -371,19 +371,24 @@
       "sha256": "d6fcff7375f7e61dd7c5f2f83fdd7891abd07e6c3b8186c6a2b00eb24ab38254"
     },
     {
+      "path": "docs/media/interaction-fishing.png",
+      "bytes": 136308,
+      "sha256": "388824b58cddac51661da43b7d69afb6e68cabb89391a1cc8935fe1bf8c8ac4d"
+    },
+    {
       "path": "docs/media/interaction-lineup.png",
-      "bytes": 255062,
-      "sha256": "b75341e17bd1611ce7ed6810c032335b3e0b4ae2e0021efd9b59850298922e7c"
+      "bytes": 468127,
+      "sha256": "7f5795f54ad753422de0a3a77e5f5f2d51604d87a4a66f6a38fd2788dfa608bf"
     },
     {
       "path": "docs/media/interaction-rewards.png",
-      "bytes": 130506,
-      "sha256": "a91f2dbe2dd85f121951f5195058de80741e2e028216abe5b3545b78603d263c"
+      "bytes": 204434,
+      "sha256": "21a97a4d0517b38893e2544b038b719a45d37b7731a7de815c313f168f4d1389"
     },
     {
       "path": "docs/media/interaction-treasure.png",
-      "bytes": 70433,
-      "sha256": "0676b4835c64dde928f2dd701b5cb1f8d5d46a20f8e29ca7ca25ae588c04b216"
+      "bytes": 197384,
+      "sha256": "a3c45808e1e8fce6f92f002a66a21f6ef11b9ad20ffa12171c54b1462a20efe2"
     },
     {
       "path": "docs/media/lineup-editor.png",
@@ -397,23 +402,23 @@
     },
     {
       "path": "docs/media/preview-fishing.svg",
-      "bytes": 176121,
-      "sha256": "d87159e0fca6f2c7de14a068b1fef685c609409d1b7e916b020f8b0186d34ed3"
+      "bytes": 176055,
+      "sha256": "538b7a6c7cc5ec302f4de00c75d0b2c50a93b074d10868c408e62ecdc5948fe1"
     },
     {
       "path": "docs/media/preview-lineup.svg",
-      "bytes": 209091,
-      "sha256": "16b64fda6c738c3f70dde73b2c8c0b7fe2d3597333347258b4279f01b5a118c0"
+      "bytes": 209038,
+      "sha256": "20d14fd3f24d6aad5f8b69b1eda36a4b666f6fd275baef2b372bdcdb28cd6bc3"
     },
     {
       "path": "docs/media/preview-rafting.svg",
-      "bytes": 179028,
-      "sha256": "ae8857bff9c0dc510cfccc1a28e4ced47d86ae37cf2d81082e54f3a8b599f39e"
+      "bytes": 178943,
+      "sha256": "1b79f3b0f687b43a446c2fdeb66c2f04a3de31202808c7f842bd2c1739420ab1"
     },
     {
       "path": "docs/media/preview-treasure.svg",
-      "bytes": 175821,
-      "sha256": "d4f3932fb1034eddf17541c400f1aefe3a1b2709701944d99072372236a76b50"
+      "bytes": 175760,
+      "sha256": "1a994697790ea6ce6941ae8cdcbf230698b9c5b927e24d3719370fe3fe11eafb"
     },
     {
       "path": "docs/media/rafting.png",
@@ -757,13 +762,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 8721,
-      "sha256": "7e19a25c44d0cd38aec577d407372838ca123ecb4afcd6b16ef7b924e30e6ba3"
+      "bytes": 9336,
+      "sha256": "e128004b91d2dde0be8f115266a609f8a99e6e327c4ed82b94d9a2fa02fd3d4e"
     },
     {
       "path": "README.md",
-      "bytes": 8082,
-      "sha256": "032998485182bb6d1b97bac526d9788e3938f137c31506fb091888e2de8fe4ba"
+      "bytes": 8748,
+      "sha256": "6c9dabb56c39636b348b74ea3d8c4c7b11646ef4b66a26237220e618f730d58b"
     },
     {
       "path": "requirements/build.txt",

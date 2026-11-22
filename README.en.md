@@ -3,13 +3,13 @@
 <p align="center">An unofficial Windows automation tool for 塔塔冒险队. Deploy a lineup from a guide, set budgets for fishing and rafting, or compare treasure tiles before you dig.</p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> &nbsp;·&nbsp; <a href="#interactions">Interactions</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.en.md">Known issues</a></p>
 
-![AutoTaTa lineup import and board preview](docs/media/cover-en.svg)
+<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-en.svg" width="100%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
 
 ## Why AutoTaTa?
 
 A guide gives players a picture of a formation. Recreating it means finding the right characters in their own inventory and placing each one on the board. Fishing and rafting have a different problem: repetitive actions spend rods and boats. AutoTaTa brings those tasks into one desktop app, where players can set a goal, correct a misread and stop a run.
 
-**Windows · 0.2.36 · Maintenance ended**　Select a preview for the full interface.
+**Windows · 0.2.36 · Maintenance ended**　Select a window to view it at full resolution.
 
 <table>
   <tr>
@@ -24,13 +24,13 @@ A guide gives players a picture of a formation. Recreating it means finding the 
 
 ## Interactions
 
-These three loops show the actual 0.2.36 interface with a sample lineup and board. The pointer follows each action. All three were captured offline.
+Each of the four loops opens on the full 0.2.36 window and follows one action. All four were captured offline with a sample lineup and board.
 
 ### Lineup · Clear an uncertain tile
 
 Pasting or dropping a formation image starts recognition and attempts deployment. Confirmed characters go first. A question mark flags an uncertain identity. In the example, the player opens the tenth tile and selects **Set empty** (设为空位). Once the editor closes, the preview shows the cleared tile. During a run, stop and wait for deployment to finish before editing.
 
-<p align="center"><a href="docs/media/lineup-editor.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup-editor.png" /><img src="docs/media/interaction-lineup.png" width="565" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="510" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
 
 Both 5×5 and 3×4 formations need the entire friendly board. Crop out opponents and buttons from a wide screenshot. If a row is already missing from a five-row board, capture it again, even if that row was empty. [Lineup guide (Chinese)](docs/USAGE.md#一键上阵第一版)
 
@@ -38,17 +38,19 @@ Both 5×5 and 3×4 formations need the entire friendly board. Crop out opponents
 
 The center tile starts as the recommended dig. Mark it **Empty** (标为空地) and the recommendation shifts to four surrounding tiles. Players can also correct treasure dimensions and quantities, then compare the estimated cost of finishing. The player chooses where to dig.
 
-<p align="center"><a href="docs/media/treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="430" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="680" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
 
 ### Rafting · Drag a reward into first place
 
 Rewards are ranked from left to right. Moving the third card to the front gives it priority the next time the game offers three choices. A separate budget limits boats spent. Free spins do not use that budget, and a boat purchase prompt stops the run.
 
-<p align="center"><a href="docs/media/demo-reward-order.svg"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/demo-reward-order.svg" /><img src="docs/media/interaction-rewards.png" width="615" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="570" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
 
 ### Fishing · Set a rod budget before casting
 
-Choose the multiplier, bait refill behavior and rod budget before starting. Rod usage reflects the multiplier. Progress and the stop control stay in the fishing window. [View the fishing screen](docs/media/fishing.png)
+Choose the multiplier, bait refill behavior and rod budget before starting. Rod usage reflects the multiplier. Progress and the stop control stay in the fishing window. The demo changes the rod budget from 0 (unlimited) to 30. The rods used counter below updates to 0 / 30.
+
+<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="565" alt="In the full fishing window, changing the rod budget from 0 (unlimited) to 30 updates the counter to 0 / 30." /></picture></a></p>
 
 ## Design decisions
 
