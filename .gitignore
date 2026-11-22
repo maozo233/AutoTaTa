@@ -1,11 +1,17 @@
 .venv/
 __pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.ruff_cache/
 build/cache/
 build/dist/
 build/runtime/
 logs/
 settings.json
 lineup-settings.json
+/rafting-settings.json
 lineup-reference.png
 validation/video/
 validation/multiplier-video/
