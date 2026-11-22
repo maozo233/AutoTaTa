@@ -1,9 +1,9 @@
-<p align="center"><img src="assets/app-icon.png" width="88" height="88" alt="AutoTaTa" /></p>
+<p align="center"><img src="assets/app-icon.png" width="132" height="132" alt="AutoTaTa" /></p>
 <h1 align="center">AutoTaTa</h1>
 <p align="center">《塔塔冒险队》的非官方 Windows 自动化工具。照着攻略排阵，按预算钓鱼和漂流，在寻宝棋盘上比较下一铲挖哪里。</p>
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> &nbsp;·&nbsp; <a href="#交互演示">交互演示</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.md">已知问题</a></p>
 
-<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-zh.svg" width="100%" alt="AutoTaTa 主页，完整展示一键上阵、自动钓鱼、寻宝辅助和漂流大赛四个入口" /></picture></a></p>
+<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-zh.svg" width="75%" alt="AutoTaTa 主页，完整展示一键上阵、自动钓鱼、寻宝辅助和漂流大赛四个入口" /></picture></a></p>
 
 ## 为什么做 AutoTaTa
 
@@ -13,12 +13,12 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="100%" alt="一键上阵" /></a><br /><strong>一键上阵</strong><br />导入阵容图，核对未确认的格子。</td>
-    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="100%" alt="自动钓鱼" /></a><br /><strong>自动钓鱼</strong><br />设置倍率、补饵方式和用竿预算。</td>
+    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="一键上阵" /></a><br /><strong>一键上阵</strong><br />导入阵容图，核对未确认的格子。</td>
+    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="自动钓鱼" /></a><br /><strong>自动钓鱼</strong><br />设置倍率、补饵方式和用竿预算。</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="100%" alt="寻宝辅助" /></a><br /><strong>寻宝辅助</strong><br />标记棋盘，比较各格的宝物概率。</td>
-    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="100%" alt="漂流大赛" /></a><br /><strong>漂流大赛</strong><br />选择漂流倍率，限定本次用船数。</td>
+    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="寻宝辅助" /></a><br /><strong>寻宝辅助</strong><br />标记棋盘，比较各格的宝物概率。</td>
+    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="漂流大赛" /></a><br /><strong>漂流大赛</strong><br />选择漂流倍率，限定本次用船数。</td>
   </tr>
 </table>
 
@@ -30,7 +30,7 @@
 
 粘贴或拖入阵容图，就会开始识别并尝试上阵。已确认的角色先行处理，问号留给玩家核对。示例把第十格更正为空位。点开问号，选择「设为空位」，即可在预览里看到更正。运行中要先停止，等本次操作结束再编辑。
 
-<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="510" alt="点开第二行最右侧的问号，在修正窗口选择设为空位，返回后该格已清空" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="383" alt="点开第二行最右侧的问号，在修正窗口选择设为空位，返回后该格已清空" /></picture></a></p>
 
 截图范围影响站位。5×5 和 3×4 阵容都要保留完整己方场地。大截图可框掉敌方和底部按钮；如果五行棋盘已经截掉一整行，即使缺的是空行，也要重新截图。[阵容导入说明](docs/USAGE.md#一键上阵第一版)
 
@@ -38,19 +38,19 @@
 
 下面的棋盘起初推荐正中央的一格。点开它，标为「空地」，中心就显示为「空」，推荐随即移到四周。宝物尺寸或数量有误时也可以修正，再比较剩余消耗估算。最终挖哪一格由玩家决定。
 
-<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="680" alt="中心格从推荐的 44% 变为空地，附近四格重新计算为 45%" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="510" alt="中心格从推荐的 44% 变为空地，附近四格重新计算为 45%" /></picture></a></p>
 
 ### 漂流大赛 · 把想要的奖励拖到最前面
 
 奖励从左到右排列。把第三项拖到第一位，下一次三选一时就会优先选它。漂流另有用船预算，免费转盘不计入消耗。遇到购船窗口，程序会停止。
 
-<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="570" alt="按住第三张奖励卡拖到最左侧，松手后前两项顺次后移" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="428" alt="按住第三张奖励卡拖到最左侧，松手后前两项顺次后移" /></picture></a></p>
 
 ### 自动钓鱼 · 给一次挂机设定用竿上限
 
 开钓前可以设置倍率、补饵方式和用竿预算。按倍率计入鱼竿消耗后，玩家能在同一个窗口查看进度或停止本次钓鱼。演示把「本次用竿预算」从 0（不限）改为 30，下方「已用钓竿」随即显示 0 / 30。
 
-<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="565" alt="钓鱼完整窗口中，将本次用竿预算从 0（不限）改为 30，状态区同步显示 0 / 30。" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="424" alt="钓鱼完整窗口中，将本次用竿预算从 0（不限）改为 30，状态区同步显示 0 / 30。" /></picture></a></p>
 
 ## 设计取舍
 
@@ -83,6 +83,8 @@ python tools/check_source_assets.py
 python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 ```
 
-作者有权授权的人工与 AI 创作部分均适用 PolyForm Noncommercial 1.0.0。商业性使用须另获许可，使用时须依许可原文保留相应声明。第三方软件、字体、商标和截图中的游戏美术保留各自权利。[许可证](LICENSE) · [授权范围](docs/legal/LICENSE_SCOPE.md) · [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md) · [免责声明](docs/legal/DISCLAIMER.md)
+作者有权授权的人工与 AI 创作部分均适用 PolyForm Noncommercial 1.0.0。商业性使用须另获许可，使用时须依许可原文保留相应声明。第三方软件、字体、商标和截图中的游戏美术保留各自权利。
+
+[许可证](LICENSE) · [授权范围](docs/legal/LICENSE_SCOPE.md) · [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md) · [免责声明](docs/legal/DISCLAIMER.md)
 
 <!-- 如恢复作品集与联系入口，请在此另起二级标题。 -->

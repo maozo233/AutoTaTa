@@ -1,9 +1,9 @@
-<p align="center"><img src="assets/app-icon.png" width="88" height="88" alt="AutoTaTa" /></p>
+<p align="center"><img src="assets/app-icon.png" width="132" height="132" alt="AutoTaTa" /></p>
 <h1 align="center">AutoTaTa</h1>
 <p align="center">An unofficial Windows automation tool for 塔塔冒险队. Deploy a lineup from a guide, set budgets for fishing and rafting, or compare treasure tiles before you dig.</p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> &nbsp;·&nbsp; <a href="#interactions">Interactions</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.en.md">Known issues</a></p>
 
-<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-en.svg" width="100%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
+<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-en.svg" width="75%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
 
 ## Why AutoTaTa?
 
@@ -13,12 +13,12 @@ A guide gives players a picture of a formation. Recreating it means finding the 
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="100%" alt="Lineup" /></a><br /><strong>Lineup</strong><br />Import a formation and check uncertain cells.</td>
-    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="100%" alt="Fishing" /></a><br /><strong>Fishing</strong><br />Set the multiplier, bait and rod budget.</td>
+    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="Lineup" /></a><br /><strong>Lineup</strong><br />Import a formation and check uncertain cells.</td>
+    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="Fishing" /></a><br /><strong>Fishing</strong><br />Set the multiplier, bait and rod budget.</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="100%" alt="Treasure" /></a><br /><strong>Treasure</strong><br />Mark the board and compare the odds.</td>
-    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="100%" alt="Rafting" /></a><br /><strong>Rafting</strong><br />Choose a multiplier and a boat budget.</td>
+    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="Treasure" /></a><br /><strong>Treasure</strong><br />Mark the board and compare the odds.</td>
+    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="Rafting" /></a><br /><strong>Rafting</strong><br />Choose a multiplier and a boat budget.</td>
   </tr>
 </table>
 
@@ -30,7 +30,7 @@ Each of the four loops opens on the full 0.2.36 window and follows one action. A
 
 Pasting or dropping a formation image starts recognition and attempts deployment. Confirmed characters go first. A question mark flags an uncertain identity. In the example, the player opens the tenth tile and selects **Set empty** (设为空位). Once the editor closes, the preview shows the cleared tile. During a run, stop and wait for deployment to finish before editing.
 
-<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="510" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="383" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
 
 Both 5×5 and 3×4 formations need the entire friendly board. Crop out opponents and buttons from a wide screenshot. If a row is already missing from a five-row board, capture it again, even if that row was empty. [Lineup guide (Chinese)](docs/USAGE.md#一键上阵第一版)
 
@@ -38,19 +38,19 @@ Both 5×5 and 3×4 formations need the entire friendly board. Crop out opponents
 
 The center tile starts as the recommended dig. Mark it **Empty** (标为空地) and the recommendation shifts to four surrounding tiles. Players can also correct treasure dimensions and quantities, then compare the estimated cost of finishing. The player chooses where to dig.
 
-<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="680" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="510" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
 
 ### Rafting · Drag a reward into first place
 
 Rewards are ranked from left to right. Moving the third card to the front gives it priority the next time the game offers three choices. A separate budget limits boats spent. Free spins do not use that budget, and a boat purchase prompt stops the run.
 
-<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="570" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="428" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
 
 ### Fishing · Set a rod budget before casting
 
 Choose the multiplier, bait refill behavior and rod budget before starting. Rod usage reflects the multiplier. Progress and the stop control stay in the fishing window. The demo changes the rod budget from 0 (unlimited) to 30. The rods used counter below updates to 0 / 30.
 
-<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="565" alt="In the full fishing window, changing the rod budget from 0 (unlimited) to 30 updates the counter to 0 / 30." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="424" alt="In the full fishing window, changing the rod budget from 0 (unlimited) to 30 updates the counter to 0 / 30." /></picture></a></p>
 
 ## Design decisions
 
@@ -83,6 +83,8 @@ python tools/check_source_assets.py
 python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 ```
 
-Human and AI contributions that the author can license are covered by PolyForm Noncommercial 1.0.0. Commercial use requires separate permission. Retain the license and required notices. Third-party software, fonts, trademarks and game artwork visible in screenshots retain their respective rights. [License](LICENSE) · [Scope](docs/legal/LICENSE_SCOPE.md) · [Third-party notices](docs/legal/THIRD_PARTY_NOTICES.md) · [Disclaimer](docs/legal/DISCLAIMER.md)
+Human and AI contributions that the author can license are covered by PolyForm Noncommercial 1.0.0. Commercial use requires separate permission. Retain the license and required notices. Third-party software, fonts, trademarks and game artwork visible in screenshots retain their respective rights.
+
+[License](LICENSE) · [Scope](docs/legal/LICENSE_SCOPE.md) · [Third-party notices](docs/legal/THIRD_PARTY_NOTICES.md) · [Disclaimer](docs/legal/DISCLAIMER.md)
 
 <!-- If the portfolio and contact links return, give them their own level-two heading here. -->
