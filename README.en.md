@@ -1,106 +1,78 @@
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
-<p align="center"><img src="docs/media/cover-en.svg" width="100%" alt="AutoTaTa: a designer-led AI-assisted desktop experiment by maozo, frozen at 0.2.36" /></p>
-
-<p align="center"><strong>Windows automation for 塔塔冒险队 · A designer-led AI experiment</strong><br />Source available · Noncommercial · Frozen at v0.2.36</p>
-
-> **Unmaintained | Last functional maintenance: 2026-10-24 (0.2.36).** Maintenance ended due to personal time constraints and because the author no longer plays the game. The implementation targets the game, MuMu emulator, and dependencies used at that time. Current or future versions are not guaranteed to work. Issues are disabled; no updates, fixes, or support are provided. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
-
-> **Known issues:** some dropdown menus allow click-through; manual character filtering does not narrow the list; treasure recognition still has errors and lacks complete continuous live testing of high-level stages; complete real-game lineup deployment remains pending retest. See [known issues](docs/KNOWN_ISSUES.en.md).
+![AutoTaTa English cover](docs/media/cover-en.svg)
 
 # AutoTaTa
 
-**Turning interface decisions into working software.**
+An unofficial Windows tool for players of **塔塔冒险队**. Players can deploy a lineup from a screenshot, set a fishing budget, compare treasure locations, or rank rafting rewards in one desktop app.
 
-AutoTaTa is unofficial Windows automation software for **塔塔冒险队**, and a personal experiment by designer **[maozo](https://github.com/maozo233)** to **explore the feasibility of AI in design and development**. Starting from an AI draft, the author designs, adjusts, and revises the work in Figma, then uses AI assistance to implement a Windows interface, image recognition, and automation flows. Saved-image replay and local checks help assess the results.
+<p align="center"><img src="docs/media/home.png" width="430" alt="AutoTaTa home screen with entries for lineup deployment, fishing, treasure and rafting" /></p>
 
-[Interface gallery](#interface-gallery) · [Features](#four-features-one-interaction-language) · [Design and AI (Chinese)](docs/DESIGN_AND_AI.md) · [Known issues](docs/KNOWN_ISSUES.en.md) · [Reproduction boundaries (Chinese)](docs/SOURCE_DISTRIBUTION.md)
+## Overview
 
-## Interface gallery
+Following a lineup guide means identifying each character and placing it in the right cell. If a screenshot crops out an empty row, even correctly identified characters can land in the wrong positions. AutoTaTa turns the image into a board the player can inspect and correct, then checks the game screen to see what actually landed.
 
-<p align="center"><img src="docs/media/home.png" width="500" alt="AutoTaTa home with lineup deployment, fishing, treasure, and rafting" /></p>
+I’m **maozo**, the designer behind this personal experiment. I wanted to see how far AI could help me take an interaction from a design file to working software. **Version 0.2.36 was the final release. Maintenance has ended.** This repository shares the UI, source snapshot and validation notes for noncommercial study. There is no public installer.
 
-<table>
-  <tr>
-    <td width="50%"><strong>Lineup deployment</strong><br /><img src="docs/media/lineup.png" width="100%" alt="Lineup page with example cells, unknown identities, device settings, and feedback" /></td>
-    <td width="50%"><strong>Automatic fishing</strong><br /><img src="docs/media/fishing.png" width="100%" alt="Fishing page with device, multiplier, bait, and budget settings" /></td>
-  </tr>
-  <tr>
-    <td><strong>Treasure assistant</strong><br /><img src="docs/media/treasure.png" width="100%" alt="Treasure page with board markings, item configuration, and probability estimates" /></td>
-    <td><strong>Rafting</strong><br /><img src="docs/media/rafting.png" width="100%" alt="Rafting page with multiplier, budget, draggable reward priorities, and stop control" /></td>
-  </tr>
-</table>
+## My role
 
-These are actual 0.2.36 UI captures using isolated configuration examples and local calculations, with no device connected. Example lineups, budgets, and probabilities are not live results. Screenshot display does not transfer rights in third-party artwork. The README and banners are bilingual; the application UI shown here remains Chinese.
+I defined the four tasks, their controls, and the points where the player needs to make a decision. Starting from an AI draft, I revised the layouts and visual hierarchy in **Figma**, adjusted type and spacing, and designed button, picker and dialog states. I then checked how those choices held up in a running Windows application.
 
-## Four features, one interaction language
+AI helped translate the approved designs into QML, connect them to Python, and implement recognition and regression checks. I reviewed failed captures from two machines and decided which cells had enough evidence to identify a character and which should keep a question mark. [Design process (Chinese)](docs/DESIGN_AND_AI.md)
 
-| Feature | Implemented flow | Design focus |
-| --- | --- | --- |
-| Lineup deployment | Import, drop, or paste a lineup image; recognize, correct cells, find characters, and deploy; supports 5×5 and 3×4 | Show confirmed results first, preserve unknowns, and compare count, position, and identity before and after operations |
-| Automatic fishing | Device and input mode, multiplier, bait replenishment, rod budget, start and stop | Clear hierarchy for configuration, feedback, and stopping; explicit budget and shutdown controls |
-| Treasure assistant | Board calibration, item sizes and counts, probabilities, suggested cells, and cost estimates | Manual correction and understandable estimates; assists decisions without automatically digging |
-| Rafting | Page recognition, multiplier, boat budget, six reward priorities, and stopping | Draggable visual priorities; stops or waits at purchase prompts or unknown pages |
+## Demo & screens
 
-The four features share one desktop application, with separate source entry points also available. Only the source showcase is currently public; **no bundled executable is offered for public download**.
+These captures show the actual 0.2.36 interface with example settings and offline calculations. The application UI is in Chinese.
 
-### Uncertainty is part of the interface
+**Lineup deployment.** Pasting, dropping or importing an image starts recognition and attempts deployment automatically. To correct a cell, stop the operation, wait for it to finish, then use the editor to select a character or mark the cell as empty.
 
-<p align="center"><img src="docs/media/lineup-editor.png" width="440" alt="Cell correction window with character search and an empty-cell option" /></p>
+<p><img src="docs/media/lineup.png" width="420" alt="Lineup screen showing the target formation and operation feedback" /> <img src="docs/media/lineup-editor.png" width="315" alt="Cell editor with character candidates and an empty-cell option" /></p>
 
-Recognition alone is not sufficient evidence to act. Lineup deployment distinguishes unknown, missing, out-of-range, and confirmed results, and allows manual correction. A cropped 5×5 board with missing empty rows requires a new capture; three or four rows are not stretched into a fabricated five-row lineup.
+**Fishing.** Choose a device and multiplier, configure bait replenishment, and set a rod budget to limit consumption during a run.
 
-## My role and AI's contribution
+<img src="docs/media/fishing.png" width="400" alt="Fishing multiplier, bait settings and rod budget" />
 
-Workflow: **AI draft → author-led design and revisions in Figma → AI-assisted code implementation → the author's review and adjustment of the implementation**.
+**Treasure assistant.** Calibrate the board, correct cell markings, and enter the size and count of each item. The solver estimates probabilities and costs and suggests a cell. The player chooses where to dig.
 
-| Stage | Designer's decisions | AI assistance and evidence |
-| --- | --- | --- |
-| Product and interaction | Tasks, information hierarchy, feedback, stopping, and correction boundaries | Flow breakdown and implementation; see [application code](autotata) and [UI](assets/ui) |
-| Figma design and components | Develop and revise the AI draft in Figma: page layout, visual hierarchy, typography, spacing, components, interaction states, and implementation review | Initial drafts and alternatives, followed by QML implementation and adaptation based on the approved Figma design; see [design iteration notes (Chinese)](docs/DESIGN_AND_AI.md#ai-初稿之后的-figma-设计迭代) |
-| Graphics and asset processing | Asset selection, readability, edges, and transparency | AI-assisted cutouts for some entry and reward icons; derived artwork does not become the author's original copyrighted asset |
-| Implementation and validation | Acceptable outcomes, real failure samples, and when uncertainty must remain | Computer vision, solvers, replay, and regression checks; see [validation summary (Chinese)](docs/VALIDATION_SUMMARY.md) |
+<img src="docs/media/treasure.png" width="400" alt="Treasure board with item shapes and probability estimates" />
 
-AI primarily participates in design and development. Runtime recognition uses local computer vision, template / feature matching, and OCR.
+**Rafting.** Drag six reward types into priority order and set a boat budget. A purchase prompt or an unfamiliar screen stops or pauses the flow.
 
-## What was verified, and what remains
+<img src="docs/media/rafting.png" width="400" alt="Rafting reward priorities and boat budget" />
 
-Version 0.2.36 historically passed **197 lineup regression checks** and local native-window startup verification. Forty diagnostic records from two machines were deduplicated into 25 source images. Unknown cells decreased from 12 to 8, with no changes to previously confirmed identities in this comparison. Incomplete boards were explicitly rejected.
+## Design decisions
 
-These are records from a particular historical environment, not a current or future accuracy guarantee. Diagnostic images and complete recognition assets are excluded from this showcase, so the full suite cannot be reproduced unchanged without them. **Complete real-game deployment in 0.2.36 remains pending retest.**
+- **Give uncertainty its own cell state.** The board distinguishes a confirmed character, an empty cell and an unknown character. If a five-row formation is missing an entire row, even an empty one, the app asks for a new capture. Players can tell when to correct a character and when to recapture the whole board.
+- **Keep the home screen to four choices.** Device settings, budgets and stop controls appear inside the relevant task. Cards, fields and buttons work the same way across screens, while each task has its own theme and icon. [UI components](assets/ui)
+- **Make the order itself editable.** Rafting needs a preference order. Dragging the rewards into a list lets the player read their priority from top to bottom without comparing six numeric weights.
 
-The [known issues page](docs/KNOWN_ISSUES.en.md) lists unresolved cell positions, manual-input filtering issues, treasure recognition and high-level-stage validation gaps, screenshot requirements, the retained real drag failure, and the repaired false stops. Maintenance has ended; the list is not a promise of future repairs.
+## Implementation
 
-## Source and reproduction
+Qt Quick and QML render the interface, with PySide6 connecting it to Python. Local computer vision, template matching and OCR read the game screen. Deployment checks positions, counts and character identities. The treasure solver enumerates layouts that fit the known cells and item shapes, then uses sampling when the search becomes too large. [Lineup implementation](lineup) · [Treasure solver](treasure/solver.py)
 
-| Location | Contents |
-| --- | --- |
-| `assets/ui/` | Qt Quick pages, shared controls, and themes |
-| `autotata/` | Home, navigation, windows, and shared runtime logic |
-| `lineup/` | Recognition, correction, count checks, and deployment |
-| `fishing/`, `treasure/`, `rafting/` | Feature logic, recognition, solvers, and state handling |
-| `tests/` | Regression source; field images and game assets are excluded |
-| `docs/` | Design notes, UI captures, limitations, and distribution boundaries |
-| `docs/legal/`, `licenses/` | License scope, disclaimer, third-party sources, and original licenses |
-| `scripts/`, `requirements/` | Windows launch / build scripts and build dependencies |
+On October 24, 2026, a replay compared 25 distinct images from 40 diagnostic records across two machines. On that set, **unknown cells fell from 12 to 8**, and every previously confirmed identity stayed the same. Version 0.2.36 passed **197 lineup regression checks** at the time. A complete in-game deployment still awaits a retest. [Validation notes (Chinese)](docs/VALIDATION_SUMMARY.md)
 
-Launch scripts are under `scripts/`; individual features use `python -m lineup`, `-m treasure`, `-m fishing`, or `-m rafting`. See the [usage notes (Chinese)](docs/USAGE.md) for prerequisites and resources.
-
-This source snapshot **is not a complete runnable distribution**. Game artwork, recognition templates, diagnostic data, the AGPL-associated Android adapter, and third-party binaries are omitted. Check the resource boundary first; this command does not connect devices or download resources:
+From the repository root, the first command lists missing runtime resources offline. With the documented Python environment, the second runs the standalone treasure solver tests. [Environment and reproduction guide (Chinese)](docs/SOURCE_DISTRIBUTION.md)
 
 ```powershell
 python tools/check_source_assets.py
+python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 ```
 
-Local runtime research requires the necessary resources from lawful sources, following the [historical usage notes (Chinese)](docs/USAGE.md) and [distribution notes (Chinese)](docs/SOURCE_DISTRIBUTION.md). The project does not provide asset permissions, account operation, hosting, paid deployment, or support services.
+## Status & roadmap
 
-## License, use, and maintenance
+The last functional update was **October 24, 2026**. I announced the end of maintenance on **October 28, 2026**, due to personal time constraints and because I had stopped playing the game. Compatibility is limited to the game and emulator versions used at the time. Issues are closed, with no further updates, fixes or technical support planned. [Maintenance record (Chinese)](docs/MAINTENANCE.md)
 
-- **Human-created and AI-created contributions:** AI-generated, revised, or organized code, UI, documentation, and self-created graphics incorporated into this project **must follow the same [PolyForm Noncommercial 1.0.0](LICENSE) terms as human-created work. AI generation is not an exemption.** Uses outside the license's noncommercial permissions require separate authorization; retain the required notices and license and consult the actual terms. This applies only to rights the author can license; third-party content and AI processing of game artwork retain their original rights. See [license scope (Chinese)](docs/legal/LICENSE_SCOPE.md).
-- **Third-party material:** dependencies, fonts, game artwork, and trademarks retain their own rights and licenses. They are not relicensed under the author's noncommercial terms. See [third-party notices (Chinese)](docs/legal/THIRD_PARTY_NOTICES.md).
-- **Use risks:** an unofficial project with no guarantee of accuracy, compatibility, availability, or account safety; exclusions apply only where legally permitted. See the [disclaimer (Chinese)](docs/legal/DISCLAIMER.md).
-- **Maintenance ended:** no promised updates, fixes, Issue / PR handling, or technical support. See [maintenance status (Chinese)](docs/MAINTENANCE.md).
+- Some dropdown clicks pass through to the control underneath.
+- Lineup recognition can misidentify characters. When adding or correcting a character manually, typing a name can fail to narrow the list.
+- Treasure board recognition still makes errors. Higher stages lack continuous in-game testing. [Full list of known issues](docs/KNOWN_ISSUES.en.md)
 
-This English overview is for accessibility. Linked Chinese legal and supporting documents remain in their original language; the English PolyForm license is available in full. README language links do not change the application's interface language or the license scope.
+## License & source availability
 
-<p align="center">Designed and directed by <a href="https://github.com/maozo233">maozo</a> · Built with AI assistance · Preserved as a finished experiment</p>
+Code, UI, documentation and graphics that the author can license are available under **PolyForm Noncommercial 1.0.0**. The same terms apply to human contributions and incorporated AI-generated or AI-revised work within that scope. Commercial use requires separate permission. Use and redistribution must follow the license and retain the required notices. [License](LICENSE) · [License scope (Chinese)](docs/legal/LICENSE_SCOPE.md)
+
+Game artwork, trademarks, fonts and third-party components retain their respective rights. The snapshot omits game asset packs, recognition templates, field captures, Android adapter components and third-party binaries. Compatibility with current versions and account safety are not guaranteed. [Third-party notices (Chinese)](docs/legal/THIRD_PARTY_NOTICES.md) · [Disclaimer (Chinese)](docs/legal/DISCLAIMER.md)
+
+## Contact & portfolio
+
+[maozo on GitHub](https://github.com/maozo233)

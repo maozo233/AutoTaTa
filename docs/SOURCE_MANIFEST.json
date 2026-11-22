@@ -717,13 +717,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 10829,
-      "sha256": "7dcb1973ac9f8722defe6cbb7803ac7a6df7707ec9ef9939e4669a360e145f12"
+      "bytes": 7089,
+      "sha256": "eb0784ecbc2a82fcad7decd7d452629974c50f7f850d9ffbd15269ad27aa612f"
     },
     {
       "path": "README.md",
-      "bytes": 9553,
-      "sha256": "83fecb8c7c814be09e8616ab3dacb59608a5872e4cab9bfb511df6110662d18f"
+      "bytes": 6365,
+      "sha256": "1b2888ac5a826ff4954e8b80ff4196c8d21a283bc47204dabee0c2ae3638ce73"
     },
     {
       "path": "requirements/build.txt",
