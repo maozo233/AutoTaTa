@@ -13,12 +13,12 @@ Copying a formation means switching between a guide and the emulator, finding ea
 
 <table>
   <tr>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="Lineup" /></a></div><strong>Lineup</strong><br />Deploy a shared formation and correct individual tiles.</td>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="Fishing" /></a></div><strong>Fishing</strong><br />Automate casting and coordinate bait use with teammates.</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="Lineup" /></a></div><strong>Lineup</strong><br />Deploy a shared formation and correct individual tiles.</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="Fishing" /></a></div><strong>Fishing</strong><br />Automate casting and coordinate bait use with teammates.</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="Treasure" /></a></div><strong>Treasure</strong><br />Read the live board and compare the odds on unopened tiles.</td>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="Rafting" /></a></div><strong>Rafting</strong><br />Adjust the boat multiplier and drag rewards into priority order.</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="Treasure" /></a></div><strong>Treasure</strong><br />Read the live board and compare the odds on unopened tiles.</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="Rafting" /></a></div><strong>Rafting</strong><br />Adjust the boat multiplier and drag rewards into priority order.</td>
   </tr>
 </table>
 

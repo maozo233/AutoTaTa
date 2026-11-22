@@ -13,12 +13,12 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="一键上阵" /></a></div><strong>一键上阵</strong><br />照着分享的阵容图自动排阵，逐格更正。</td>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="自动钓鱼" /></a></div><strong>自动钓鱼</strong><br />自动抛竿、控鱼，和队友配合补饵。</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="75%" alt="一键上阵" /></a></div><strong>一键上阵</strong><br />照着分享的阵容图自动排阵，逐格更正。</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="75%" alt="自动钓鱼" /></a></div><strong>自动钓鱼</strong><br />自动抛竿、控鱼，和队友配合补饵。</td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="寻宝辅助" /></a></div><strong>寻宝辅助</strong><br />读取模拟器棋盘，比较未挖格的命中概率。</td>
-    <td width="50%" valign="top"><div align="center"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="漂流大赛" /></a></div><strong>漂流大赛</strong><br />调整用船倍率，拖动奖励卡决定优先级。</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="75%" alt="寻宝辅助" /></a></div><strong>寻宝辅助</strong><br />读取模拟器棋盘，比较未挖格的命中概率。</td>
+    <td width="50%" align="center" valign="top"><div><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="75%" alt="漂流大赛" /></a></div><strong>漂流大赛</strong><br />调整用船倍率，拖动奖励卡决定优先级。</td>
   </tr>
 </table>
 
