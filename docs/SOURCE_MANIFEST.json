@@ -371,6 +371,21 @@
       "sha256": "d6fcff7375f7e61dd7c5f2f83fdd7891abd07e6c3b8186c6a2b00eb24ab38254"
     },
     {
+      "path": "docs/media/interaction-lineup.png",
+      "bytes": 255062,
+      "sha256": "b75341e17bd1611ce7ed6810c032335b3e0b4ae2e0021efd9b59850298922e7c"
+    },
+    {
+      "path": "docs/media/interaction-rewards.png",
+      "bytes": 130506,
+      "sha256": "a91f2dbe2dd85f121951f5195058de80741e2e028216abe5b3545b78603d263c"
+    },
+    {
+      "path": "docs/media/interaction-treasure.png",
+      "bytes": 70433,
+      "sha256": "0676b4835c64dde928f2dd701b5cb1f8d5d46a20f8e29ca7ca25ae588c04b216"
+    },
+    {
       "path": "docs/media/lineup-editor.png",
       "bytes": 37086,
       "sha256": "bf97bea89a28171fea15d08df65c6591c7a749b3b8e1ec7f4f9fc7a8caa8ce63"
@@ -742,13 +757,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 5977,
-      "sha256": "0c27c3dc1911b5617f8a9f2df90d4f0f59a2790c2c626fcdef1a23d12b09d6f7"
+      "bytes": 8721,
+      "sha256": "7e19a25c44d0cd38aec577d407372838ca123ecb4afcd6b16ef7b924e30e6ba3"
     },
     {
       "path": "README.md",
-      "bytes": 5647,
-      "sha256": "c511854849e2558b2c61c2cda6b96e042bef46ba9992ea32dbebb3d067229fec"
+      "bytes": 8082,
+      "sha256": "032998485182bb6d1b97bac526d9788e3938f137c31506fb091888e2de8fe4ba"
     },
     {
       "path": "requirements/build.txt",
