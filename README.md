@@ -3,7 +3,7 @@
 <p align="center">《塔塔冒险队》的非官方自动化工具，配合 Windows 上的安卓模拟器使用。<br />通过 ADB 或 MuMu SDK 连接模拟器，辅助上阵、寻宝、漂流和钓鱼。</p>
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> &nbsp;·&nbsp; <a href="#交互演示">交互演示</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.md">已知问题</a></p>
 
-<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-zh.svg" width="75%" alt="AutoTaTa 主页，完整展示一键上阵、自动钓鱼、寻宝辅助和漂流大赛四个入口" /></picture></a></p>
+<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/window-home.svg" /><img src="docs/media/cover-zh.svg" width="75%" alt="AutoTaTa 主页，完整展示一键上阵、自动钓鱼、寻宝辅助和漂流大赛四个入口" /></picture></a></p>
 
 ## 为什么做 AutoTaTa
 
@@ -32,7 +32,7 @@
 
 预览里的问号表示身份待确认。等本轮操作停止后，点开格子就能重新选择塔塔或设为空位。下面演示的是把第十格更正为空位。
 
-<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="383" alt="点开第二行最右侧的问号，在修正窗口选择设为空位，返回后该格已清空" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-lineup.svg" /><img src="docs/media/interaction-lineup.svg" width="383" alt="点开第二行最右侧的问号，在修正窗口选择设为空位，返回后该格已清空" /></picture></a></p>
 
 截图范围影响站位。5×5 和 3×4 阵容都要保留完整己方场地。大截图可框掉敌方和底部按钮；如果五行棋盘已经截掉一整行，即使缺的是空行，也要重新截图。[阵容导入说明](docs/USAGE.md#一键上阵第一版)
 
@@ -42,13 +42,13 @@
 
 也可以手动修正棋盘或宝物配置。演示中把中央推荐格标为「空地」，四周格子的概率随即更新，推荐位置也跟着改变。
 
-<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="510" alt="中心格从推荐的 44% 变为空地，附近四格重新计算为 45%" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-treasure.svg" /><img src="docs/media/interaction-treasure.svg" width="510" alt="中心格从推荐的 44% 变为空地，附近四格重新计算为 45%" /></picture></a></p>
 
 ### 漂流大赛 · 调整用船倍率，排好奖励顺序
 
 运行中也能调整用船倍率，新设置会在下一轮转盘前应用。奖励按偏好从左到右排列。像演示里这样把第三项拖到最前，之后遇到三选一，助手就会自动挑选在场选项中排名最高的奖励。设好用船预算即可让转盘和领奖自动进行；免费转盘不占预算，遇到购船提示会停止。
 
-<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="428" alt="按住第三张奖励卡拖到最左侧，松手后前两项顺次后移" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-rafting.svg" /><img src="docs/media/interaction-rewards.svg" width="428" alt="按住第三张奖励卡拖到最左侧，松手后前两项顺次后移" /></picture></a></p>
 
 ### 自动钓鱼 · 控制用竿消耗，与队友配合打窝
 
@@ -56,7 +56,7 @@
 
 鱼竿和鱼饵分别计数。演示把「本次用竿预算」从 0（不限）改为 30，下方「已用钓竿」随即显示 0 / 30。
 
-<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="424" alt="钓鱼完整窗口中，将本次用竿预算从 0（不限）改为 30，状态区同步显示 0 / 30。" /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-fishing.svg" /><img src="docs/media/interaction-fishing.svg" width="424" alt="钓鱼完整窗口中，将本次用竿预算从 0（不限）改为 30，状态区同步显示 0 / 30。" /></picture></a></p>
 
 ## 设计取舍
 

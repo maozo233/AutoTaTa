@@ -347,13 +347,13 @@
     },
     {
       "path": "docs/media/cover-en.svg",
-      "bytes": 137342,
-      "sha256": "27546338a690b805ffd62740914260ecaa2f484cdc61f75e21f1aaede2f87509"
+      "bytes": 137575,
+      "sha256": "eed21ecbb6b3ae7d25326cd5c60e56c5b1fcccdd55029634a1c39146ade20788"
     },
     {
       "path": "docs/media/cover-zh.svg",
-      "bytes": 139653,
-      "sha256": "8404605dc307a7f130c9e703a1428337db4d23987bd6f5b371adfa186ffa4ab3"
+      "bytes": 139886,
+      "sha256": "c79abc3748100f5c8456c089e083897f560471b139f3b9e98e2e01c32a122fe0"
     },
     {
       "path": "docs/media/demo-reward-order.svg",
@@ -376,9 +376,19 @@
       "sha256": "388824b58cddac51661da43b7d69afb6e68cabb89391a1cc8935fe1bf8c8ac4d"
     },
     {
+      "path": "docs/media/interaction-fishing.svg",
+      "bytes": 182111,
+      "sha256": "58c7fc188be0c62f5802908836f43faf8235a23a2d48c9a9cd97442f107ce8f8"
+    },
+    {
       "path": "docs/media/interaction-lineup.png",
       "bytes": 468127,
       "sha256": "7f5795f54ad753422de0a3a77e5f5f2d51604d87a4a66f6a38fd2788dfa608bf"
+    },
+    {
+      "path": "docs/media/interaction-lineup.svg",
+      "bytes": 624547,
+      "sha256": "ad904fe67835f91618c3352ee6450a0cc5a31b7c5f6db523f00820c9a2520ae2"
     },
     {
       "path": "docs/media/interaction-rewards.png",
@@ -386,9 +396,19 @@
       "sha256": "21a97a4d0517b38893e2544b038b719a45d37b7731a7de815c313f168f4d1389"
     },
     {
+      "path": "docs/media/interaction-rewards.svg",
+      "bytes": 272945,
+      "sha256": "09e203479d3745bbe1e47415827cbb619c8acbc27f924f941be74cedeb777416"
+    },
+    {
       "path": "docs/media/interaction-treasure.png",
       "bytes": 197384,
       "sha256": "a3c45808e1e8fce6f92f002a66a21f6ef11b9ad20ffa12171c54b1462a20efe2"
+    },
+    {
+      "path": "docs/media/interaction-treasure.svg",
+      "bytes": 263550,
+      "sha256": "b476eca9dfbee3b8a6a506bc647f976280e714febe47b0e93aa4cc002a5baf2c"
     },
     {
       "path": "docs/media/lineup-editor.png",
@@ -402,23 +422,23 @@
     },
     {
       "path": "docs/media/preview-fishing.svg",
-      "bytes": 176055,
-      "sha256": "538b7a6c7cc5ec302f4de00c75d0b2c50a93b074d10868c408e62ecdc5948fe1"
+      "bytes": 176189,
+      "sha256": "a99421045ecde1ff31e9dbd950218c468b1e6bb782eedf78148e12098c64429f"
     },
     {
       "path": "docs/media/preview-lineup.svg",
-      "bytes": 209038,
-      "sha256": "20d14fd3f24d6aad5f8b69b1eda36a4b666f6fd275baef2b372bdcdb28cd6bc3"
+      "bytes": 209172,
+      "sha256": "74c8b850665496ddb38eb09cb4e764c849fcfd25989bc6a5818f9a827d4e69ef"
     },
     {
       "path": "docs/media/preview-rafting.svg",
-      "bytes": 178943,
-      "sha256": "1b79f3b0f687b43a446c2fdeb66c2f04a3de31202808c7f842bd2c1739420ab1"
+      "bytes": 179076,
+      "sha256": "baa5bcadb41c93c6a816dee283ff47a80cd2e1fba9b1c118d3f70b6c7e20152b"
     },
     {
       "path": "docs/media/preview-treasure.svg",
-      "bytes": 175760,
-      "sha256": "1a994697790ea6ce6941ae8cdcbf230698b9c5b927e24d3719370fe3fe11eafb"
+      "bytes": 175894,
+      "sha256": "24e9e1982b8a5aec6656f267068effda4111a3132d055b74619f355d6b1bb76c"
     },
     {
       "path": "docs/media/rafting.png",
@@ -429,6 +449,31 @@
       "path": "docs/media/treasure.png",
       "bytes": 131534,
       "sha256": "b5b51cd68f9be345b240f97b501cee26d17f2932a1ec5e3b9c28fd90c49a8bf6"
+    },
+    {
+      "path": "docs/media/window-fishing.svg",
+      "bytes": 176037,
+      "sha256": "efc51dfeb28d885a20a2eca77ba13ffbe7e52f6139fae585de0e4560725c4f28"
+    },
+    {
+      "path": "docs/media/window-home.svg",
+      "bytes": 112082,
+      "sha256": "a2f10f776196921e3921ca0e394367d3333df8e2d50a001e75ace03643523fee"
+    },
+    {
+      "path": "docs/media/window-lineup.svg",
+      "bytes": 209024,
+      "sha256": "9cbc08b6322123f999d03f4cd74df05f250c913097b461e7ea6963e8e8f5a7d0"
+    },
+    {
+      "path": "docs/media/window-rafting.svg",
+      "bytes": 178925,
+      "sha256": "abb14594662d098fae653d35d973a9d38a4f7c224af8058f8fdec689ff5afb97"
+    },
+    {
+      "path": "docs/media/window-treasure.svg",
+      "bytes": 175742,
+      "sha256": "45bea786d877f2a1384d6d924e4cc68c5e2bfa3604a757c759397e11949edc96"
     },
     {
       "path": "docs/RELEASE_NOTES.md",
@@ -762,13 +807,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 10806,
-      "sha256": "108de806bfb275323a08ef8d37d45bd5b162cc06baf49d46f8031e3ebd640397"
+      "bytes": 10841,
+      "sha256": "63006b68957261d3d2a04e24b2178be71aa8f775a35810e79426798f8bd07232"
     },
     {
       "path": "README.md",
-      "bytes": 9959,
-      "sha256": "36abbb27271d095533da1beec41c33111403cc920999647da315fab4fb9a42f9"
+      "bytes": 9994,
+      "sha256": "4fd5423408e18ae4c88b70caba6f1a647a36cfadaa88cd632b5406fc87b1de01"
     },
     {
       "path": "requirements/build.txt",

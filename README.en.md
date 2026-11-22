@@ -3,7 +3,7 @@
 <p align="center">An unofficial automation tool for 塔塔冒险队, played on an Android emulator on Windows.<br />Connect via ADB or the MuMu SDK for lineup deployment, treasure hunting, rafting and fishing.</p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong> &nbsp;·&nbsp; <a href="#interactions">Interactions</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.en.md">Known issues</a></p>
 
-<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/home.png" /><img src="docs/media/cover-en.svg" width="75%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
+<p align="center"><a href="docs/media/home.png"><picture><source media="(max-width: 600px)" srcset="docs/media/window-home.svg" /><img src="docs/media/cover-en.svg" width="75%" alt="Full AutoTaTa home window with entries for Lineup, Fishing, Treasure and Rafting" /></picture></a></p>
 
 ## Why AutoTaTa?
 
@@ -32,7 +32,7 @@ Paste a screenshot from a guide or a formation shared by another player. AutoTaT
 
 A question mark flags an uncertain match. Once the run has stopped, select the tile to choose a character or mark it empty. The loop shows the player clearing the tenth tile.
 
-<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/lineup.png" /><img src="docs/media/interaction-lineup.png" width="383" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-lineup.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-lineup.svg" /><img src="docs/media/interaction-lineup.svg" width="383" alt="The rightmost question mark in row two opens the editor. Choosing Set empty clears that tile." /></picture></a></p>
 
 Both 5×5 and 3×4 formations need the entire friendly board. Crop out opponents and buttons from a wide screenshot. If a row is already missing from a five-row board, capture it again, even if that row was empty. [Lineup guide (Chinese)](docs/USAGE.md#一键上阵第一版)
 
@@ -42,13 +42,13 @@ Live recognition reads the emulator through the MuMu SDK. The solver uses treasu
 
 Players can also correct a tile or adjust the treasure configuration. In the demo, marking the recommended center tile as empty changes the odds across the board and shifts the recommendation to four surrounding tiles.
 
-<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/treasure.png" /><img src="docs/media/interaction-treasure.png" width="510" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-treasure.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-treasure.svg" /><img src="docs/media/interaction-treasure.svg" width="510" alt="The center tile changes from a 44% recommendation to empty. Four surrounding tiles now show 45%." /></picture></a></p>
 
 ### Rafting · Set the boat multiplier and rank rewards
 
 Players can change the boat multiplier during a run. The new setting applies before the next spin. Rewards are ranked from left to right. In the demo, dragging the third card to the front makes it the first choice whenever it appears in a three-way offer. Once the boat budget is set, the assistant handles spins and reward collection. Free spins do not spend that budget, and a boat purchase prompt stops the run.
 
-<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/rafting.png" /><img src="docs/media/interaction-rewards.png" width="428" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-rewards.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-rafting.svg" /><img src="docs/media/interaction-rewards.svg" width="428" alt="The third reward card moves to the front and the previous first and second cards shift right." /></picture></a></p>
 
 ### Fishing · Set a rod budget and share baiting duties
 
@@ -56,7 +56,7 @@ The assistant casts and plays the fish automatically. With automatic baiting ena
 
 Rod and bait use are tracked separately. The demo changes the rod budget from 0 (unlimited) to 30. The counter below updates to 0 / 30 rods used.
 
-<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/fishing.png" /><img src="docs/media/interaction-fishing.png" width="424" alt="In the full fishing window, changing the rod budget from 0 (unlimited) to 30 updates the counter to 0 / 30." /></picture></a></p>
+<p align="center"><a href="docs/media/interaction-fishing.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/media/window-fishing.svg" /><img src="docs/media/interaction-fishing.svg" width="424" alt="In the full fishing window, changing the rod budget from 0 (unlimited) to 30 updates the counter to 0 / 30." /></picture></a></p>
 
 ## Design decisions
 
