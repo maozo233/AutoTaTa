@@ -1,78 +1,67 @@
-<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+<p align="center"><img src="assets/app-icon.png" width="88" height="88" alt="AutoTaTa" /></p>
+<h1 align="center">AutoTaTa</h1>
+<p align="center">《塔塔冒险队》非官方 Windows 自动化工具。从攻略图导入阵容，设置钓鱼和漂流预算，在寻宝棋盘上比较落点。</p>
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a> &nbsp;·&nbsp; <a href="#交互演示">交互演示</a> &nbsp;·&nbsp; <a href="docs/KNOWN_ISSUES.md">已知问题</a></p>
 
-![AutoTaTa 中文封面](docs/media/cover-zh.svg)
+![从阵容图到游戏棋盘，右侧为真实上阵预览](docs/media/cover-zh.svg)
 
-# AutoTaTa
+## 功能预览
 
-《塔塔冒险队》的非官方 Windows 自动化工具。玩家可以从一张阵容截图开始上阵，也可以在同一个桌面窗口里设置钓鱼、估算寻宝落点或安排漂流奖励。
+四个任务共用一个桌面程序。点击预览可查看完整界面。截图来自 0.2.36 的示例配置与离线计算。
 
-<p align="center"><img src="docs/media/home.png" width="430" alt="AutoTaTa 实际主页，四个入口分别通往上阵、钓鱼、寻宝和漂流" /></p>
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="docs/media/lineup.png"><img src="docs/media/preview-lineup.svg" width="100%" alt="一键上阵" /></a><br /><strong>一键上阵</strong><br />导入阵容图，核对未确认的格子。</td>
+    <td width="50%" valign="top"><a href="docs/media/fishing.png"><img src="docs/media/preview-fishing.svg" width="100%" alt="自动钓鱼" /></a><br /><strong>自动钓鱼</strong><br />设置倍率、补饵方式和用竿预算。</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><a href="docs/media/treasure.png"><img src="docs/media/preview-treasure.svg" width="100%" alt="寻宝辅助" /></a><br /><strong>寻宝辅助</strong><br />标记棋盘，比较各格的宝物概率。</td>
+    <td width="50%" valign="top"><a href="docs/media/rafting.png"><img src="docs/media/preview-rafting.svg" width="100%" alt="漂流大赛" /></a><br /><strong>漂流大赛</strong><br />选择漂流倍率，限定本次用船数。</td>
+  </tr>
+</table>
 
-## 项目概览
+## 交互演示
 
-对照攻略图上阵时，玩家既要认出角色，又要把它放进对应格子。一张裁掉底部空行的截图，即使每个角色都认对了，也可能让整队站错位置。AutoTaTa 把阵容图变成可检查、可更正的棋盘，再根据游戏画面核对上阵结果。
+**拖动奖励，调整优先级。** 最左边的奖励优先。当游戏给出多个选项时，助手按玩家排好的顺序选择。
 
-这是设计师 **maozo** 发起的个人实验，想验证 AI 能在多大程度上帮助设计师把交互想法做成能运行的软件。历史发布版本为 **0.2.36，现已停止维护**。本仓库公开界面、实现与验证记录，供非商业研究，目前不提供安装包下载。
+<!-- 动图位：可用同宽高比的奖励拖动循环替换静帧，保留静态回退图。 -->
+<p align="center"><a href="docs/media/rafting.png"><img width="720" src="docs/media/demo-reward-order.svg" alt="六类奖励排成一行，可左右拖动，最左侧最优先" /></a></p>
 
-## 我的职责
+<details>
+<summary><strong>逐格更正阵容</strong></summary>
 
-我确定了四个功能的范围、操作顺序，以及什么时候应把判断交还给玩家。AI 给出初稿后，我在 **Figma** 里重新安排页面布局和信息层级，调整字号、间距、按钮、选择器及弹窗状态，再对照 Windows 实际窗口检查还原效果。
+导入攻略图后，程序会立即尝试识别并上阵。问号表示角色身份未确认。需要更正时，先停止并等待运行结束，再点开格子选择角色或设为空位。如果五行阵容被裁掉了整行，需要重新截图，因为缺少的空行也会影响站位。
 
-AI 根据确认后的设计辅助编写 QML、连接 Python 业务逻辑，也参与识别算法和回归用例的实现。我用两台机器留下的失败截图核对结果，决定哪些格子可以确认，哪些必须继续显示问号。[设计与 AI 协作记录](docs/DESIGN_AND_AI.md)
+<!-- 动图位：可用一段本地逐格更正操作替换编辑器静帧。 -->
+<p align="center"><img src="docs/media/lineup-editor.png" width="460" alt="逐格更正窗口，提供候选角色和设为空位的选项" /></p>
 
-## 界面与操作演示
+</details>
 
-以下是 0.2.36 的真实程序截图，使用示例配置和离线计算结果。截图中的界面语言为中文。
+## 设计与实现
 
-**一键上阵。** 粘贴、拖入或导入阵容图后，程序会尝试识别并自动上阵。要改一个格子，先停止并等待运行结束，再打开更正窗口，选择角色或标为空位。
+我是设计师 [maozo](https://github.com/maozo233)。做 AutoTaTa，是想看看 AI 能帮我把桌面交互从草稿推进到哪一步。我以 AI 初稿为起点，在 Figma 中调整布局、字号和控件状态，再用 AI 辅助编写 QML，通过 PySide6 连接 Python。我对照 Windows 实际窗口检查效果，也用失败截图判断哪些角色仍该显示问号。[设计与 AI 协作记录](docs/DESIGN_AND_AI.md)
 
-<p><img src="docs/media/lineup.png" width="420" alt="一键上阵主界面，显示目标阵容和运行反馈" /> <img src="docs/media/lineup-editor.png" width="315" alt="逐格更正窗口，提供候选角色和空位选项" /></p>
+**界面怎么组织。** 主页只放四个任务入口。玩家进入具体任务后，才看到与它有关的设备、预算和停止控件。[主页截图](docs/media/home.png) · [QML 组件](assets/ui)
 
-**自动钓鱼。** 玩家选择设备和倍率、设置补饵方式，并用竿数预算限定一次运行的消耗。
+**程序怎么判断。** 本地图像匹配和 OCR 读取游戏画面，上阵流程核对角色身份、位置和数量。寻宝求解器枚举符合已知条件的布局，搜索量过大时转为采样估算。最终挖哪一格，由玩家决定。[上阵代码](lineup) · [寻宝求解器](treasure/solver.py)
 
-<img src="docs/media/fishing.png" width="400" alt="钓鱼设置中的倍率、补饵和用竿预算" />
+## 验证与已知问题
 
-**寻宝辅助。** 玩家校准棋盘、修正格子并填写宝物尺寸与数量。程序给出概率、推荐格和消耗估算，实际挖哪一格由玩家决定。
+两台机器的 40 条记录去重后得到 25 张原图。在这批图片的回放中，未确认格子从 **12 格降至 8 格**，此前确认的角色身份保持一致。0.2.36 当时通过了 **197 项一键上阵回归检查**，完整的实机上阵流程仍待复测。[验证摘要](docs/VALIDATION_SUMMARY.md)
 
-<img src="docs/media/treasure.png" width="400" alt="寻宝棋盘、宝物配置和概率估算" />
+- 部分下拉菜单点击会穿透，误触下层控件。
+- 一键上阵仍会认错角色。手动添加或更正时，输入关键词有时无法缩小候选范围。
+- 寻宝仍有棋盘识别错误，高等级关卡缺少真实、连续的操作验证。[完整问题清单](docs/KNOWN_ISSUES.md)
 
-**漂流大赛。** 玩家拖动六类奖励来排列优先级，并设定用船预算。遇到购买提示或未知页面时，流程会停止或等待。
+## 源码与维护状态
 
-<img src="docs/media/rafting.png" width="400" alt="漂流界面上的奖励排序和用船预算" />
+**0.2.36 · 已停止维护。** 最后功能维护于 2026-10-24，停维声明发布于 2026-10-28。因个人时间安排，且我已不再游玩这款游戏，项目停止更新。当前及未来游戏、模拟器版本的兼容性没有保证。Issues 已关闭，无后续修复排期或技术支持。[维护记录](docs/MAINTENANCE.md)
 
-## 设计取舍
-
-- **给未知角色留一个格子。** 上阵棋盘分别显示已确认角色、空位和问号。如果本应有五行的截图缺了整行，即使缺的是空行，程序也会提示重截。这样用户能区分「需要认角色」和「需要重截整张图」。
-- **主页只做任务选择。** 设备、预算和停止方式放进各自的功能页，让玩家选中当下要做的事后再看参数。不同功能沿用同一组卡片、字段和按钮，靠主题与图形区分入口。[界面组件](assets/ui)
-- **用顺序表达偏好。** 漂流奖励要表达的是「先选哪个」。拖动后从上往下就是实际优先级，玩家可以直接检查顺序，无需把六个数字换算成排名。
-
-## 技术实现与验证
-
-桌面界面使用 Qt Quick / QML，通过 PySide6 连接 Python。上阵时，本地计算机视觉、模板匹配和 OCR 读取画面，部署流程核对位置、数量和角色身份。寻宝求解器根据已知格子与宝物形状枚举可能布局，搜索量过大时使用采样估算。[上阵实现](lineup) · [寻宝求解器](treasure/solver.py)
-
-在 2026-10-24 的历史回放中，两台机器的 40 条记录去重后得到 25 张原图。对同一批图片，未确认格子从 **12 格降到 8 格**，此前已确认的角色身份均保持一致。0.2.36 当时通过了 **197 项一键上阵回归检查**。完整的实机上阵流程仍待复测。[验证摘要](docs/VALIDATION_SUMMARY.md)
-
-可在项目根目录离线检查公开快照缺少哪些运行资源。准备好文档所列的 Python 环境后，还可以独立运行寻宝求解测试。[环境与复现说明](docs/SOURCE_DISTRIBUTION.md)
+仓库公开源码与设计资料，未提供整合安装包、游戏图包、识别模板、现场诊断图及部分运行依赖。可在项目根目录检查资源清单，并按文档准备环境，单独运行寻宝求解测试。[环境与复现说明](docs/SOURCE_DISTRIBUTION.md)
 
 ```powershell
 python tools/check_source_assets.py
 python -m unittest tests.test_treasure_solver tests.test_treasure_enumeration
 ```
 
-## 当前状态与已知问题
-
-最后功能维护于 **2026-10-24**，停维声明发布于 **2026-10-28**。因个人时间安排，且我已不再游玩这款游戏，项目已结束维护。兼容性以当时的游戏和模拟器版本为限。Issues 已关闭，无后续更新、修复排期或技术支持。[维护记录](docs/MAINTENANCE.md)
-
-- 部分下拉菜单会发生点击穿透，误触下层控件。
-- 一键上阵仍会识别出错。手动添加或更正角色时，输入关键词有时无法缩小候选范围。
-- 寻宝仍有棋盘识别错误。高等级关卡缺少真实、连续的操作验证。[完整问题清单](docs/KNOWN_ISSUES.md)
-
-## 许可与源码范围
-
-作者有权授权的代码、界面、文档和自制图形采用 **PolyForm Noncommercial 1.0.0**。纳入项目的 AI 生成或修改内容与人工创作部分适用相同条款。商业性使用须另获许可，使用与再分发须遵守原文并保留相应声明。[许可证](LICENSE) · [授权范围](docs/legal/LICENSE_SCOPE.md)
-
-游戏美术、商标、字体及第三方组件各自保留原有权利。公开快照省略了游戏图包、识别模板、现场诊断图、Android 适配组件及第三方二进制。项目不保证当前版本可用或账号安全。[第三方说明](docs/legal/THIRD_PARTY_NOTICES.md) · [免责声明](docs/legal/DISCLAIMER.md)
-
-## 作者与其他作品
-
-[maozo 的 GitHub 主页](https://github.com/maozo233)
+**许可。** 作者有权授权的人工与 AI 创作部分均适用 PolyForm Noncommercial 1.0.0，商业性使用须另获许可，并按原文保留许可与相应声明。第三方软件、字体、商标及截图中出现的游戏美术保留各自权利。[许可证](LICENSE) · [授权范围](docs/legal/LICENSE_SCOPE.md) · [第三方说明](docs/legal/THIRD_PARTY_NOTICES.md) · [免责声明](docs/legal/DISCLAIMER.md)

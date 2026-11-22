@@ -332,8 +332,8 @@
     },
     {
       "path": "docs/legal/LICENSE_SCOPE.md",
-      "bytes": 4941,
-      "sha256": "638eba525e9b028cdff0319120b5b7c0cb186e162ae4a7f1c946b874e1e635e7"
+      "bytes": 4989,
+      "sha256": "e1d0844a23d1f71591e71aff478e3dc0f408a56643b235616eadf8ea069c7ba2"
     },
     {
       "path": "docs/legal/THIRD_PARTY_NOTICES.md",
@@ -347,13 +347,18 @@
     },
     {
       "path": "docs/media/cover-en.svg",
-      "bytes": 3682,
-      "sha256": "a35f1b532888ae531dd4060bf560189c6f93593c02f45f17235b5578ccb8e7b5"
+      "bytes": 209762,
+      "sha256": "67a03e53b3b91ffb618a5a412d4dd4ecc9f06d30327c17302a10d73c5bf36513"
     },
     {
       "path": "docs/media/cover-zh.svg",
-      "bytes": 3783,
-      "sha256": "03184aaaeb22bbdc5bedaa39141778a5e2bc9655c75b50428f853af1d9568673"
+      "bytes": 209759,
+      "sha256": "14b679025187baafd59e33e9ec6c56bb847937dc36e52f2476249a7dcacb651f"
+    },
+    {
+      "path": "docs/media/demo-reward-order.svg",
+      "bytes": 179014,
+      "sha256": "735c7a0d5423d94aec5eb28de9281efc603ed5365094e6b15399e24a2978079a"
     },
     {
       "path": "docs/media/fishing.png",
@@ -374,6 +379,26 @@
       "path": "docs/media/lineup.png",
       "bytes": 156495,
       "sha256": "f7e3874a882019de2d96d6d6025e29d990d6ac9b683d16f10053b6796acde136"
+    },
+    {
+      "path": "docs/media/preview-fishing.svg",
+      "bytes": 176121,
+      "sha256": "d87159e0fca6f2c7de14a068b1fef685c609409d1b7e916b020f8b0186d34ed3"
+    },
+    {
+      "path": "docs/media/preview-lineup.svg",
+      "bytes": 209091,
+      "sha256": "16b64fda6c738c3f70dde73b2c8c0b7fe2d3597333347258b4279f01b5a118c0"
+    },
+    {
+      "path": "docs/media/preview-rafting.svg",
+      "bytes": 179028,
+      "sha256": "ae8857bff9c0dc510cfccc1a28e4ced47d86ae37cf2d81082e54f3a8b599f39e"
+    },
+    {
+      "path": "docs/media/preview-treasure.svg",
+      "bytes": 175821,
+      "sha256": "d4f3932fb1034eddf17541c400f1aefe3a1b2709701944d99072372236a76b50"
     },
     {
       "path": "docs/media/rafting.png",
@@ -717,13 +742,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 7089,
-      "sha256": "eb0784ecbc2a82fcad7decd7d452629974c50f7f850d9ffbd15269ad27aa612f"
+      "bytes": 5977,
+      "sha256": "0c27c3dc1911b5617f8a9f2df90d4f0f59a2790c2c626fcdef1a23d12b09d6f7"
     },
     {
       "path": "README.md",
-      "bytes": 6365,
-      "sha256": "1b2888ac5a826ff4954e8b80ff4196c8d21a283bc47204dabee0c2ae3638ce73"
+      "bytes": 5647,
+      "sha256": "c511854849e2558b2c61c2cda6b96e042bef46ba9992ea32dbebb3d067229fec"
     },
     {
       "path": "requirements/build.txt",

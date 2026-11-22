@@ -21,7 +21,7 @@ Required Notice: Copyright 2026 maozo (https://github.com/maozo233)
 | 内容 | 授权与处理方式 |
 | --- | --- |
 | 作者创作及有权授权的 AI 辅助生成／修改的业务逻辑、Qt Quick 界面、自制矢量图及说明 | 在作者可授权的范围内默认采用上述非商业许可；已有第三方声明或原素材权利的内容除外 |
-| `docs/media/cover-zh.svg`、`docs/media/cover-en.svg`、作者自制应用字标 | 作者的非商业授权范围；不授予以作者名义背书的权利 |
+| `docs/media/cover-zh.svg`、`docs/media/cover-en.svg`、作者自制应用字标 | 作者自制版式与字标适用非商业许可；封面和预览图中截取的游戏美术、字体等保留原权利 |
 | `docs/media/*.png` 界面截图 | 用于本项目的设计展示；图中游戏素材、字体及他人标识各自保留权利，不提供可提取素材包的授权 |
 | `assets/fonts/` | Chiron GoRound TC，按其 SIL OFL 1.1；不追加禁止商用条件 |
 | `licenses/` 内第三方许可证与声明 | 保持各自条款；不是重新授权的原创代码 |
