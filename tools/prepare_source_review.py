@@ -71,27 +71,35 @@ def export(output):
     for parent in (output,*output.parents):
         if parent==root:break
         if parent.is_symlink() or parent.is_junction():raise ValueError(f'Refusing linked output: {parent}')
-    selected=set(selected_files(root))
-    resources=resource_manifest(root,selected)
-    manifest=root/'docs/RESOURCE_MANIFEST.json'
-    manifest.write_text(json.dumps(resources,ensure_ascii=False,indent=2)+'\n','utf8')
     paths=selected_files(root)
+    inventory=root/'docs/RESOURCE_MANIFEST.json'
+    # A published snapshot already records the resources omitted from its tree.
+    # Only the full source tree can generate that inventory from the assets.
+    generate_inventory=not (root/'docs/SOURCE_MANIFEST.json').is_file()
     # Preflight the complete list before copying. Unlisted inputs never enter
     # the repository; secrets and field evidence are not filtered after upload.
     for source in paths:
+        if generate_inventory and source==inventory:continue
         if not source.is_file():raise FileNotFoundError(source)
         if source.is_symlink() or not source.resolve().is_relative_to(root):raise ValueError(source)
         for parent in source.parents:
             if parent==root:break
             if parent.is_symlink() or parent.is_junction():raise ValueError(parent)
         if source.suffix=='.py':ast.parse(source.read_text('utf8'),filename=str(source))
+    if generate_inventory:
+        resources=resource_manifest(root,set(paths))
+    else:
+        resources=json.loads(inventory.read_text('utf8'))
     output.mkdir(parents=True)
     entries=[]
     for source in paths:
         relative=source.relative_to(root);destination=output/relative
         destination.parent.mkdir(parents=True,exist_ok=True)
-        shutil.copyfile(source,destination)
-        entries.append({'path':relative.as_posix(),'bytes':source.stat().st_size,'sha256':digest(source)})
+        if generate_inventory and source==inventory:
+            destination.write_text(json.dumps(resources,ensure_ascii=False,indent=2)+'\n','utf8')
+        else:
+            shutil.copyfile(source,destination)
+        entries.append({'path':relative.as_posix(),'bytes':destination.stat().st_size,'sha256':digest(destination)})
     summary={'schema':'autotata-source-showcase-v1','version':'0.2.36','author':'maozo',
              'snapshotDate':'2026-11-01','license':'PolyForm-Noncommercial-1.0.0',
              'lastFunctionalMaintenanceDate':'2026-10-24','maintenanceDeclarationDate':'2026-10-28',

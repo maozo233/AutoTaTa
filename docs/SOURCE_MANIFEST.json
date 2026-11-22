@@ -317,13 +317,13 @@
     },
     {
       "path": "docs/KNOWN_ISSUES.en.md",
-      "bytes": 10046,
-      "sha256": "5131d8c7bec0af662fccbcbe2a6dbcf4e23b2fb786547b625d2374a8bdc86aa0"
+      "bytes": 10048,
+      "sha256": "be8f8ca3b9e4bc573dad3a0e787badee1ecbae628b2e4f23bfb42819d264901f"
     },
     {
       "path": "docs/KNOWN_ISSUES.md",
-      "bytes": 8381,
-      "sha256": "ce723751cf6f676450e9d6be3c87fe200e1bdcad3d04e94eb6b85ede48862023"
+      "bytes": 8364,
+      "sha256": "a4584f16805d9e173de3db32ff8664e2f0ebe331b07c8594b367866e96b72cab"
     },
     {
       "path": "docs/legal/DISCLAIMER.md",
@@ -342,8 +342,8 @@
     },
     {
       "path": "docs/MAINTENANCE.md",
-      "bytes": 1968,
-      "sha256": "62dd40e5cdbeb92124b73331e369650c1035b4d7610673f597a68803cfd00fec"
+      "bytes": 1871,
+      "sha256": "0575587f537b6a9bbd7b4d72f033dc5540cd7a1f9ef687447f69ccd85207dc62"
     },
     {
       "path": "docs/media/cover-en.svg",
@@ -407,8 +407,8 @@
     },
     {
       "path": "docs/VALIDATION_SUMMARY.md",
-      "bytes": 2020,
-      "sha256": "884aa7462d95f216e16b6add40efa1c1e2ec3dcc263b237118023c502351aa15"
+      "bytes": 2027,
+      "sha256": "26000cbe9b01caec230353c8fabc7b3d28e122351a5df5561ed8479c9031b6c2"
     },
     {
       "path": "fishing/__init__.py",
@@ -1087,8 +1087,8 @@
     },
     {
       "path": "tools/prepare_source_review.py",
-      "bytes": 6389,
-      "sha256": "17cd563b9713d0c5573a101c4e34c5456b2429a30fb1b7dccd3e16e045d5a75a"
+      "bytes": 6834,
+      "sha256": "ed25d39cac2efb013e492505f66ba0f5de2593ee4d98f67c667b5844ba602de1"
     },
     {
       "path": "tools/release_policy.py",
